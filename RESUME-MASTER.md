@@ -111,11 +111,4 @@ Bachelor's in Educational Psychology | 2005 – 2012
 
 ---
 
-## Languages
-
-- English (Native/Bilingual)
-- Spanish (Native/Bilingual)
-
----
-
 *References available upon request*
