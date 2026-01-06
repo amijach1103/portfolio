@@ -1,6 +1,6 @@
 # Agueda Schwartz
 
-**New York, NY** | amijach@gmail.com | [LinkedIn](https://www.linkedin.com/in/amijach/)
+**New York, NY** | [LinkedIn](https://www.linkedin.com/in/amijach/)
 
 ---
 
@@ -17,6 +17,13 @@ EdTech product leader with 14+ years of experience spanning K-12, higher educati
 | Landscape Analysis | Product Management | Learning Experience Design |
 | Innovation Management | Human-Centered Design | Competency-Based Education |
 | Strategic Research | Agile Methodologies | Program Evaluation |
+
+## Technical Skills
+
+**AI Tools:** Claude, ChatGPT, Gemini, AI prompt engineering, MCP integrations
+**Product & Design:** Asana, Jira, Figma, Miro
+**Data & Analytics:** Excel, R
+**Languages:** English (Native), Spanish (Native)
 
 ---
 
