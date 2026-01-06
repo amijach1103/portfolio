@@ -1,0 +1,33 @@
+# GitHub Pages Configuration
+title: Agueda Schwartz | AI-Augmented Product Management
+description: A systematic collection of methodologies, case studies, and learnings from AI-assisted product management work.
+author: Agueda Schwartz
+
+# Theme - clean and minimal
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Navigation
+header_pages:
+  - README.md
+  - WORKFLOWS-SUMMARY.md
+  - case-studies/vibe-entrepreneurship.md
+  - BIO.md
+  - RESUME-MASTER.md
+
+# Exclude private files from build
+exclude:
+  - TARGET-COMPANIES.md
+  - AguedaMijaCh_Resume2022.md
+  - "*.pdf"
+  - "*.html"
+  - raw/
+  - PROCESS.md
+  - MY_OPERATING_SYSTEM.md
+  - DIRECTOR-SUMMARY.md
+  - CHANGELOG.md

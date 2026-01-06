@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>AI-Assisted PM Workflows</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">AI-Assisted PM Workflows</h1>
+</header>
+<h1 id="ai-assisted-pm-workflows-summary">AI-Assisted PM Workflows:
+Summary</h1>
+<blockquote>
+<p><strong>Purpose:</strong> Quick reference of established workflows
+for working with Claude. Shareable overview for demonstrating AI
+integration capabilities.</p>
+</blockquote>
+<hr />
+<h2 id="at-a-glance">At a Glance</h2>
+<table>
+<colgroup>
+<col style="width: 30%" />
+<col style="width: 30%" />
+<col style="width: 39%" />
+</colgroup>
+<thead>
+<tr>
+<th>Workflow</th>
+<th>Use Case</th>
+<th>Key Benefit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Systematic Landscape Analysis</td>
+<td>Market research, competitive intel</td>
+<td>~85% time reduction</td>
+</tr>
+<tr>
+<td>Two-Phase Prompting</td>
+<td>Moving from research to action</td>
+<td>Eliminates analysis paralysis</td>
+</tr>
+<tr>
+<td>Executive Summary Framework</td>
+<td>C-level presentations</td>
+<td>Decision-ready outputs</td>
+</tr>
+<tr>
+<td>Validate Each Fact Always</td>
+<td>All research outputs</td>
+<td>Presentation-ready with citations</td>
+</tr>
+<tr>
+<td>Reconciling Conflicting Data</td>
+<td>Strategic decisions</td>
+<td>Better synthesis than either/or</td>
+</tr>
+<tr>
+<td>Portfolio Update Process</td>
+<td>Knowledge capture</td>
+<td>Automated data collection</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="workflow-details">Workflow Details</h2>
+<h3 id="systematic-landscape-analysis">1. Systematic Landscape
+Analysis</h3>
+<p><strong>What it is:</strong> Structured research methodology for
+comprehensive market/competitive analysis.</p>
+<p><strong>The Process:</strong> 1. 10-15 targeted web searches (not
+random browsing) 2. 50+ sources analyzed (90% from last 2 years) 3.
+Source diversity: government, academic, industry, nonprofit 4.
+Cross-verification of key statistics 5. Complete APA citations
+throughout</p>
+<p><strong>Output Structure:</strong> - Executive Summary - Detailed
+findings by research area - Competitive Matrix - Strategic
+Recommendations - Key Questions for Further Exploration - Full
+References (APA format)</p>
+<p><strong>Results:</strong> Reduces research time from 2-3 weeks to 3-4
+hours while maintaining academic rigor.</p>
+<p><strong>Used for:</strong> Vibe Entrepreneurship project - analyzed
+50+ sources to inform strategic recommendation.</p>
+<hr />
+<h3 id="two-phase-prompting-theory-execution">2. Two-Phase Prompting
+(Theory → Execution)</h3>
+<p><strong>What it is:</strong> A pattern for moving from
+recommendations to concrete action.</p>
+<p><strong>The Process:</strong></p>
+<p><strong>Phase 1 - Theory:</strong></p>
+<pre><code>&quot;How should I [organize/approach/structure] [TOPIC]?
+What does research say? What are best practices?&quot;</code></pre>
+<p>→ Get research-backed recommendations</p>
+<p><strong>Phase 2 - Execution:</strong></p>
+<pre><code>&quot;Follow the implementation steps for [CHOSEN APPROACH].
+Give me specific tasks, templates, and setup instructions.&quot;</code></pre>
+<p>→ Get concrete deliverables</p>
+<p><strong>Why it works:</strong> - Phase 1 satisfies “am I doing this
+right?” anxiety - Phase 2 eliminates “but how do I start?” barrier -
+Prevents both analysis paralysis AND implementation stall</p>
+<p><strong>Used for:</strong> Knowledge base setup, process design, tool
+decisions.</p>
+<hr />
+<h3 id="executive-summary-framework">3. Executive Summary Framework</h3>
+<p><strong>What it is:</strong> Structure for presenting recommendations
+to executives.</p>
+<p><strong>The Formula:</strong></p>
+<pre><code>Tension → Recommendation → Rationale → Implications → Next Steps</code></pre>
+<p><strong>Structure:</strong> 1. <strong>Tension</strong> (2-3
+sentences): Frame the competing paths 2. <strong>Recommendation</strong>
+(1 sentence, bold): State your position 3. <strong>Rationale</strong>
+(3-5 bullets): Evidence-based support 4. <strong>Implications</strong>
+(2-3 bullets): Financial, timeline, resource impact 5. <strong>Next
+Steps</strong> (2-3 specific actions): What you need from them</p>
+<p><strong>Key insight:</strong> Executives want decisions, not options.
+Take a stance.</p>
+<p><strong>Used for:</strong> CEO presentation on Vibe strategic
+direction - achieved executive buy-in.</p>
+<hr />
+<h3 id="validate-each-fact-always-configuration">4. “Validate Each Fact
+Always” Configuration</h3>
+<p><strong>What it is:</strong> A Claude user preference that transforms
+output quality.</p>
+<p><strong>The Setting:</strong> &gt; “Validate each fact always and
+make sure any claim or statement is supported by a relevant, accessible
+and valid source. Make sure all artifacts have a ‘references’ section in
+APA format.”</p>
+<p><strong>Impact:</strong></p>
+<table>
+<colgroup>
+<col style="width: 53%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr>
+<th>Before</th>
+<th>After</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>“Most startups fail in first few years”</td>
+<td>“20% fail within year one (SBA, 2024)”</td>
+</tr>
+<tr>
+<td>Plausible but unverified</td>
+<td>Presentation-ready with citations</td>
+</tr>
+<tr>
+<td>Required manual fact-checking</td>
+<td>Directly usable in executive presentations</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Why it works:</strong> Changes Claude’s behavior to actively
+search for verifiable sources rather than synthesizing from training
+data.</p>
+<p><strong>Used for:</strong> All research outputs, landscape analyses,
+strategic recommendations.</p>
+<hr />
+<h3 id="reconciling-conflicting-data-sources">5. Reconciling Conflicting
+Data Sources</h3>
+<p><strong>What it is:</strong> A thinking pattern for when data sources
+disagree.</p>
+<p><strong>The Approach:</strong></p>
+<p>Instead of picking one source over another, ask:</p>
+<pre><code>&quot;What would it mean if BOTH data sources are valid?
+Could they be measuring different dimensions?&quot;</code></pre>
+<p><strong>Framework:</strong> 1. What is each source actually
+measuring? 2. Could these be different stages/dimensions? 3. Is there a
+frame where both are true? 4. What would a “both/and” approach look
+like?</p>
+<p><strong>Example:</strong> - Survey said: Educational product
+(students want to learn) - Landscape said: Operational product (market
+opportunity) - Synthesis: They’re measuring different journey stages →
+Phased approach</p>
+<p><strong>Used for:</strong> Vibe strategic recommendation - phased
+hybrid strategy instead of binary choice.</p>
+<hr />
+<h3 id="portfolio-update-process-mcp-enabled">6. Portfolio Update
+Process (MCP-Enabled)</h3>
+<p><strong>What it is:</strong> Automated system for capturing and
+documenting AI-assisted work.</p>
+<p><strong>Architecture:</strong></p>
+<pre><code>Claude.ai (with MCP integrations)
+├── Reads Asana → Project progress, tasks
+├── Reads Google Drive → Deliverables, documents
+└── Creates tasks → Capture learnings directly
+
+        ↓ (you copy summary)
+
+Claude Code (this repo)
+├── Updates case studies
+├── Updates experiments
+└── Maintains changelog</code></pre>
+<p><strong>Weekly Process (20-30 min Fridays):</strong> 1. Query sources
+in Claude.ai (10 min) 2. Manual captures - Granola, chats (5 min) 3.
+Update portfolio in Claude Code (10-15 min)</p>
+<p><strong>Used for:</strong> This portfolio - systematic capture of
+learnings and methodologies.</p>
+<hr />
+<h2 id="how-these-workflows-connect">How These Workflows Connect</h2>
+<pre><code>Research Phase
+├── Systematic Landscape Analysis (gather data)
+├── Validate Each Fact Always (ensure quality)
+└── Reconciling Conflicting Data (synthesize insights)
+        ↓
+Decision Phase
+├── Two-Phase Prompting (move to action)
+└── Executive Summary Framework (present recommendation)
+        ↓
+Documentation Phase
+└── Portfolio Update Process (capture learnings)</code></pre>
+<hr />
+<h2 id="demonstrated-outcomes">Demonstrated Outcomes</h2>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Research time reduction</td>
+<td>~85% (3-4 hours vs 2-3 weeks)</td>
+</tr>
+<tr>
+<td>Sources per analysis</td>
+<td>50+ with citations</td>
+</tr>
+<tr>
+<td>Project delivery</td>
+<td>2 weeks vs typical 6-8 weeks</td>
+</tr>
+<tr>
+<td>Citation rate</td>
+<td>100% in research outputs</td>
+</tr>
+<tr>
+<td>Executive buy-in</td>
+<td>Achieved on strategic recommendations</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="key-differentiators">Key Differentiators</h2>
+<p><strong>This isn’t “I use ChatGPT.”</strong> This is:</p>
+<ol type="1">
+<li><strong>Systematic methodologies</strong> - Repeatable, documented
+processes</li>
+<li><strong>Evidence-based outputs</strong> - Every claim validated,
+every recommendation cited</li>
+<li><strong>Measured outcomes</strong> - Time savings, quality
+improvements tracked</li>
+<li><strong>Critical thinking</strong> - Knowing when AI helps vs. when
+it doesn’t</li>
+<li><strong>Knowledge capture</strong> - Continuous documentation of
+learnings</li>
+</ol>
+<hr />
+<h2 id="quick-reference-when-to-use-what">Quick Reference: When to Use
+What</h2>
+<table>
+<thead>
+<tr>
+<th>Situation</th>
+<th>Workflow</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Need market/competitive research</td>
+<td>Landscape Analysis</td>
+</tr>
+<tr>
+<td>Have recommendations, need action plan</td>
+<td>Two-Phase Prompting</td>
+</tr>
+<tr>
+<td>Presenting to executives</td>
+<td>Executive Summary Framework</td>
+</tr>
+<tr>
+<td>Any research output</td>
+<td>Validate Each Fact Always</td>
+</tr>
+<tr>
+<td>Data sources disagree</td>
+<td>Reconciling Conflicting Data</td>
+</tr>
+<tr>
+<td>End of week/month</td>
+<td>Portfolio Update Process</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><em>These workflows have been developed through 3+ months of
+AI-assisted product management work at WGU Labs.</em></p>
+</body>
+</html>

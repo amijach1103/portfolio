@@ -1,0 +1,25 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Sensitive files (if any)
+*.env
+credentials/
+
+# Private job search files
+TARGET-COMPANIES.md
+AguedaMijaCh_Resume2022.md
+
+# Raw working files (not for version control)
+# Contains unprocessed captures from various sources
+raw/
+
+# Temporary files
+*.tmp
+*~
