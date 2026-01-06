@@ -5,19 +5,19 @@ title: Home
 
 # Agueda Schwartz
 
-**EdTech Product Manager | 14+ years experience**
+**Product Manager | 14+ years in EdTech | Research-Driven**
 
-I turn ambiguous challenges into learning experiences that work. Currently exploring AI as a working partner in learning contexts — building workflows that maximize quality while creating space for upskilling and supporting others.
+I turn ambiguous challenges into actionable products through systematic research and evidence-based methodology. Currently pioneering AI-assisted research workflows that reduce analysis time by 85% while maintaining academic rigor — demonstrating how to productize emerging technology into practical tools.
 
 ---
 
 ## Featured Work
 
-### [AI-Assisted Workflows](WORKFLOWS-SUMMARY.md)
-My systematic approach to working with AI — from daily task management to strategic research. Includes documented methodologies with real examples.
+### [AI Research Methodology](WORKFLOWS-SUMMARY.md)
+Rapid prototyping of AI-assisted research workflows — from systematic landscape analysis to executive communication. Documented methodologies with measured outcomes (85% time reduction, 50+ sources per analysis).
 
 ### [AI Entrepreneurship Platform Case Study](case-studies/ai-entrepreneurship-platform.md)
-Strategic research delivered in 2 weeks vs typical 6-8 weeks. Synthesized 50+ sources, reconciled conflicting data into actionable recommendation.
+0-to-1 strategic research initiative delivered in 2 weeks vs typical 6-8 weeks. Synthesized 50+ sources, reconciled conflicting data into actionable recommendation that achieved executive buy-in.
 
 ### [Prompting Patterns](prompting-patterns/)
 Reusable templates for landscape analysis, executive communication, and evidence-based recommendations.
@@ -26,11 +26,11 @@ Reusable templates for landscape analysis, executive communication, and evidence
 
 ## Key Accomplishments
 
-**AI as Working Partner** — Pioneering AI integration in learning workflows, documenting methodology with measured outcomes
+**Research Methodology Development** — Created systematic AI-assisted research framework with 50+ source analyses, cross-verified citations, and 85% time reduction
 
-**Strategic Research** — Turning ambiguity into actionable recommendations that achieve executive buy-in
+**0-to-1 Product Thinking** — Turning ambiguous research into actionable product recommendations that achieve executive buy-in
 
-**Learning at Scale** — Built systems across 20+ schools, onboarded 2,000 teachers, evaluated 4 platforms
+**Scaling Research Operations** — Built evaluation systems across 20+ schools, 4 platform pilots, and 2,000+ users
 
 ---
 

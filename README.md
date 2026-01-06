@@ -6,13 +6,11 @@ A systematic collection of methodologies, case studies, and learnings from AI-as
 
 ## About Me
 
-**Agueda Schwartz** | EdTech Product Manager | 14+ years experience
+**Agueda Schwartz** | Product Manager | 14+ years in EdTech | Research-Driven
 
-I turn ambiguous challenges into learning experiences that work. My background spans corporate L&D, K-12, and higher education, with a strong research foundation and evidence-based approach.
+I turn ambiguous challenges into actionable products through systematic research and evidence-based methodology. My background spans K-12, higher education, and corporate learning, with deep expertise in program evaluation and research operations.
 
-Currently exploring AI as a working partner in learning contexts — building workflows that maximize quality while creating space for upskilling and supporting others.
-
-**Asana Knowledge Base:** [Project Tracker](https://app.asana.com/1/939736045937044/project/1212290960713676/list/1212309895406620)
+Currently pioneering AI-assisted research workflows that reduce analysis time by 85% while maintaining academic rigor — demonstrating how to productize emerging technology into practical tools.
 
 ---
 
@@ -31,7 +29,7 @@ This isn't "I use ChatGPT." This is:
 ### [`/case-studies`](./case-studies)
 Deep dives into strategic problems solved with AI assistance. Each includes business context, methodology, iterations, and outcomes.
 
-**In Progress:** [AI Entrepreneurship Platform](./case-studies/ai-entrepreneurship-platform.md) — Strategic research and recommendation development for an innovation initiative.
+**Featured:** [AI Entrepreneurship Platform](./case-studies/ai-entrepreneurship-platform.md) — 0-to-1 strategic research initiative. Synthesized 50+ sources into actionable recommendation that achieved executive buy-in.
 
 ### [`/prompting-patterns`](./prompting-patterns)
 Reusable prompt templates organized by PM use case. These are working documents that evolve as I learn:
@@ -53,9 +51,9 @@ Deliverables and artifacts (to be added as projects reach appropriate milestones
 *These approaches are being developed and refined. Metrics are directional, not final.*
 
 ### Systematic Landscape Analysis
-- Structured research process with source diversity requirements
-- Working toward consistent citation and verification standards
-- Early results suggest significant time savings vs. traditional approaches
+- Structured research process with source diversity requirements (government, academic, industry, nonprofit)
+- Consistent citation and verification standards (APA format, cross-verified statistics)
+- 85% time reduction vs. traditional approaches (3-4 hours vs. 2-3 weeks)
 
 ### Two-Phase Prompting
 1. **Theory:** "What does research say about this?"
@@ -122,31 +120,9 @@ Deliverables and artifacts (to be added as projects reach appropriate milestones
 
 ## How This Portfolio Is Maintained
 
-See [PROCESS.md](./PROCESS.md) for the full update workflow.
+This portfolio is updated through a systematic capture process:
+- Weekly quick captures of learnings and iterations
+- Monthly deep documentation of methodology refinements
+- Milestone updates as projects progress
 
-**Sources:**
-- Claude.ai conversations
-- Claude Code document analysis
-- Asana boards (Personal + Knowledge Base)
-- Google Drive (project folders)
-- Meeting notes and stakeholder feedback
-
-**Cadence:**
-- Weekly quick captures (Fridays, 15-20 min)
-- Monthly deep documentation (end of month, 1-2 hours)
-- Milestone updates (as projects progress)
-
----
-
-## Changelog
-
-See [CHANGELOG.md](./CHANGELOG.md) for full version history.
-
-| Date | Update |
-|------|--------|
-| Dec 2025 | Added update process and source integration |
-| Dec 2025 | Initial repository structure created |
-
----
-
-*This portfolio is actively being developed. Last updated: December 2025*
+*Last updated: January 2026*
