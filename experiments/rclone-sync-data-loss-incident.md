@@ -11,7 +11,7 @@
 
 ## What I Was Trying To Do
 
-Set up automatic synchronization between a local project directory (`~/Projects/VE-Discovery/`) and a Google Drive shared folder (`*Vibe Entrepreneurship (VE)`) so that:
+Set up automatic synchronization between a local project directory (`~/Projects/Discovery/`) and a Google Drive shared folder so that:
 1. Local edits would automatically appear in Drive for team access
 2. Claude Code could work on local files, with changes syncing to the team
 
@@ -75,7 +75,7 @@ The `rclone sync` command **deleted 22,719 files and 13,523 directories** from G
 **What worked:**
 ```bash
 # List trashed files
-rclone ls "gdrive:*Vibe Entrepreneurship (VE)" --drive-trashed-only
+rclone ls "gdrive:Project-Folder" --drive-trashed-only
 
 # Copy from trash to recovery folder
 rclone copy "gdrive:path/to/folder" "gdrive:_RECOVERED/folder" --drive-trashed-only

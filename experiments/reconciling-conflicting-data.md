@@ -13,10 +13,10 @@
 
 ### The Conflict
 
-During the Vibe Entrepreneurship project, I had two data sources telling me different things:
+During a strategic research project, I had two data sources telling me different things:
 
 **Primary Research (Survey):**
-- 212 WGU student responses
+- 212 survey responses from adult learners
 - 73.6% have business ideas they want to pursue
 - Strong interest in *learning* entrepreneurship skills
 - Signal: Build an **educational** product
@@ -154,7 +154,7 @@ When data conflicts, ask:
 
 ## Measured Impact
 
-**Vibe Project Outcome:**
+**Project Outcome:**
 - Phased recommendation accepted by CEO and Research Director
 - Avoided the "pick one and defend it" trap
 - Created optionality (Phase 2 informed by Phase 1 results)
@@ -180,4 +180,4 @@ The instinct to "pick the right data" is usually wrong. The instinct to "find th
 
 ---
 
-*This thinking pattern emerged during the Vibe Entrepreneurship project. Looking for additional opportunities to test and refine.*
+*This thinking pattern emerged during a strategic research initiative. Looking for additional opportunities to test and refine.*

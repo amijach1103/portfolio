@@ -17,8 +17,8 @@
 
 ---
 
-## 2. Vibe Strategic Research
-**WGU Labs | 2025**
+## 2. Strategic Research Initiative
+**EdTech Innovation Lab | 2025**
 
 **Theme:** Turning ambiguity into actionable recommendations
 

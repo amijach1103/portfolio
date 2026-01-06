@@ -31,7 +31,7 @@ This isn't "I use ChatGPT." This is:
 ### [`/case-studies`](./case-studies)
 Deep dives into strategic problems solved with AI assistance. Each includes business context, methodology, iterations, and outcomes.
 
-**In Progress:** [Vibe Entrepreneurship Project](./case-studies/vibe-entrepreneurship.md) — Strategic research and recommendation development for an innovation initiative.
+**In Progress:** [AI Entrepreneurship Platform](./case-studies/ai-entrepreneurship-platform.md) — Strategic research and recommendation development for an innovation initiative.
 
 ### [`/prompting-patterns`](./prompting-patterns)
 Reusable prompt templates organized by PM use case. These are working documents that evolve as I learn:
@@ -76,7 +76,7 @@ Deliverables and artifacts (to be added as projects reach appropriate milestones
 |--------|-----------------|-------|
 | Research time | Significant reduction | Comparing to previous manual approaches |
 | Source quality | 50+ sources per analysis | With APA citations |
-| Stakeholder reception | Positive | Based on Vibe project feedback |
+| Stakeholder reception | Positive | Based on project feedback |
 
 ---
 
@@ -114,7 +114,7 @@ Deliverables and artifacts (to be added as projects reach appropriate milestones
 
 ## Getting Started
 
-- **New here?** Start with [Vibe Case Study](./case-studies/vibe-entrepreneurship.md) (work in progress)
+- **New here?** Start with [AI Entrepreneurship Platform Case Study](./case-studies/ai-entrepreneurship-platform.md) (work in progress)
 - **Looking for templates?** Check [Prompting Patterns](./prompting-patterns)
 - **Want the messy middle?** Explore [Experiments](./experiments)
 
@@ -128,7 +128,7 @@ See [PROCESS.md](./PROCESS.md) for the full update workflow.
 - Claude.ai conversations
 - Claude Code document analysis
 - Asana boards (Personal + Knowledge Base)
-- Google Drive (Vibe project folder)
+- Google Drive (project folders)
 - Meeting notes and stakeholder feedback
 
 **Cadence:**

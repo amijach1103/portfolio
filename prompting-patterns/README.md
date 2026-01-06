@@ -96,4 +96,4 @@ These patterns are used but not yet fully documented:
 
 ---
 
-*These patterns have been refined through actual PM work at WGU Labs and represent tested, production-ready approaches.*
+*These patterns have been refined through actual PM work and represent tested, production-ready approaches.*

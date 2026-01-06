@@ -81,7 +81,7 @@
 - You stay in control: Updates happen when you ask
 - Simple to understand: Easy to know what's running
 
-**Real Example (Vibe Entrepreneurship Project):**
+**Real Example (Innovation Project):**
 ```
 Me: "Claude, write a leadership brief"
   │
@@ -129,7 +129,7 @@ Full architecture: `~/Projects/VE-Discovery/ARCHITECTURE.md`
 
 **Results:** Reduces research time from 2-3 weeks to 3-4 hours while maintaining academic rigor.
 
-**Used for:** Vibe Entrepreneurship project - analyzed 50+ sources to inform strategic recommendation.
+**Used for:** AI entrepreneurship platform project - analyzed 50+ sources to inform strategic recommendation.
 
 ---
 
@@ -180,7 +180,7 @@ Tension → Recommendation → Rationale → Implications → Next Steps
 
 **Key insight:** Executives want decisions, not options. Take a stance.
 
-**Used for:** CEO presentation on Vibe strategic direction - achieved executive buy-in.
+**Used for:** Executive presentation on strategic direction - achieved leadership buy-in.
 
 ---
 
@@ -228,7 +228,7 @@ Could they be measuring different dimensions?"
 - Landscape said: Operational product (market opportunity)
 - Synthesis: They're measuring different journey stages → Phased approach
 
-**Used for:** Vibe strategic recommendation - phased hybrid strategy instead of binary choice.
+**Used for:** Platform strategic recommendation - phased hybrid strategy instead of binary choice.
 
 ---
 
@@ -324,4 +324,4 @@ Documentation Phase
 
 ---
 
-*These workflows have been developed through 3+ months of AI-assisted product management work at WGU Labs.*
+*These workflows have been developed through 3+ months of AI-assisted product management work.*

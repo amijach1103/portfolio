@@ -193,4 +193,4 @@ Create an implementation brief based on the approved recommendation. Include:
 
 ---
 
-*This framework has been used for CEO presentations at WGU Labs, achieving executive buy-in on strategic initiatives.*
+*This framework has been used for executive presentations, achieving leadership buy-in on strategic initiatives.*

@@ -138,4 +138,4 @@ If you do nothing else from this portfolio, do this.
 
 ---
 
-*This experiment began during the Vibe Entrepreneurship project. Continuing to observe across additional use cases.*
+*This experiment began during a strategic research project. Continuing to observe across additional use cases.*

@@ -160,7 +160,7 @@ Distill this landscape analysis into a 1-page executive summary using this struc
 
 ## Real-World Application
 
-**Project:** Vibe Entrepreneurship Platform (WGU Labs)
+**Project:** AI Entrepreneurship Platform
 **Research Time:** 3-4 hours
 **Sources Analyzed:** 50+
 **Output Used For:** CEO presentation, go/no-go decision

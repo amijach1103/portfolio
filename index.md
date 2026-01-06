@@ -16,7 +16,7 @@ I turn ambiguous challenges into learning experiences that work. Currently explo
 ### [AI-Assisted Workflows](WORKFLOWS-SUMMARY.md)
 My systematic approach to working with AI — from daily task management to strategic research. Includes documented methodologies with real examples.
 
-### [Vibe Case Study](case-studies/vibe-entrepreneurship.md)
+### [AI Entrepreneurship Platform Case Study](case-studies/ai-entrepreneurship-platform.md)
 Strategic research delivered in 2 weeks vs typical 6-8 weeks. Synthesized 50+ sources, reconciled conflicting data into actionable recommendation.
 
 ### [Prompting Patterns](prompting-patterns/)

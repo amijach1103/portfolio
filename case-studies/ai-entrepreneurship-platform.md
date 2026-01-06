@@ -1,4 +1,4 @@
-# Case Study: Vibe Entrepreneurship Project
+# Case Study: AI Entrepreneurship Platform
 
 > **Status:** 🚧 Draft — This case study documents an ongoing project. Details will be refined as the project progresses and outcomes become clearer.
 
@@ -9,19 +9,9 @@
 
 ---
 
-## Document History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| v0.1 | Dec 2025 | Initial draft based on Phase 1 completion |
-
-*This case study will be updated as the project evolves.*
-
----
-
 ## The Challenge
 
-A high-visibility innovation project had stalled. Stakeholders were misaligned, the CEO was awaiting strategic direction, and the core question remained unanswered: Should we pursue an AI-powered entrepreneurship platform, and if so, what kind?
+A high-visibility innovation project had stalled. Stakeholders were misaligned, executive leadership was awaiting strategic direction, and the core question remained unanswered: Should we pursue an AI-powered entrepreneurship platform, and if so, what kind?
 
 **The strategic tension:**
 - Educational product (teach entrepreneurship skills)
@@ -29,9 +19,9 @@ A high-visibility innovation project had stalled. Stakeholders were misaligned, 
 - Or something else entirely?
 
 **Stakeholders involved:**
-- CEO
-- Research Director
-- LXD specialists
+- Executive leadership
+- Research team
+- Learning design specialists
 - Engineering
 - UX/UI
 
@@ -43,11 +33,11 @@ A high-visibility innovation project had stalled. Stakeholders were misaligned, 
 
 ### Week 1: Research & Discovery
 
-**Primary Research: Student Survey**
-- Designed and deployed survey to WGU students
+**Primary Research: User Survey**
+- Designed and deployed survey to adult learners at a higher education institution
 - 212 responses collected
 - Key finding: 73.6% have business ideas, strong interest in AI-partnered entrepreneurship
-- Initial signal: Students want to *learn* entrepreneurship
+- Initial signal: Learners want to *learn* entrepreneurship
 
 **Secondary Research: Landscape Analysis**
 
@@ -65,12 +55,8 @@ Used my systematic methodology:
 5. User barriers & pain points
 6. Emerging technologies & innovations
 
-**Additional analysis:**
-- Microsoft AI Diffusion report for market context
-- Competitive matrix of major players
-
 **The conflict emerged:**
-- Survey data suggested educational product (students want to learn)
+- Survey data suggested educational product (learners want to learn)
 - Landscape analysis suggested operational product (market opportunity in execution tools)
 
 ### Week 2: Synthesis & Recommendation
@@ -78,7 +64,7 @@ Used my systematic methodology:
 **Reconciling conflicting data:**
 
 The initial reaction might be to choose one data source over another. Instead, I recognized these weren't contradictory—they represented different stages of the same journey:
-- Survey captured the *learning stage* (where students are today)
+- Survey captured the *learning stage* (where users are today)
 - Landscape revealed the *execution opportunity* (where the market is heading)
 
 **Strategic insight:** We don't have to choose. We can sequence.
@@ -87,7 +73,7 @@ The initial reaction might be to choose one data source over another. Instead, I
 
 | Phase | Focus | Risk | Rationale |
 |-------|-------|------|-----------|
-| Phase 1 | Educational | Lower | Validates demand, proven business model, meets students where they are |
+| Phase 1 | Educational | Lower | Validates demand, proven business model, meets users where they are |
 | Phase 2 | Operational | Higher | Larger opportunity, informed by Phase 1 learnings, competitive moat |
 
 **Analogy used:** The HubSpot model
@@ -113,14 +99,8 @@ The initial reaction might be to choose one data source over another. Instead, I
 | Delivery time | 2 weeks | For research and recommendation phase |
 | Survey responses | 212 analyzed | Primary research component |
 | Sources cited | 50+ with full APA citations | Secondary research component |
-| Stakeholder presentation | Completed | CEO and Research Director |
+| Stakeholder presentation | Completed | Executive leadership |
 | Initial reception | Positive | Awaiting final decisions |
-
-### Still To Be Determined
-
-- Final go/no-go decision outcome
-- Implementation timeline if approved
-- Long-term project success metrics
 
 ### What Was Demonstrated
 
@@ -133,12 +113,12 @@ The initial reaction might be to choose one data source over another. Instead, I
 - Every recommendation backed by evidence
 
 **Cross-functional coordination**
-- Aligned LXD, engineering, UX/UI perspectives
+- Aligned learning design, engineering, UX/UI perspectives
 - No formal reporting structure—influenced through expertise and clear communication
 
 **Executive communication**
 - Used Tension → Recommendation → Rationale → Implications → Next Steps framework
-- CEO and Research Director received decision-ready recommendation, not a data dump
+- Leadership received decision-ready recommendation, not a data dump
 
 ---
 
@@ -200,7 +180,7 @@ The initial reaction might be to choose one data source over another. Instead, I
 
 ## Interview STAR Format
 
-**Situation:** High-visibility innovation project stalled. Stakeholders misaligned, CEO awaiting strategic direction on AI entrepreneurship platform.
+**Situation:** High-visibility innovation project stalled. Stakeholders misaligned, executive leadership awaiting strategic direction on AI entrepreneurship platform.
 
 **Task:** Deliver strategic recommendation with go/no-go decision framework in 2 weeks, coordinating cross-functional team without formal authority.
 
@@ -225,17 +205,6 @@ The initial reaction might be to choose one data source over another. Instead, I
 - Executive summary presentation
 - Competitive matrix
 - Financial projections framework
-
----
-
-## Open Questions & Next Updates
-
-This case study will be updated to address:
-
-- [ ] Final decision outcome and rationale
-- [ ] Lessons from stakeholder feedback on recommendation
-- [ ] Refinements to methodology based on this experience
-- [ ] Implementation learnings (if project proceeds)
 
 ---
 
