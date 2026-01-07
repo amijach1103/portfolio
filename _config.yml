@@ -2,6 +2,7 @@
 title: Agueda Schwartz
 description: Product Manager | 14+ years in EdTech | Research & Operations
 author: Agueda Schwartz
+baseurl: "/portfolio"
 
 # Theme - professional with bold header
 theme: jekyll-theme-cayman
