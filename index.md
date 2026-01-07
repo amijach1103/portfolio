@@ -3,9 +3,11 @@ layout: default
 title: Home
 ---
 
-I turn ambiguous challenges into actionable products through systematic research, cross-functional coordination, and evidence-based methodology. Currently pioneering AI-assisted workflows that reduce research time by 85% while maintaining rigor — building scalable processes that bridge strategy and execution.
+# Agueda Schwartz
 
-[View Resume](RESUME-MASTER.md) | [LinkedIn](https://www.linkedin.com/in/amijach/)
+**Product Manager | 14+ years in EdTech | Research & Operations**
+
+I turn ambiguous challenges into actionable products through systematic research, cross-functional coordination, and evidence-based methodology. Currently pioneering AI-assisted workflows that reduce research time by 85% while maintaining rigor — building scalable processes that bridge strategy and execution.
 
 ---
 
@@ -44,6 +46,8 @@ Reusable templates for landscape analysis, executive communication, and evidence
 
 ---
 
-[Full Bio](BIO.md)
+[Full Bio](BIO.md) | [Resume](RESUME-MASTER.md) | [LinkedIn](https://www.linkedin.com/in/amijach/)
 
-*I believe education is a lever for equity — one that works best when it's personal, efficient, and focused on capability rather than compliance.*
+---
+
+*This portfolio is actively maintained. I believe education is a lever for equity — one that works best when it's personal, efficient, and focused on capability rather than compliance.*
