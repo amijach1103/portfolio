@@ -24,6 +24,7 @@ header_pages:
 exclude:
   - TARGET-COMPANIES.md
   - AguedaMijaCh_Resume2022.md
+  - KEY-ACCOMPLISHMENTS.md
   - "*.pdf"
   - "*.html"
   - raw/
@@ -31,3 +32,5 @@ exclude:
   - MY_OPERATING_SYSTEM.md
   - DIRECTOR-SUMMARY.md
   - CHANGELOG.md
+  - RESUME-PM-RESEARCH.md
+  - RESUME-PRODUCT-OPS.md

@@ -5,9 +5,9 @@ title: Home
 
 # Agueda Schwartz
 
-**Product Manager | 14+ years in EdTech | Research-Driven**
+**Product Manager | 14+ years in EdTech | Research & Operations**
 
-I turn ambiguous challenges into actionable products through systematic research and evidence-based methodology. Currently pioneering AI-assisted research workflows that reduce analysis time by 85% while maintaining academic rigor — demonstrating how to productize emerging technology into practical tools.
+I turn ambiguous challenges into actionable products through systematic research, cross-functional coordination, and evidence-based methodology. Currently pioneering AI-assisted workflows that reduce research time by 85% while maintaining rigor — building scalable processes that bridge strategy and execution.
 
 ---
 
@@ -26,11 +26,11 @@ Reusable templates for landscape analysis, executive communication, and evidence
 
 ## Key Accomplishments
 
-**Research Methodology Development** — Created systematic AI-assisted research framework with 50+ source analyses, cross-verified citations, and 85% time reduction
+**AI-Assisted Research** — Created systematic methodology analyzing 50+ sources with cross-verified citations, achieving 85% time reduction
 
-**0-to-1 Product Thinking** — Turning ambiguous research into actionable product recommendations that achieve executive buy-in
+**Cross-Functional Leadership** — Drive innovation pilots from ideation to delivery, aligning stakeholders and achieving executive buy-in
 
-**Scaling Research Operations** — Built evaluation systems across 20+ schools, 4 platform pilots, and 2,000+ users
+**Scaling Operations** — Built evaluation systems across 20+ schools, launched 4 platform pilots, onboarded 2,000+ users
 
 ---
 

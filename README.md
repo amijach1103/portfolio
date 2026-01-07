@@ -6,11 +6,11 @@ A systematic collection of methodologies, case studies, and learnings from AI-as
 
 ## About Me
 
-**Agueda Schwartz** | Product Manager | 14+ years in EdTech | Research-Driven
+**Agueda Schwartz** | Product Manager | 14+ years in EdTech | Research & Operations
 
-I turn ambiguous challenges into actionable products through systematic research and evidence-based methodology. My background spans K-12, higher education, and corporate learning, with deep expertise in program evaluation and research operations.
+I turn ambiguous challenges into actionable products through systematic research, cross-functional coordination, and evidence-based methodology. My background spans K-12, higher education, and corporate learning, with deep expertise in program evaluation and operational excellence.
 
-Currently pioneering AI-assisted research workflows that reduce analysis time by 85% while maintaining academic rigor — demonstrating how to productize emerging technology into practical tools.
+Currently pioneering AI-assisted workflows that reduce research time by 85% while maintaining rigor — building scalable processes that bridge strategy and execution.
 
 ---
 
