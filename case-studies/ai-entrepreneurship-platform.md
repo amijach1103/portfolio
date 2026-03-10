@@ -1,211 +1,210 @@
-# Case Study: AI Entrepreneurship Platform
+# Case Study: AI-Powered Entrepreneurship Platform
 
-> **Status:** 🚧 Draft — This case study documents an ongoing project. Details will be refined as the project progresses and outcomes become clearer.
-
-**Timeline:** October-November 2025 (Phase 1 research complete; project ongoing)
+**Timeline:** October 2025 – Present (ongoing)
 **Role:** Product Lead (no formal authority)
-**Category:** Strategic Research | Cross-Functional Leadership | Executive Communication
-**Time Investment:** 2 weeks for initial research phase
+**Category:** 0-to-1 Product Strategy | Strategic Research | Prototype Design | Market Validation
+**Context:** EdTech innovation lab, higher education R&D organization
 
 ---
 
 ## The Challenge
 
-A high-visibility innovation project had stalled. Stakeholders were misaligned, executive leadership was awaiting strategic direction, and the core question remained unanswered: Should we pursue an AI-powered entrepreneurship platform, and if so, what kind?
+An early-stage innovation project needed strategic direction. The organization was exploring whether an AI-powered platform could help underserved aspiring entrepreneurs — people with business ideas but without access to traditional accelerators, incubators, or venture capital networks.
 
 **The strategic tension:**
-- Educational product (teach entrepreneurship skills)
-- Operational product (help users actually launch businesses)
+- Should this be an *educational* product (teach entrepreneurship skills)?
+- An *operational* product (help users actually launch businesses)?
 - Or something else entirely?
 
-**Stakeholders involved:**
-- Executive leadership
-- Research team
-- Learning design specialists
-- Engineering
-- UX/UI
+Multiple stakeholders — executive leadership, research, learning design, engineering, UX — were waiting for a recommendation. No one had formal ownership.
 
-**My task:** Deliver a strategic recommendation with go/no-go decision framework in 2 weeks—without formal reporting authority over any team members.
+**My task:** Take the ambiguity, deliver a strategic recommendation with a go/no-go framework, and do it in 2 weeks — without formal reporting authority over any team member.
 
 ---
 
-## The Approach
+## Phase 1: Strategic Research (2 weeks)
 
-### Week 1: Research & Discovery
+### Primary Research
 
-**Primary Research: User Survey**
-- Designed and deployed survey to adult learners at a higher education institution
-- 212 responses collected
-- Key finding: 73.6% have business ideas, strong interest in AI-partnered entrepreneurship
-- Initial signal: Learners want to *learn* entrepreneurship
+Designed and deployed a survey to adult learners at a higher education institution:
+- 200+ responses analyzed
+- Key finding: nearly three-quarters had business ideas and strong interest in AI-partnered entrepreneurship
+- Initial signal suggested learners wanted to *learn* entrepreneurship
 
-**Secondary Research: Landscape Analysis**
+### Secondary Research: Landscape Analysis
 
-Used my systematic methodology:
+Used a systematic methodology I've refined across multiple projects:
 - 10-15 targeted web searches (not random browsing)
-- 50+ sources analyzed (90% from 2023-2025)
-- Source diversity: government, academic, industry reports, nonprofit research
-- Cross-verification of key statistics across independent sources
+- 50+ sources analyzed, 90% from the prior 2 years
+- Source diversity enforced: government, academic, industry reports, nonprofit research
+- Cross-verification of every key statistic across independent sources
 
 **Research areas covered:**
-1. Competitors & existing solutions
-2. Market size & growth trends
-3. Success stories & case studies
-4. Failures & lessons learned
-5. User barriers & pain points
-6. Emerging technologies & innovations
+1. Competitors and existing solutions
+2. Market size and growth trends
+3. Success stories and case studies
+4. Failures and lessons learned
+5. User barriers and pain points
+6. Emerging technologies and innovations
 
-**The conflict emerged:**
-- Survey data suggested educational product (learners want to learn)
-- Landscape analysis suggested operational product (market opportunity in execution tools)
+### The Conflict
 
-### Week 2: Synthesis & Recommendation
+The two data sources told different stories:
+- **Survey data** pointed toward an educational product (learners want to learn)
+- **Landscape analysis** pointed toward an operational product (market opportunity is in execution tools)
 
-**Reconciling conflicting data:**
+### The Insight
 
-The initial reaction might be to choose one data source over another. Instead, I recognized these weren't contradictory—they represented different stages of the same journey:
+Rather than choosing one data source over the other, I recognized these weren't contradictory — they represented different stages of the same user journey:
 - Survey captured the *learning stage* (where users are today)
 - Landscape revealed the *execution opportunity* (where the market is heading)
 
-**Strategic insight:** We don't have to choose. We can sequence.
-
-**The recommendation: Phased Hybrid Strategy**
+**Strategic recommendation: Phased Hybrid Strategy**
 
 | Phase | Focus | Risk | Rationale |
 |-------|-------|------|-----------|
-| Phase 1 | Educational | Lower | Validates demand, proven business model, meets users where they are |
+| Phase 1 | Educational | Lower | Validates demand, proven model, meets users where they are |
 | Phase 2 | Operational | Higher | Larger opportunity, informed by Phase 1 learnings, competitive moat |
 
-**Analogy used:** The HubSpot model
-- HubSpot taught inbound marketing (educational) → then built CRM platform (operational)
-- Education creates trust and user base; operations create retention and revenue
+Education builds trust and user base; operations create retention and revenue. This sequencing reduces risk while preserving the larger opportunity.
 
-**Deliverables produced:**
+### Deliverables
+
 - Executive summary with strategic framing
 - Financial projections for both phases
 - Go/no-go decision framework
 - Complete research documentation with 50+ cited sources
 
+**Result:** Executive buy-in achieved. 2-week delivery vs. typical 6-8 week timeline — 67% faster.
+
 ---
 
-## Outcome (To Date)
+## Phase 2: AI Behavior Design
 
-*This section reflects outcomes from Phase 1 (research and recommendation). Project implementation is ongoing.*
+With the strategic direction set, the next question was: *what should the AI actually do?*
 
-### Phase 1 Results
+I analyzed the organization's existing coaching archives — years of in-person entrepreneurship coaching sessions — and translated qualitative patterns into a testable AI behavior framework.
 
-| Metric | Result | Notes |
-|--------|--------|-------|
-| Delivery time | 2 weeks | For research and recommendation phase |
-| Survey responses | 212 analyzed | Primary research component |
-| Sources cited | 50+ with full APA citations | Secondary research component |
-| Stakeholder presentation | Completed | Executive leadership |
-| Initial reception | Positive | Awaiting final decisions |
+### The 5-7-5 Framework
 
-### What Was Demonstrated
+**5 Coach Principles**
+Flexibility, facilitate clarity, support peer connection, protect resources, measure impact
 
-**Strategic thinking under ambiguity**
-- Took conflicting data and synthesized into coherent strategy
-- Identified "both/and" solution when "either/or" seemed obvious
+**7 Behavior Patterns**
+Personal experience sharing, specific action suggestions, concrete offers, constructive challenge, cross-domain insight, signed attribution, dialogue and follow-up
 
-**Data-driven decision making**
-- Combined quantitative (survey) + qualitative (landscape) research
-- Every recommendation backed by evidence
+**5 Hard Boundaries — what AI explicitly cannot do:**
+1. Replace peer connection
+2. Enforce accountability
+3. Make introductions
+4. Provide lived cultural context
+5. Build confidence through presence
 
-**Cross-functional coordination**
-- Aligned learning design, engineering, UX/UI perspectives
-- No formal reporting structure—influenced through expertise and clear communication
+This last piece mattered most. By defining what the AI *shouldn't* do, we built trust with stakeholders who were skeptical of AI replacing human coaches. The boundaries became a feature, not a limitation.
 
-**Executive communication**
-- Used Tension → Recommendation → Rationale → Implications → Next Steps framework
-- Leadership received decision-ready recommendation, not a data dump
+---
+
+## Phase 3: Prototype Iteration
+
+### V1: The Wrong Interaction Model
+
+Built a first prototype (HTML/CSS/JS with simulated AI) and tested internally with 3 people.
+
+**Key finding:** Users experienced the AI as a *feedback-giver*, not a *collaborator*. They'd input their idea, get a wall of text back, and disengage. The interaction felt like submitting homework, not having a conversation.
+
+This insight — which only surfaced through testing, not design review — led to a complete UX rethink.
+
+### V3: Moments-Based Structure
+
+Redesigned around bite-sized "moments" instead of a single long flow:
+
+| Moment | Focus | Duration |
+|--------|-------|----------|
+| 1. Your Idea | Articulate the core concept | 3-5 min |
+| 2. Your Mission | Define the why | 5-7 min |
+| 3. Your Goals | Set measurable targets | 5-7 min |
+| 4. Your Actions | Plan concrete next steps | 7-10 min |
+| 5. Your Plan | Synthesize into an action plan | 3-5 min |
+
+Each moment has its own conversation with the AI coach, applying specific behavior patterns from the 5-7-5 framework. Session state persists across visits.
+
+### Phase 0 Testing Results
+
+| Metric | Result |
+|--------|--------|
+| Completion rate | 100% |
+| Clarity rating | 4.5 / 5 |
+| AI usefulness rating | 3.0 / 5 |
+| Key insight | AI still felt like "feedback" not "collaboration" |
+
+The 3/5 AI usefulness score confirmed the interaction model still needs work — but the content structure (moments) tested well. This distinction between *structure* and *interaction quality* informed the next iteration.
+
+### Prototype Iterations
+
+Claude Code enabled 6 prototype iterations in a single day — from concept to testable version. This speed meant testing real user reactions instead of debating mockups in meetings.
+
+---
+
+## Phase 4: Market Validation (current)
+
+The project has moved into active market testing:
+- Target population broadened from a narrow demographic to "people underserved by current accelerators and VCs"
+- Demand validation through targeted digital advertising (smoke test approach)
+- Parallel user research track: interviews with potential users to understand barriers, motivations, and context
+- Building an outcomes framework with explicit go/pivot/kill criteria at each phase
+
+The current sprint is structured around an innovation loop: run the test, measure the signal, make the call. Early signals are promising — the team is generating real demand data for the first time, and the outcomes framework is forcing clarity on what "success" actually means at each stage.
 
 ---
 
 ## How AI Made This Possible
 
-### Time Savings Breakdown
+### Time Savings
 
 | Task | Traditional | AI-Assisted | Savings |
 |------|-------------|-------------|---------|
 | Landscape research | 2-3 weeks | 3-4 hours | ~85% |
-| Source verification | 1 week | Built into process | 100% |
+| Source verification | 1 week | Built into process | ~100% |
 | Competitive matrix | 2-3 days | 2 hours | ~80% |
 | Executive summary | 1-2 days | 3 hours | ~75% |
-| Feedback synthesis | 3 hours | 45 minutes | ~75% |
+| Prototype iteration | 1-2 weeks per version | 6 versions in 1 day | ~90% |
 
-### Key AI Workflows Used
+### AI Workflows Used
 
-1. **Systematic Landscape Analysis**
-   - Structured prompt with research areas and output format
-   - "Validate each fact always" user preference ensured citations
-   - Source diversity requirements built into methodology
-
-2. **Reconciling Conflicting Data**
-   - Used Claude to explore implications of each data set
-   - Asked: "What would it mean if both are true?"
-   - AI helped identify the sequencing insight
-
-3. **Executive Communication Prep**
-   - Claude distilled comprehensive research into executive summary
-   - Applied Tension → Recommendation framework
-   - Produced presentation-ready content
+1. **Systematic Landscape Analysis** — structured prompts with research areas, output format, and mandatory citations
+2. **Reconciling Conflicting Data** — asked "what would it mean if both data sources are true?" instead of picking one
+3. **Executive Communication** — distilled research into Tension → Recommendation → Rationale → Implications → Next Steps format
+4. **Rapid Prototyping** — used Claude Code to build, test, and iterate HTML/CSS/JS prototypes in hours
 
 ---
 
-## Lessons Learned
+## What I Learned
 
-### What Worked
+### What worked
+- **Reconciliation over selection** — conflicting data usually means incomplete framing, not bad data
+- **Source diversity** catches blind spots single-perspective research misses
+- **Testing early with real users** surfaced the feedback-vs-collaboration insight that no amount of design review would have found
+- **Defining AI boundaries** built stakeholder trust faster than showcasing AI capabilities
+- **Phased strategy** reduced perceived risk for decision-makers
 
-- **Systematic methodology** beat ad-hoc searching
-- **Source diversity** (government, academic, industry, nonprofit) caught blind spots
-- **Reconciliation over selection**—conflicting data often means incomplete framing
-- **Phased approach** reduced perceived risk for stakeholders
-- **HubSpot analogy** made strategy instantly understandable
-
-### What I'd Do Differently
-
-- Start stakeholder alignment conversations earlier (Week 1, not Week 2)
-- Build feedback synthesis loop into Week 1 deliverables
-- Create visual roadmap earlier for engineering/UX alignment
-
-### When AI Wasn't Enough
-
-- **Survey design** required human judgment on question framing
-- **Stakeholder dynamics** needed real-time reading of the room
-- **Final presentation** required personal credibility and relationship context
-- **Go/no-go framing** needed understanding of organizational risk tolerance
+### When AI wasn't enough
+- **Survey design** required human judgment on question framing and bias
+- **Stakeholder alignment** needed real-time reading of the room and relationship context
+- **Go/no-go decisions** required understanding organizational risk tolerance
+- **User testing facilitation** demanded real-time adaptation to participant reactions
 
 ---
 
-## Interview STAR Format
+## The Arc
 
-**Situation:** High-visibility innovation project stalled. Stakeholders misaligned, executive leadership awaiting strategic direction on AI entrepreneurship platform.
+This project went from "stalled and ambiguous" to "active market validation" in under 5 months. The path:
 
-**Task:** Deliver strategic recommendation with go/no-go decision framework in 2 weeks, coordinating cross-functional team without formal authority.
+**Ambiguity → Research → Insight → Framework → Prototype → Test → Iterate → Validate**
 
-**Action:**
-- Conducted systematic research: 212-response survey + 50-source landscape analysis
-- Identified strategic tension (educational vs. operational) and recognized both data sets were valid
-- Developed phased hybrid strategy with HubSpot model as precedent
-- Created executive-ready recommendation with financial implications
+Each phase built on the last. The strategic research informed the AI framework. The framework informed the prototype. The prototype testing informed the market validation approach. Nothing was thrown away — it compounded.
 
-**Result:**
-- Executive buy-in achieved
-- Clear strategic direction established
-- 2-week delivery (67% faster than typical 6-8 week timeline)
-- Cross-functional alignment without formal reporting structure
+That's the skill I bring: turning ambiguity into forward motion, systematically, with evidence at every step.
 
 ---
 
-## Artifacts
-
-- Survey instrument and analysis (available upon request)
-- Landscape analysis with 50+ cited sources
-- Executive summary presentation
-- Competitive matrix
-- Financial projections framework
-
----
-
-*This case study documents a systematic approach to AI-assisted strategic research. It represents work in progress and will be refined as the project evolves.*
+*This case study describes an active project. Some details have been generalized to protect proprietary information. Artifacts available upon request in an interview context.*

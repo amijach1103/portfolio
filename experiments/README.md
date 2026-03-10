@@ -34,6 +34,7 @@ This folder is proof of that understanding.
 
 | Experiment | Hypothesis | Result |
 |------------|------------|--------|
+| [Demo Automation with TTS](./demo-automation-with-tts.md) | Building an automated demo tool would be faster than manual coordination | **Success** — built full demo runner in ~2 hours with TTS, auto-scroll, dynamic timing |
 | [rclone sync Data Loss Incident](./rclone-sync-data-loss-incident.md) | `rclone sync` would safely mirror local files to Google Drive | **Failed** — sync deleted 22,719 Drive-only files; use `copy` not `sync` |
 
 ### To Document

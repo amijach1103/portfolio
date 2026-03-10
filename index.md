@@ -5,32 +5,37 @@ title: Home
 
 # Agueda Schwartz
 
-**Product Manager | 14+ years in EdTech | Research & Operations**
+**Product Manager | AI + Education | NYC**
 
-I turn ambiguous challenges into actionable products through systematic research, cross-functional coordination, and evidence-based methodology. Currently pioneering AI-assisted workflows that reduce research time by 85% while maintaining rigor — building scalable processes that bridge strategy and execution.
+I build products at the intersection of AI and learning. Over 14 years across K-12, higher education, and corporate L&D, I've developed a pattern: take an ambiguous challenge, apply structured research, and turn it into something that works — a product, a framework, a system.
 
----
-
-## Featured Work
-
-### [AI Research Methodology](WORKFLOWS-SUMMARY.md)
-Rapid prototyping of AI-assisted research workflows — from systematic landscape analysis to executive communication. Documented methodologies with measured outcomes (85% time reduction, 50+ sources per analysis).
-
-### [AI Entrepreneurship Platform Case Study](case-studies/ai-entrepreneurship-platform.md)
-0-to-1 strategic research initiative delivered in 2 weeks vs typical 6-8 weeks. Synthesized 50+ sources, reconciled conflicting data into actionable recommendation that achieved executive buy-in.
-
-### [Prompting Patterns](prompting-patterns/)
-Reusable templates for landscape analysis, executive communication, and evidence-based recommendations.
+Right now I'm deep into AI-assisted product management. I use Claude Code as my daily operating system — with integrations to task management, messaging, meeting notes, and cloud storage. I've documented the methodology, measured the outcomes, and taught others to use it. The case studies below show how.
 
 ---
 
-## Key Accomplishments
+## Case Studies
 
-**AI-Assisted Research** — Created systematic methodology analyzing 50+ sources with cross-verified citations, achieving 85% time reduction
+### [AI-Powered Entrepreneurship Platform](case-studies/ai-entrepreneurship-platform)
+A 0-to-1 product taking shape at an EdTech innovation lab. I led strategic research (50+ sources, 200+ survey responses), designed an AI coaching framework, iterated through 6 prototype versions in a day, and moved the project from stalled to active market validation — all in under 5 months.
 
-**Cross-Functional Leadership** — Drive innovation pilots from ideation to delivery, aligning stakeholders and achieving executive buy-in
+**Skills demonstrated:** Strategic research, conflicting data synthesis, AI behavior design, rapid prototyping, stakeholder alignment without authority
 
-**Scaling Operations** — Built evaluation systems across 20+ schools, launched 4 platform pilots, onboarded 2,000+ users
+### [Claude Code as a Product Operations System](case-studies/claude-code-pm-operations)
+I designed and built a full PM operations system in Claude Code — a cross-project status framework, 5 tool integrations, 7 reusable workflows with measured outcomes, and a team enablement workshop. This is how I work every day.
+
+**Skills demonstrated:** 0-to-1 process design, operational thinking, AI fluency, team enablement
+
+---
+
+## What I Bring
+
+**Research rigor** — 50+ source analyses with cross-verified citations, not vibes. 85% faster than traditional approaches while maintaining quality.
+
+**0-to-1 product thinking** — built evaluation frameworks across 20+ schools, innovation funnel processes, AI coaching frameworks, and operational systems from scratch.
+
+**AI as a working partner** — not a novelty. I use AI tools daily to manage projects, conduct research, build prototypes, and enable teams. I've documented what works, what doesn't, and why.
+
+**Cross-functional leadership** — I align stakeholders and achieve buy-in without formal authority. This is a consistent pattern across every role I've held.
 
 ---
 
@@ -39,15 +44,19 @@ Reusable templates for landscape analysis, executive communication, and evidence
 14+ years across K-12, higher education, and corporate L&D. Roles include product manager, product owner, program evaluation lead, and learning experience designer.
 
 **Education:**
-- MA, Digital Media Design for Learning — NYU
-- BA, Educational Psychology — PUCP (Peru)
+- MA, Digital Media Design for Learning — New York University
+- BA, Educational Psychology — Pontificia Universidad Catolica del Peru
 
 **Certifications:** IDEO U (Designing Strategy, Designing a Business)
 
+**Languages:** English (native), Spanish (native)
+
+**Location:** New York, NY
+
 ---
 
-[Full Bio](BIO.md) | [Resume](RESUME-MASTER.md) | [LinkedIn](https://www.linkedin.com/in/amijach/)
+[LinkedIn](https://www.linkedin.com/in/amijach/) | [Full Bio](BIO) | [Resume available upon request]
 
 ---
 
-*This portfolio is actively maintained. I believe education is a lever for equity — one that works best when it's personal, efficient, and focused on capability rather than compliance.*
+*I believe education is a lever for equity — one that works best when it's personal, efficient, and focused on capability rather than compliance.*

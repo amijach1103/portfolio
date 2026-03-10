@@ -14,9 +14,19 @@ credentials/
 
 # Private job search files
 TARGET-COMPANIES.md
+NYC-JOB-STRATEGY.md
+LINKEDIN-NETWORKING-PLAYBOOK.md
+LINKEDIN-UPDATE-READY.md
 AguedaMijaCh_Resume2022.md
 RESUME-*.pdf
 RESUME-*.md
+COVER-LETTER-*.md
+KEY-ACCOMPLISHMENTS.md
+
+# Claude Code project files
+.claude/
+_status/
+CLAUDE.md
 
 # Internal/personal files
 SESSION-CONTEXT.md

@@ -1,6 +1,6 @@
 # GitHub Pages Configuration
-title: Agueda Schwartz | AI-Augmented Product Management
-description: A systematic collection of methodologies, case studies, and learnings from AI-assisted product management work.
+title: Agueda Schwartz | AI + Education Product Management
+description: Case studies and methodology from an AI-augmented product management practice.
 author: Agueda Schwartz
 
 # Theme - clean and minimal
@@ -14,23 +14,36 @@ highlighter: rouge
 
 # Navigation
 header_pages:
-  - README.md
   - WORKFLOWS-SUMMARY.md
   - case-studies/ai-entrepreneurship-platform.md
+  - case-studies/claude-code-pm-operations.md
   - BIO.md
-  - RESUME-MASTER.md
 
 # Exclude private files from build
 exclude:
   - TARGET-COMPANIES.md
-  - AguedaMijaCh_Resume2022.md
+  - NYC-JOB-STRATEGY.md
+  - LINKEDIN-NETWORKING-PLAYBOOK.md
   - KEY-ACCOMPLISHMENTS.md
+  - AguedaMijaCh_Resume2022.md
+  - RESUME-MASTER.md
+  - RESUME-PM-RESEARCH.md
+  - RESUME-PRODUCT-OPS.md
+  - RESUME-PRODUCT-OPS-CLAUDE-CODE.md
+  - RESUME-GLOBAL-EDUCATION.md
+  - RESUME-DUOLINGO-PM.md
+  - COVER-LETTER-GLOBAL-EDUCATION.md
+  - COVER-LETTER-PRODUCT-OPS-CLAUDE-CODE.md
+  - COVER-LETTER-DUOLINGO-PM.md
+  - SESSION-CONTEXT.md
   - "*.pdf"
   - "*.html"
   - raw/
+  - _status/
+  - .claude/
   - PROCESS.md
   - MY_OPERATING_SYSTEM.md
   - DIRECTOR-SUMMARY.md
   - CHANGELOG.md
-  - RESUME-PM-RESEARCH.md
-  - RESUME-PRODUCT-OPS.md
+  - CLAUDE.md
+  - README.md

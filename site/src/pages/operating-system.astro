@@ -1,0 +1,55 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout sideBarActiveItemID="operating-system" title="Practice | Agueda Schwartz">
+  <div class="pb-8 mt-5">
+    <div class="text-5xl font-bold">Practice</div>
+  </div>
+
+  <div class="prose max-w-none">
+    <h2>How I Think About AI</h2>
+    <p>
+      AI doesn't replace product thinking. It compresses the time between question and insight, which means you get to the hard decisions faster. The judgment still has to be yours.
+    </p>
+    <p>
+      I treat Claude Code as a thinking partner, not an assistant. The difference matters. An assistant does what you tell it. A thinking partner pushes back, surfaces blind spots, and forces you to articulate why you believe what you believe. I've built my entire PM practice around that distinction.
+    </p>
+    <p>
+      AI does the heavy lifting: research, drafting, prototyping, coordination. I make the calls: what to build, when to pivot, who to align, what to kill. Speed to insight, not speed to output.
+    </p>
+
+    <h2>What I've Built</h2>
+    <p>
+      I designed an operating system for running multiple concurrent projects with Claude Code as the core interface. It connects to five tools I already use (task management, messaging, meeting notes, files, cloud storage) through a single natural language layer.
+    </p>
+    <p>
+      The key design decision: shared state. Every project has a lightweight status framework that auto-loads at session start. Claude Code knows where I left off, what's blocked, who the stakeholders are, and what decisions have been made. No ramp-up time, no lost context between sessions.
+    </p>
+    <p>
+      I've documented seven workflows that run through this system, each with a trigger, a process, and a measured outcome. A few examples:
+    </p>
+    <ul>
+      <li><strong>Rapid prototyping:</strong> built and iterated 6 prototype versions in a single day, each testable with real users. One session produced a 4.5/5 clarity rating and surfaced a critical interaction model flaw that no design review would have caught.</li>
+      <li><strong>Executive communication:</strong> structured as Tension → Recommendation → Rationale → Next Steps. Used this to deliver a strategic recommendation in 2 weeks (vs. a typical 6-8 week cycle) and get leadership buy-in.</li>
+      <li><strong>AI boundary design:</strong> defined five explicit things the AI should never do (replace peer connection, enforce accountability, make introductions, provide lived cultural context, build confidence through presence). Stakeholders who were skeptical of AI trusted the product once they saw we'd drawn the lines. The boundaries became a feature, not a limitation.</li>
+    </ul>
+
+    <h2>What I've Learned</h2>
+
+    <h3>Principles that stuck</h3>
+    <ul>
+      <li><strong>Automation serves delivery.</strong> If I'm optimizing the system instead of shipping work, something is wrong.</li>
+      <li><strong>Speed with guardrails.</strong> An early automation mistake deleted 22,000+ files. Now every workflow has manual checkpoints for anything that touches shared systems.</li>
+      <li><strong>Document the failures.</strong> What didn't work and why is as valuable as what did. It builds credibility and prevents repeating mistakes.</li>
+    </ul>
+
+    <h3>Where AI falls short</h3>
+    <p>
+      Stakeholder dynamics. Reading the room. Building trust through follow-through. Go/no-go decisions that depend on organizational risk tolerance. Workshop facilitation that requires real-time adaptation. Relationship building.
+    </p>
+    <p>
+      Knowing this boundary is part of the practice. The people who get burned by AI are the ones who don't know where it stops being useful.
+    </p>
+  </div>
+</BaseLayout>
