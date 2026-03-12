@@ -21,9 +21,15 @@ That's it. One sentence.
 
 "Most" = how many? "First few years" = 1? 3? 5? "Often" = what percentage? No sources to verify.
 
-**After:** Specific percentages with named sources. Multiple independent sources cross-verifying. APA citations I can include directly in deliverables.
+**After:** "According to the U.S. Bureau of Labor Statistics, approximately 20% of new businesses fail within their first year, and about 50% fail within five years (BLS, 2023). A CB Insights analysis of 101 startup post-mortems found that 'no market need' was the top reason (35%), followed by 'ran out of cash' (29%) and 'not the right team' (23%)."
 
-The shift wasn't just about citations. The rigor requirement seemed to improve reasoning overall. Vague claims got replaced with specific, sourced claims because you can't say "most" when you need to cite a number.
+Every claim is checkable. I can put the second version in a stakeholder deck without spending 30 minutes verifying it first.
+
+## Where it changed a real decision
+
+I was preparing a brief on market size for an entrepreneurship platform targeting underserved populations. Without the validation preference, the initial output cited a market size figure that sounded right but traced back to a blog post citing a report that no longer existed. With the preference active, the output flagged that the most commonly cited figure couldn't be independently verified and offered three alternative data points from government sources that could.
+
+That distinction matters when a senior leader asks "where did this number come from?" in a meeting.
 
 ## Unexpected benefits
 

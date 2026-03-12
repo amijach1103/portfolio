@@ -13,8 +13,6 @@ When two data sources contradict each other, the instinct is to pick the one you
 
 Instead, I ask: **"What would it mean if BOTH data sources are valid? Could they be measuring different dimensions?"**
 
-## How it works in practice
-
 The framework:
 1. What is each source actually measuring?
 2. Could these be different stages or dimensions of the same problem?
@@ -23,19 +21,23 @@ The framework:
 
 ## Real example
 
-In the AI Entrepreneurship Platform project:
-- **Survey data** said users wanted to *learn* entrepreneurship (educational product)
-- **Landscape analysis** said the market opportunity was in *execution tools* (operational product)
+We were building an AI entrepreneurship platform. Community data from online forums said users wanted same-industry peers in their cohort. People in food service wanted to learn from other food service entrepreneurs. The logic was obvious: shared context means better advice.
 
-These looked contradictory. Pick education or pick operations.
+But program data from 14+ cohorts told a different story. Cross-industry cohorts consistently outperformed same-industry ones. Participants who couldn't copy each other's playbooks asked better questions and brought more creative solutions.
 
-But when I asked "what if both are true?", the insight emerged: the survey captured where users *are* today (learning stage), and the landscape revealed where the market is *heading* (execution stage). They were measuring different points on the same journey.
+Then a user interview added a third data point. The participant described wanting people "doing the same thing," but when pressed, what she actually meant was people at the same stage, not the same industry. She wanted peers who understood the feeling of figuring out pricing for the first time, not peers who also sold baked goods.
 
-The result: a phased hybrid strategy. Start educational (lower risk, meets users where they are), then layer in operational features (larger opportunity, informed by Phase 1 data). Executive team bought in immediately.
+## The resolution
+
+Same-industry desire was about emotional recognition ("someone who gets it"). Cross-industry value was about cognitive diversity ("someone who sees it differently"). Both were true. They were measuring different dimensions of the same need.
+
+The design implication: match by stage and challenge type, not by industry. Cohort members should recognize each other's situations without being able to copy each other's answers.
+
+That insight shaped our cohort design and changed how we talked about the product. None of it would have surfaced if we'd just picked a winner between the two data sources.
 
 ## When it doesn't work
 
-This pattern is useful when data sources are *measuring different things*. It's less useful when:
+This pattern is useful when data sources are measuring different things. It's less useful when:
 - One source has clear methodological problems
 - The data is about the same thing and genuinely contradicts
 - You're using it to avoid making a hard call
