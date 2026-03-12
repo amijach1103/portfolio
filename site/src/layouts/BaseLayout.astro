@@ -85,8 +85,10 @@ const navItems = [
     </div>
 
     <script>
-      document.getElementById('menu-toggle')?.addEventListener('click', () => {
-        document.getElementById('mobile-menu')?.classList.toggle('hidden');
+      document.addEventListener('astro:page-load', () => {
+        document.getElementById('menu-toggle')?.addEventListener('click', () => {
+          document.getElementById('mobile-menu')?.classList.toggle('hidden');
+        });
       });
     </script>
   </body>
