@@ -14,11 +14,11 @@ const {
 } = Astro.props;
 
 const navItems = [
-  { id: "home", label: "Home", href: "/portfolio/" },
-  { id: "work", label: "Work", href: "/portfolio/work" },
-  { id: "practice", label: "Practice", href: "/portfolio/practice" },
-  { id: "notes", label: "Notes", href: "/portfolio/notes/" },
-  { id: "journey", label: "Journey", href: "/portfolio/journey" },
+  { id: "home", label: "Home", href: "/" },
+  { id: "work", label: "Work", href: "/work" },
+  { id: "practice", label: "Practice", href: "/practice" },
+  { id: "notes", label: "Notes", href: "/notes/" },
+  { id: "journey", label: "Journey", href: "/journey" },
 ];
 ---
 
@@ -33,7 +33,7 @@ const navItems = [
       <!-- Nav -->
       <nav class="w-full border-b border-base-300">
         <div class="max-w-[900px] mx-auto px-6 py-4 flex items-center justify-between">
-          <a href="/portfolio/" class="hover:opacity-70 transition-opacity">&nbsp;</a>
+          <a href="/" class="hover:opacity-70 transition-opacity">&nbsp;</a>
 
           <!-- Desktop nav -->
           <div class="hidden md:flex items-center gap-6">
@@ -51,7 +51,7 @@ const navItems = [
           </div>
 
           <!-- Mobile menu button -->
-          <button id="menu-toggle" class="md:hidden btn btn-square btn-ghost btn-sm">
+          <button id="menu-toggle" class="md:hidden btn btn-square btn-ghost min-h-[44px] min-w-[44px]">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
             </svg>
@@ -64,7 +64,7 @@ const navItems = [
             <a
               href={item.href}
               class:list={[
-                "block py-2 text-sm hover:opacity-70 transition-opacity",
+                "block py-3 text-base hover:opacity-70 transition-opacity",
                 sideBarActiveItemID === item.id && "font-bold"
               ]}
             >
