@@ -41,7 +41,7 @@ I designed and built a full PM operations system in Claude Code — a cross-proj
 
 ## Background
 
-14+ years across K-12, higher education, and corporate L&D. Roles include product manager, product owner, program evaluation lead, and learning experience designer.
+12+ years across K-12, higher education, and corporate L&D. Roles include product manager, product owner, program evaluation lead, and learning experience designer.
 
 **Education:**
 - MA, Digital Media Design for Learning — New York University

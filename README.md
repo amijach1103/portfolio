@@ -6,7 +6,7 @@ A systematic collection of methodologies, case studies, and learnings from AI-as
 
 ## About Me
 
-**Agueda Schwartz** | Product Manager | 14+ years in EdTech | Research & Operations
+**Agueda Schwartz** | Product Manager | 12+ years in EdTech | Research & Operations
 
 I turn ambiguous challenges into actionable products through systematic research, cross-functional coordination, and evidence-based methodology. My background spans K-12, higher education, and corporate learning, with deep expertise in program evaluation and operational excellence.
 

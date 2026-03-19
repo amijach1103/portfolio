@@ -6,7 +6,7 @@
 
 ## Summary
 
-EdTech product leader with 14+ years of experience spanning K-12, higher education, and corporate learning. Brings structure to early-stage ideas through landscape analysis, strategic research, and human-centered design. Currently exploring AI as a working partner in learning contexts — building workflows that maximize quality while creating space for upskilling and supporting others. Operates from the belief that education is a lever for equity, focused on capability rather than compliance.
+Product manager who runs discovery and builds prototypes in the same day. Currently leading 0-to-1 discovery for an AI-powered platform: synthesizing user research, designing AI behavior frameworks, and shipping six prototype iterations in a single day to validate what's worth building. Built an AI-augmented PM operating system on Claude Code connecting five daily tools through a single natural language layer. 12+ years across education technology, from program evaluation to product management, with deep expertise in turning ambiguous problems into testable products.
 
 ---
 
