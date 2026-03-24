@@ -1,5 +1,5 @@
 ---
-title: "Building and learning at the same time"
+title: "Closing the gap between learning and shipping"
 description: "A stakeholder said 'do a market test.' Nine days later we had persona-based landing pages, data capture, interview-informed copy, and a go/pivot/kill framework."
 pubDate: "Mar 12 2026"
 tags: ["methods"]
