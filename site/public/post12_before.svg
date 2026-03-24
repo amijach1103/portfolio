@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 380" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif">
+  <rect width="750" height="380" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="375" y="28" text-anchor="middle" fill="#999999" font-size="11" letter-spacing="1.5">BEFORE: ONE SESSION, EVERYTHING</text>
+
+  <!-- PM box -->
+  <rect x="275" y="46" width="200" height="50" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+  <text x="375" y="76" text-anchor="middle" fill="#000000" font-size="14" font-weight="bold">PM (me)</text>
+
+  <!-- Arrow down -->
+  <line x1="375" y1="96" x2="375" y2="126" stroke="#000000" stroke-width="1"/>
+  <polygon points="375,130 370,122 380,122" fill="#000000"/>
+
+  <!-- Single Claude Code session - larger box -->
+  <rect x="175" y="134" width="400" height="56" rx="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="375" y="160" text-anchor="middle" fill="#000000" font-size="13" font-weight="bold">One Claude Code session</text>
+  <text x="375" y="178" text-anchor="middle" fill="#999999" font-size="10">Single context, single conversation</text>
+
+  <!-- Arrow down to all the work -->
+  <line x1="375" y1="190" x2="375" y2="216" stroke="#000000" stroke-width="1"/>
+  <polygon points="375,220 370,212 380,212" fill="#000000"/>
+
+  <!-- All tasks jumbled together -->
+  <rect x="80" y="224" width="590" height="120" rx="6" fill="#fafafa" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Task pills scattered -->
+  <rect x="100" y="240" width="120" height="28" rx="14" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="160" y="258" text-anchor="middle" fill="#555555" font-size="10">Discovery</text>
+
+  <rect x="235" y="240" width="120" height="28" rx="14" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="295" y="258" text-anchor="middle" fill="#555555" font-size="10">Sprint planning</text>
+
+  <rect x="370" y="240" width="130" height="28" rx="14" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="435" y="258" text-anchor="middle" fill="#555555" font-size="10">Stakeholder prep</text>
+
+  <rect x="515" y="240" width="138" height="28" rx="14" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="584" y="258" text-anchor="middle" fill="#555555" font-size="10">Landscape analysis</text>
+
+  <rect x="130" y="282" width="130" height="28" rx="14" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="195" y="300" text-anchor="middle" fill="#555555" font-size="10">Status tracking</text>
+
+  <rect x="275" y="282" width="120" height="28" rx="14" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="335" y="300" text-anchor="middle" fill="#555555" font-size="10">Decision logs</text>
+
+  <rect x="410" y="282" width="150" height="28" rx="14" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="485" y="300" text-anchor="middle" fill="#555555" font-size="10">Methodology analysis</text>
+
+  <!-- Bottom note -->
+  <text x="375" y="366" text-anchor="middle" fill="#999999" font-size="11" font-style="italic">This worked when I had one track. Then three hit at once.</text>
+</svg>

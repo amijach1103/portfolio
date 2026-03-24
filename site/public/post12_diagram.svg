@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 422" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif">
+  <rect width="750" height="422" fill="#ffffff" rx="0"/>
+
+  <!-- Title -->
+  <text x="375" y="32" text-anchor="middle" fill="#999999" font-size="11" letter-spacing="1.5" text-transform="uppercase">HOW I WORK NOW</text>
+
+  <!-- PM / Orchestrator box -->
+  <rect x="250" y="50" width="250" height="64" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+  <text x="375" y="76" text-anchor="middle" fill="#000000" font-size="15" font-weight="bold">PM (me)</text>
+  <text x="375" y="96" text-anchor="middle" fill="#555555" font-size="11">scope · review · course-correct · decide</text>
+
+  <!-- Vertical lines from PM down -->
+  <!-- To Build -->
+  <line x1="310" y1="114" x2="145" y2="168" stroke="#000000" stroke-width="1" stroke-dasharray="4,3"/>
+  <polygon points="145,168 153,161 150,171" fill="#000000"/>
+  <!-- To Validation -->
+  <line x1="375" y1="114" x2="375" y2="168" stroke="#000000" stroke-width="1" stroke-dasharray="4,3"/>
+  <polygon points="375,168 370,158 380,158" fill="#000000"/>
+  <!-- To Cohort -->
+  <line x1="440" y1="114" x2="605" y2="168" stroke="#000000" stroke-width="1" stroke-dasharray="4,3"/>
+  <polygon points="605,168 598,161 595,171" fill="#000000"/>
+
+  <!-- Build instance -->
+  <rect x="40" y="172" width="210" height="106" rx="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+  <rect x="40" y="172" width="210" height="32" rx="6" fill="#f0faf6"/>
+  <rect x="40" y="198" width="210" height="6" fill="#ffffff"/>
+  <text x="145" y="194" text-anchor="middle" fill="#000000" font-size="14" font-weight="bold">Build</text>
+  <line x1="60" y1="210" x2="230" y2="210" stroke="#e5e7eb" stroke-width="0.8"/>
+  <text x="145" y="232" text-anchor="middle" fill="#555555" font-size="11">Standing up the product</text>
+  <text x="145" y="252" text-anchor="middle" fill="#999999" font-size="10">Own context + files</text>
+  <text x="145" y="268" text-anchor="middle" fill="#999999" font-size="10">Claude Code instance</text>
+
+  <!-- Validation instance -->
+  <rect x="270" y="172" width="210" height="106" rx="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+  <rect x="270" y="172" width="210" height="32" rx="6" fill="#fef9f0"/>
+  <rect x="270" y="198" width="210" height="6" fill="#ffffff"/>
+  <text x="375" y="194" text-anchor="middle" fill="#000000" font-size="14" font-weight="bold">Validation</text>
+  <line x1="290" y1="210" x2="460" y2="210" stroke="#e5e7eb" stroke-width="0.8"/>
+  <text x="375" y="232" text-anchor="middle" fill="#555555" font-size="11">Paid ads · funnel analysis</text>
+  <text x="375" y="252" text-anchor="middle" fill="#999999" font-size="10">Signal reads</text>
+  <text x="375" y="268" text-anchor="middle" fill="#999999" font-size="10">Claude Code instance</text>
+
+  <!-- Cohort instance -->
+  <rect x="500" y="172" width="210" height="106" rx="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+  <rect x="500" y="172" width="210" height="32" rx="6" fill="#f0f5fa"/>
+  <rect x="500" y="198" width="210" height="6" fill="#ffffff"/>
+  <text x="605" y="194" text-anchor="middle" fill="#000000" font-size="14" font-weight="bold">Cohort</text>
+  <line x1="520" y1="210" x2="690" y2="210" stroke="#e5e7eb" stroke-width="0.8"/>
+  <text x="605" y="232" text-anchor="middle" fill="#555555" font-size="11">Learning pilot operations</text>
+  <text x="605" y="252" text-anchor="middle" fill="#999999" font-size="10">Logistics · tracking · Slack</text>
+  <text x="605" y="268" text-anchor="middle" fill="#999999" font-size="10">Claude Code instance</text>
+
+  <!-- Return arrows (faded, output back to PM) -->
+  <line x1="165" y1="172" x2="320" y2="117" stroke="#999999" stroke-width="0.8" stroke-dasharray="3,4" opacity="0.4"/>
+  <line x1="375" y1="172" x2="375" y2="117" stroke="#999999" stroke-width="0.8" stroke-dasharray="3,4" opacity="0.4"/>
+  <line x1="585" y1="172" x2="430" y2="117" stroke="#999999" stroke-width="0.8" stroke-dasharray="3,4" opacity="0.4"/>
+
+  <!-- Bottom quote -->
+  <line x1="150" y1="320" x2="600" y2="320" stroke="#e5e7eb" stroke-width="0.8"/>
+  <text x="375" y="350" text-anchor="middle" fill="#555555" font-size="12" font-style="italic">"Not autonomous yet. Everything routes through me.</text>
+  <text x="375" y="370" text-anchor="middle" fill="#555555" font-size="12" font-style="italic">Learn to collaborate first, then delegate."</text>
+  <text x="375" y="396" text-anchor="middle" fill="#999999" font-size="10">Gradually increasing autonomy as trust and understanding grow</text>
+</svg>

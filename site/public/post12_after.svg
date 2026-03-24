@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 440" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif">
+  <rect width="750" height="440" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="375" y="28" text-anchor="middle" fill="#999999" font-size="11" letter-spacing="1.5">NOW: SCOPED INSTANCES, CLEAR LOOPS</text>
+
+  <!-- PM box -->
+  <rect x="250" y="44" width="250" height="64" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+  <text x="375" y="70" text-anchor="middle" fill="#000000" font-size="14" font-weight="bold">PM (me)</text>
+  <text x="375" y="90" text-anchor="middle" fill="#555555" font-size="10">Orchestrate · review · course-correct · decide</text>
+
+  <!-- Down arrows with input labels -->
+  <!-- To Build -->
+  <line x1="300" y1="108" x2="145" y2="162" stroke="#000000" stroke-width="1"/>
+  <polygon points="145,162 153,155 150,165" fill="#000000"/>
+  <text x="200" y="130" text-anchor="middle" fill="#999999" font-size="9" transform="rotate(-14, 200, 130)">goals + scope</text>
+
+  <!-- To Validation -->
+  <line x1="375" y1="108" x2="375" y2="162" stroke="#000000" stroke-width="1"/>
+  <polygon points="375,162 370,154 380,154" fill="#000000"/>
+  <text x="404" y="138" text-anchor="start" fill="#999999" font-size="9">questions</text>
+
+  <!-- To Cohort -->
+  <line x1="450" y1="108" x2="605" y2="162" stroke="#000000" stroke-width="1"/>
+  <polygon points="605,162 598,155 595,165" fill="#000000"/>
+  <text x="548" y="130" text-anchor="middle" fill="#999999" font-size="9" transform="rotate(14, 548, 130)">plans + templates</text>
+
+  <!-- Build instance -->
+  <rect x="32" y="166" width="226" height="140" rx="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+  <rect x="32" y="166" width="226" height="30" rx="6" fill="#f0faf6"/>
+  <rect x="32" y="190" width="226" height="6" fill="#ffffff"/>
+  <text x="145" y="186" text-anchor="middle" fill="#000000" font-size="13" font-weight="bold">Build</text>
+  <line x1="52" y1="200" x2="238" y2="200" stroke="#e5e7eb" stroke-width="0.8"/>
+  <text x="60" y="220" fill="#555555" font-size="10" font-weight="bold">In:</text>
+  <text x="82" y="220" fill="#555555" font-size="10">Product requirements, specs</text>
+  <text x="60" y="238" fill="#555555" font-size="10" font-weight="bold">Work:</text>
+  <text x="94" y="238" fill="#555555" font-size="10">Builds the product</text>
+  <line x1="52" y1="252" x2="238" y2="252" stroke="#e5e7eb" stroke-width="0.5"/>
+  <text x="60" y="270" fill="#000000" font-size="10" font-weight="bold">Out:</text>
+  <text x="86" y="270" fill="#555555" font-size="10">Working increments</text>
+  <text x="86" y="286" fill="#555555" font-size="10">Technical decisions to review</text>
+
+  <!-- Validation instance -->
+  <rect x="262" y="166" width="226" height="140" rx="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+  <rect x="262" y="166" width="226" height="30" rx="6" fill="#fef9f0"/>
+  <rect x="262" y="190" width="226" height="6" fill="#ffffff"/>
+  <text x="375" y="186" text-anchor="middle" fill="#000000" font-size="13" font-weight="bold">Validation</text>
+  <line x1="282" y1="200" x2="468" y2="200" stroke="#e5e7eb" stroke-width="0.8"/>
+  <text x="290" y="220" fill="#555555" font-size="10" font-weight="bold">In:</text>
+  <text x="312" y="220" fill="#555555" font-size="10">Hypotheses, ad config</text>
+  <text x="290" y="238" fill="#555555" font-size="10" font-weight="bold">Work:</text>
+  <text x="324" y="238" fill="#555555" font-size="10">Ads, funnels, signal reads</text>
+  <line x1="282" y1="252" x2="468" y2="252" stroke="#e5e7eb" stroke-width="0.5"/>
+  <text x="290" y="270" fill="#000000" font-size="10" font-weight="bold">Out:</text>
+  <text x="316" y="270" fill="#555555" font-size="10">Data + interpretation</text>
+  <text x="316" y="286" fill="#555555" font-size="10">Go/no-go recommendations</text>
+
+  <!-- Cohort instance -->
+  <rect x="492" y="166" width="226" height="140" rx="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+  <rect x="492" y="166" width="226" height="30" rx="6" fill="#f0f5fa"/>
+  <rect x="492" y="190" width="226" height="6" fill="#ffffff"/>
+  <text x="605" y="186" text-anchor="middle" fill="#000000" font-size="13" font-weight="bold">Cohort</text>
+  <line x1="512" y1="200" x2="698" y2="200" stroke="#e5e7eb" stroke-width="0.8"/>
+  <text x="520" y="220" fill="#555555" font-size="10" font-weight="bold">In:</text>
+  <text x="542" y="220" fill="#555555" font-size="10">Session plans, participants</text>
+  <text x="520" y="238" fill="#555555" font-size="10" font-weight="bold">Work:</text>
+  <text x="554" y="238" fill="#555555" font-size="10">Logistics, Slack, tracking</text>
+  <line x1="512" y1="252" x2="698" y2="252" stroke="#e5e7eb" stroke-width="0.5"/>
+  <text x="520" y="270" fill="#000000" font-size="10" font-weight="bold">Out:</text>
+  <text x="546" y="270" fill="#555555" font-size="10">Session-ready materials</text>
+  <text x="546" y="286" fill="#555555" font-size="10">Participant progress data</text>
+
+  <!-- Return arrows with output labels -->
+  <line x1="170" y1="166" x2="310" y2="111" stroke="#999999" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <polygon points="310,111 305,120 313,118" fill="#999999"/>
+
+  <line x1="375" y1="166" x2="375" y2="111" stroke="#999999" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <polygon points="375,111 370,120 380,120" fill="#999999"/>
+
+  <line x1="580" y1="166" x2="440" y2="111" stroke="#999999" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <polygon points="440,111 437,120 445,118" fill="#999999"/>
+
+  <!-- Bottom: key principle -->
+  <line x1="175" y1="340" x2="575" y2="340" stroke="#e5e7eb" stroke-width="0.8"/>
+  <text x="375" y="366" text-anchor="middle" fill="#555555" font-size="11">Each instance has its own context, files, and responsibility.</text>
+  <text x="375" y="384" text-anchor="middle" fill="#555555" font-size="11">Nothing is autonomous. Everything routes through me.</text>
+  <text x="375" y="412" text-anchor="middle" fill="#999999" font-size="10" font-style="italic">Gradually increasing autonomy as trust and understanding grow.</text>
+</svg>
