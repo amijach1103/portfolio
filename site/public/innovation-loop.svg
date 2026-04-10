@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 200" fill="none">
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace; }
+    .phase-label { font-size: 14px; font-weight: 700; fill: #1f2937; }
+    .time-box { font-size: 10px; fill: #6b7280; }
+    .gate-label { font-size: 9px; fill: #6b7280; text-anchor: middle; }
+    .gate-dot { fill: #d1d5db; }
+    .learn-title { font-size: 12px; font-weight: 700; fill: #6b7280; letter-spacing: 3px; }
+    .learn-sub { font-size: 10px; fill: #9ca3af; }
+    .arrow { stroke: #d1d5db; stroke-width: 2; fill: none; }
+    .arrow-head { fill: #d1d5db; }
+    .learn-frame { fill: none; stroke: #d1d5db; stroke-width: 2; rx: 14; stroke-dasharray: 8 4; }
+    .phase-box { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.5; rx: 8; }
+  </style>
+
+  <!-- LEARN outer frame (dashed) -->
+  <rect class="learn-frame" x="10" y="10" width="740" height="185"/>
+
+  <!-- LEARN title block: top-left, label + subtitle together -->
+  <text class="learn-title" x="32" y="38">LEARN</text>
+  <text class="learn-sub" x="100" y="38">every phase produces evidence, every gate forces a decision</text>
+
+  <!-- Phase boxes: vertically centered -->
+  <rect class="phase-box" x="40" y="80" width="135" height="65"/>
+  <rect class="phase-box" x="225" y="80" width="135" height="65"/>
+  <rect class="phase-box" x="410" y="80" width="135" height="65"/>
+  <rect class="phase-box" x="595" y="80" width="135" height="65"/>
+
+  <!-- Phase labels -->
+  <text class="phase-label" x="107" y="108" text-anchor="middle">SENSE</text>
+  <text class="time-box" x="107" y="128" text-anchor="middle">1-2 weeks</text>
+
+  <text class="phase-label" x="292" y="108" text-anchor="middle">SHAPE</text>
+  <text class="time-box" x="292" y="128" text-anchor="middle">1-2 weeks</text>
+
+  <text class="phase-label" x="477" y="108" text-anchor="middle">TEST</text>
+  <text class="time-box" x="477" y="128" text-anchor="middle">2-4 weeks</text>
+
+  <text class="phase-label" x="662" y="108" text-anchor="middle">SCALE</text>
+  <text class="time-box" x="662" y="128" text-anchor="middle">ongoing</text>
+
+  <!-- Forward arrows with gate dots -->
+
+  <!-- SENSE → SHAPE -->
+  <line class="arrow" x1="175" y1="112" x2="220" y2="112"/>
+  <polygon class="arrow-head" points="220,107 230,112 220,117"/>
+  <circle class="gate-dot" cx="197" cy="112" r="3"/>
+  <text class="gate-label" x="197" y="170">go / kill</text>
+
+  <!-- SHAPE → TEST -->
+  <line class="arrow" x1="360" y1="112" x2="405" y2="112"/>
+  <polygon class="arrow-head" points="405,107 415,112 405,117"/>
+  <circle class="gate-dot" cx="382" cy="112" r="3"/>
+  <text class="gate-label" x="382" y="170">go / kill</text>
+
+  <!-- TEST → SCALE -->
+  <line class="arrow" x1="545" y1="112" x2="590" y2="112"/>
+  <polygon class="arrow-head" points="590,107 600,112 590,117"/>
+  <circle class="gate-dot" cx="567" cy="112" r="3"/>
+  <text class="gate-label" x="567" y="170">go / pivot / kill</text>
+
+</svg>
