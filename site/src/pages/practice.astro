@@ -76,7 +76,7 @@ const tocItems = [
 
       <div class="prose max-w-none">
         <p>
-          A lot of what has changed is in the timescales. One year ago, a 10,000 document analysis would have taken months to make sense of; in 2026, with the help of Claude Code, the synthesis came together in a week, once I had structured the extraction properly. A market validation exercise that I expected would take a quarter to stand up went live in nine days, with no engineering or marketing help for execution. Similarly, I am able to stand up prototypes at real fidelity with no designer support, and I can keep iterating on them as the product gets refined. The framing I keep hearing from people working at the frontier is that the question is no longer "can we build it" but "is this worth building," and this matches my experience in the last six months.
+          A lot of what has changed is in the timescales. One year ago, a 10,000 document analysis would have taken months to make sense of; in 2026, with the help of Claude Code, the synthesis came together in a week, once I had structured the extraction properly. A market validation exercise that typically takes six to eight weeks to stand up went live in nine days, with the strategy designed in partnership with a marketing colleague and the execution shipped end-to-end on my own. Similarly, I am able to stand up prototypes at real fidelity with no designer support, and I can keep iterating on them as the product gets refined. The framing I keep hearing from people working at the frontier is that the question is no longer "can we build it" but "is this worth building," and this matches my experience in the last six months.
         </p>
 
         <p>
@@ -106,7 +106,7 @@ const tocItems = [
           After having the context I needed available to Claude Code, I bumped into the issue of memory between sessions. Every day I worked in the terminal making decisions, drafting documents, and managing tasks. The following day I spent up to 30 minutes re-orienting the model on where things stood, and throughout the day I had to course correct constantly. So I built a daily cadence: at the end of every session I run a <code class="font-mono text-sm">/session-end</code> skill that has Claude draft where we are, what got decided, what is open, and what is next. I review, adjust, and close. A <code class="font-mono text-sm">CLAUDE.md</code> config points the next morning's session at those files, so the new session picks up where the last one left off. What makes this work is keeping the ritual every day, not the specific way Claude writes things up.
         </p>
         <div class="text-sm opacity-60">
-          More: <a href="/blog/the-best-thing-i-built-for-ai-was-a-writing-habit" class="underline hover:no-underline">The best thing I built for AI was a writing habit →</a>
+          More: <a href="/blog/the-memory-file-i-built-for-claude-code" class="underline hover:no-underline">The memory file I built for Claude Code →</a>
         </div>
       </div>
 
@@ -116,7 +116,7 @@ const tocItems = [
           The next pain point came when the project expanded into three parallel tracks (build, market validation, and a 12-week learning pilot), and one Claude Code session could no longer hold all of them at depth. I was correcting and redirecting Claude constantly, and the bigger problem underneath was that each track needed a different kind of help: market validation needed a Claude that could think like a domain expert in that area, build needed a Claude that could advise me on code rather than just write it, and the main instance, or orchestrator, needed enough distance to see across all three. So I split the work into one scoped instance per track, each with its own files and context, and kept a main orchestrator instance with read access to the status files across all three. I route between them manually, which makes me the bottleneck and the quality filter at the same time, and that tradeoff is the part I am still working through.
         </p>
         <div class="text-sm opacity-60">
-          More: <a href="/blog/building-toward-agentic-one-problem-at-a-time" class="underline hover:no-underline">Building toward agentic, one problem at a time →</a>
+          More: <a href="/blog/when-one-claude-code-session-wasnt-enough" class="underline hover:no-underline">When one Claude Code session wasn't enough →</a>
         </div>
       </div>
 
@@ -210,7 +210,7 @@ const tocItems = [
 
       <Callout title="A worked example: the pivot from AI-first to community-first">
         <p>
-          The clearest example of how this split shows up is the pivot we made two sprints ago, from an AI-first prototype to a community-first one. Six weeks into building, the prototype was an AI coaching surface. Claude was holding the operational layer at full speed during that period: drafting landing page variants for a smoke test, setting up PostHog and HubSpot, and holding context across the parallel user research track that I was running on the side.
+          The clearest example of how this split shows up is the pivot we made two sprints ago, from an AI-first prototype to a community-first one. Six weeks into building, the prototype was an AI coaching surface. Claude was holding the operational layer at full speed during that period: drafting landing page variants for a smoke test, setting up PostHog and a Google Sheets backend, and holding context across the parallel user research track that I was running on the side.
         </p>
         <p>
           The smoke test results and the user interviews ended up pointing in the same direction. A community-led message variant drew fewer clicks than the AI-coaching variant on the landing page, but it converted at nearly twice the rate. The user interviews with strangers surfaced the same theme in entrepreneurs' own words. One of the participants put it like this: <em>"It's hard to find people that are in similar situations as you are that you can throw ideas off of."</em>

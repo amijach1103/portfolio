@@ -1,5 +1,5 @@
 ---
-title: "Solving for the friction you lose as a solo PM"
+title: "I built four agents to disagree with me"
 description: "When you're the only PM on a project, you have to manufacture the friction that a larger team provides naturally."
 pubDate: "Mar 10 2026"
 tags: ["experiments"]

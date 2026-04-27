@@ -13,4 +13,4 @@ The automation worked perfectly. It just did exactly what I told it to do, which
 
 After that I redesigned every workflow around one principle: manual control over automation. Claude Code drafts, I review and push. No automated sync, manual confirmation for anything that touches shared systems. Every external-facing action requires a human checkpoint.
 
-That principle runs through everything I build now. The failure wasn't that I used AI wrong, it was that I trusted automation without understanding the blast radius. Now I always ask: "What's the worst thing this could do if it works perfectly?"
+That principle runs through everything I build now. The failure wasn't that I used AI wrong, it was that I trusted automation without understanding the blast radius. Now I ask: "What's the worst thing this could do if it works perfectly?"

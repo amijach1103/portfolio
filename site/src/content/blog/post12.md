@@ -1,5 +1,5 @@
 ---
-title: "Building toward agentic, one problem at a time"
+title: "When one Claude Code session wasn't enough"
 description: "How the evolution of a discovery project led me to stand up scoped Claude Code instances as the first step toward an agentic workflow."
 pubDate: "Mar 24 2026"
 tags: ["experiments"]
