@@ -7,5 +7,8 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: 'https://aguedaschwartz.com',
   base: '/',
+  redirects: {
+    '/work': '/projects'
+  },
   integrations: [mdx(), tailwind()]
 });

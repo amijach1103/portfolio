@@ -2,13 +2,13 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 const tocItems = [
-  { id: "entrepreneurship-platform", label: "AI-Powered Entrepreneurship Platform" },
+  { id: "entrepreneurship-portfolio", label: "AI Entrepreneurship Portfolio" },
   { id: "this-portfolio", label: "This portfolio" },
   { id: "ai-edtech-journal", label: "AI + EdTech Journal" },
 ];
 ---
 
-<BaseLayout sideBarActiveItemID="work" title="Projects | Agueda Schwartz" maxWidthClass="lg:max-w-[1200px]">
+<BaseLayout sideBarActiveItemID="projects" title="Projects | Agueda Schwartz" description="What I'm working on now. One project and two personal tracks, all run on the same operating model." maxWidthClass="lg:max-w-[1200px]">
   <div class="mt-5 lg:flex lg:gap-12">
     <aside class="hidden lg:block lg:w-52 lg:flex-shrink-0">
       <nav class="sticky top-8 text-sm">
@@ -57,9 +57,9 @@ const tocItems = [
         </p>
       </div>
 
-      <!-- Section 1: AI-Powered Entrepreneurship Platform -->
+      <!-- Section 1: AI Entrepreneurship Portfolio -->
       <section class="mb-16">
-        <h2 id="entrepreneurship-platform" class="!mt-0 text-2xl font-bold mb-1">AI-Powered Entrepreneurship Platform</h2>
+        <h2 id="entrepreneurship-portfolio" class="!mt-0 text-2xl font-bold mb-1">AI Entrepreneurship Portfolio</h2>
         <div class="text-sm opacity-60 mb-6">WGU Labs · October 2025 to Present · Product Lead</div>
 
         <div class="prose max-w-none">
@@ -71,7 +71,7 @@ const tocItems = [
         <div class="font-mono text-xs uppercase tracking-[0.15em] opacity-60 mt-10 mb-4 font-semibold">Foundation moves</div>
 
         <div class="prose max-w-none">
-          <p><strong>An innovation framework I designed and apply honestly enough that it tells me when I'm wrong.</strong> I built a four-phase loop (Sense, Shape, Test, Scale) drawn from Design Thinking, Lean Startup, and Continuous Discovery. The first time I applied it to this project, the assessment was not flattering: thorough research, zero conversations with users, output measured but no learning. Within a few sprints the project went from zero user contact to a market test, a pivot, and a learning pilot.</p>
+          <p><strong>An innovation framework I designed and apply honestly enough that it tells me when I'm wrong.</strong> I built a four-phase loop (Sense, Shape, Test, Scale) drawn from IDEO, lean startup, and dual-track agile. The first time I applied it to this project, the assessment was not flattering: thorough research, zero conversations with users, output measured but no learning. Within a few sprints the project went from zero user contact to a market test, a pivot, and a learning pilot.</p>
 
           <p><strong>Foundational synthesis at scale.</strong> Using Claude Code, I synthesized 9,876 archived documents from a partner methodology into validated principles. Those principles became the pedagogical backbone of the prototype and the criteria the AI behavior spec is judged against.</p>
 
@@ -145,7 +145,7 @@ const tocItems = [
 
           <p><strong>A capture system that does not break flow.</strong> A Chrome extension I built triggers a <code>/capture</code> skill in Claude Code. Whatever I am reading gets captured with metadata, tagged by project, and added to a searchable journal.</p>
 
-          <p><strong>A tag taxonomy that ties findings back to specific work.</strong> When I am making a decision on the entrepreneurship project, I can pull captures tagged with that project. When I am preparing a workshop, I pull training-related captures. The tagging is the glue between reading and doing.</p>
+          <p><strong>A tag taxonomy that ties findings back to specific work.</strong> When I am making a decision on the AI Entrepreneurship Portfolio, I can pull captures tagged with it. When I am preparing a workshop, I pull training-related captures. The tagging is the glue between reading and doing.</p>
 
           <p><strong>A practice of integration over accumulation.</strong> I write up what each capture changes about how I think. The writing is what makes the work stick, and the public version of that writing lives in the <a href="/notes/" target="_blank" rel="noopener">Notes</a>.</p>
         </div>
