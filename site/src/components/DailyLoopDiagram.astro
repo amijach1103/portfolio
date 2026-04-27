@@ -1,0 +1,281 @@
+---
+// Daily loop workflow diagram for the Claude Code OS case study.
+// Source: workflow-diagram-v1.html (Claude Design), light surface only.
+// Horizontal SVG for ≥640px, vertical stacked SVG for mobile.
+---
+
+<figure class="daily-loop-diagram">
+  <svg
+    class="diagram-wide"
+    viewBox="0 0 900 440"
+    role="img"
+    aria-labelledby="dailyLoopTitle dailyLoopDesc"
+    xmlns="http://www.w3.org/2000/svg"
+    font-family="Inter, system-ui, sans-serif"
+  >
+    <title id="dailyLoopTitle">AI-augmented PM daily loop</title>
+    <desc id="dailyLoopDesc">
+      A horizontal workflow showing three nodes — morning /daily-checkin, day (scoped instances per track),
+      and close /session-end — connected by arrows, with a loop-back arrow from close to morning labeled "next morning".
+    </desc>
+
+    <defs>
+      <marker id="dlArrowhead" viewBox="0 0 10 10" refX="9" refY="5"
+              markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+        <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+      </marker>
+      <marker id="dlArrowheadLoop" viewBox="0 0 10 10" refX="9" refY="5"
+              markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+        <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+      </marker>
+    </defs>
+
+    <!-- NODE 1 — MORNING -->
+    <g transform="translate(40, 150)" color="#0D0D0D">
+      <text x="0" y="-18" font-family="JetBrains Mono, monospace" font-size="10" letter-spacing="1.5"
+            fill="#5B7C8A" font-weight="600">01 · MORNING</text>
+      <rect x="0" y="0" width="200" height="140" rx="6" ry="6"
+            fill="#FFFFFF" stroke="#0D0D0D" stroke-width="1.25"/>
+      <text x="16" y="36" font-family="JetBrains Mono, monospace" font-size="15"
+            font-weight="600" fill="#0D0D0D">/daily-checkin</text>
+      <line x1="16" y1="52" x2="184" y2="52" stroke="#EAEAEA" stroke-width="1"/>
+      <text x="16" y="72" font-size="11.5" fill="#3a3a3a">
+        <tspan x="16" dy="0">reads status files, yesterday's</tspan>
+        <tspan x="16" dy="14">session-end, and Granola</tspan>
+        <tspan x="16" dy="14">transcripts; drafts today's plan</tspan>
+      </text>
+    </g>
+
+    <!-- ARROW 1 → 2 -->
+    <g color="#0D0D0D">
+      <line x1="248" y1="220" x2="338" y2="220"
+            stroke="currentColor" stroke-width="1.25"
+            marker-end="url(#dlArrowhead)"/>
+    </g>
+
+    <!-- NODE 2 — DAY (largest, center) -->
+    <g transform="translate(346, 110)" color="#0D0D0D">
+      <text x="0" y="-18" font-family="JetBrains Mono, monospace" font-size="10" letter-spacing="1.5"
+            fill="#5B7C8A" font-weight="600">02 · DAY</text>
+      <rect x="0" y="0" width="208" height="220" rx="6" ry="6"
+            fill="#FFFFFF" stroke="#0D0D0D" stroke-width="1.5"/>
+      <line x1="0" y1="14" x2="0" y2="42" stroke="#5B7C8A" stroke-width="2.5"/>
+      <text x="16" y="36" font-size="14.5" font-weight="600" fill="#0D0D0D">Scoped instances</text>
+      <text x="16" y="54" font-size="14.5" font-weight="600" fill="#0D0D0D">per track</text>
+      <line x1="16" y1="68" x2="192" y2="68" stroke="#EAEAEA" stroke-width="1"/>
+      <text x="16" y="88" font-size="11.5" fill="#3a3a3a">
+        <tspan x="16" dy="0">build · validation · pilot</tspan>
+        <tspan x="16" dy="16" fill="#6b6b6b">all route through me</tspan>
+      </text>
+
+      <g font-family="JetBrains Mono, monospace" font-size="10" font-weight="500">
+        <g transform="translate(16, 138)">
+          <rect x="0" y="0" width="78" height="22" rx="11" ry="11"
+                fill="none" stroke="#0D0D0D" stroke-width="1"/>
+          <circle cx="11" cy="11" r="2" fill="#5B7C8A"/>
+          <text x="20" y="15" fill="#0D0D0D">Slack</text>
+        </g>
+        <g transform="translate(102, 138)">
+          <rect x="0" y="0" width="78" height="22" rx="11" ry="11"
+                fill="none" stroke="#0D0D0D" stroke-width="1"/>
+          <circle cx="11" cy="11" r="2" fill="#5B7C8A"/>
+          <text x="20" y="15" fill="#0D0D0D">Asana</text>
+        </g>
+        <g transform="translate(16, 168)">
+          <rect x="0" y="0" width="78" height="22" rx="11" ry="11"
+                fill="none" stroke="#0D0D0D" stroke-width="1"/>
+          <circle cx="11" cy="11" r="2" fill="#5B7C8A"/>
+          <text x="20" y="15" fill="#0D0D0D">Granola</text>
+        </g>
+        <g transform="translate(102, 168)">
+          <rect x="0" y="0" width="78" height="22" rx="11" ry="11"
+                fill="none" stroke="#0D0D0D" stroke-width="1"/>
+          <circle cx="11" cy="11" r="2" fill="#5B7C8A"/>
+          <text x="20" y="15" fill="#0D0D0D">Drive</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- ARROW 2 → 3 -->
+    <g color="#0D0D0D">
+      <line x1="562" y1="220" x2="652" y2="220"
+            stroke="currentColor" stroke-width="1.25"
+            marker-end="url(#dlArrowhead)"/>
+    </g>
+
+    <!-- NODE 3 — CLOSE -->
+    <g transform="translate(660, 150)" color="#0D0D0D">
+      <text x="0" y="-18" font-family="JetBrains Mono, monospace" font-size="10" letter-spacing="1.5"
+            fill="#5B7C8A" font-weight="600">03 · CLOSE</text>
+      <rect x="0" y="0" width="200" height="140" rx="6" ry="6"
+            fill="#FFFFFF" stroke="#0D0D0D" stroke-width="1.25"/>
+      <text x="16" y="36" font-family="JetBrains Mono, monospace" font-size="15"
+            font-weight="600" fill="#0D0D0D">/session-end</text>
+      <line x1="16" y1="52" x2="184" y2="52" stroke="#EAEAEA" stroke-width="1"/>
+      <text x="16" y="72" font-size="11.5" fill="#3a3a3a">
+        <tspan x="16" dy="0">prompts Claude to draft</tspan>
+        <tspan x="16" dy="14">status update; I review</tspan>
+        <tspan x="16" dy="14">and close</tspan>
+      </text>
+    </g>
+
+    <!-- LOOP-BACK ARROW (Node 3 → Node 1) — arcs over the top -->
+    <g color="#5B7C8A">
+      <path d="M 760 150 C 760 18, 140 18, 140 150"
+            fill="none" stroke="currentColor" stroke-width="1.25"
+            stroke-dasharray="4 4"
+            marker-end="url(#dlArrowheadLoop)"/>
+      <rect x="410" y="20" width="80" height="20" fill="#FFFFFF" stroke="none"/>
+      <text x="450" y="34" text-anchor="middle"
+            font-family="JetBrains Mono, monospace" font-size="10"
+            letter-spacing="1.5" font-weight="600" fill="#5B7C8A">
+        NEXT MORNING
+      </text>
+    </g>
+
+    <line x1="40" y1="400" x2="860" y2="400" stroke="#EAEAEA" stroke-width="1"/>
+    <text x="40" y="420" font-family="JetBrains Mono, monospace" font-size="9"
+          letter-spacing="1" fill="#9a9a9a">DAILY LOOP · REPEATS</text>
+    <text x="860" y="420" text-anchor="end" font-family="JetBrains Mono, monospace"
+          font-size="9" letter-spacing="1" fill="#9a9a9a">FIG. 01</text>
+  </svg>
+
+  <svg
+    class="diagram-tall"
+    viewBox="0 0 360 820"
+    role="img"
+    aria-hidden="true"
+    xmlns="http://www.w3.org/2000/svg"
+    font-family="Inter, system-ui, sans-serif"
+  >
+    <defs>
+      <marker id="dlArrowheadT" viewBox="0 0 10 10" refX="9" refY="5"
+              markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+        <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+      </marker>
+    </defs>
+
+    <!-- NODE 1 -->
+    <g transform="translate(80, 40)" color="#0D0D0D">
+      <text x="0" y="-12" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="1.5"
+            fill="#5B7C8A" font-weight="600">01 · MORNING</text>
+      <rect x="0" y="0" width="240" height="150" rx="6" ry="6"
+            fill="#FFFFFF" stroke="#0D0D0D" stroke-width="1.25"/>
+      <text x="16" y="38" font-family="JetBrains Mono, monospace" font-size="16"
+            font-weight="600" fill="#0D0D0D">/daily-checkin</text>
+      <line x1="16" y1="54" x2="224" y2="54" stroke="#EAEAEA" stroke-width="1"/>
+      <text x="16" y="76" font-size="13" fill="#3a3a3a">
+        <tspan x="16" dy="0">reads status files, yesterday's</tspan>
+        <tspan x="16" dy="17">session-end, and Granola</tspan>
+        <tspan x="16" dy="17">transcripts; drafts today's</tspan>
+        <tspan x="16" dy="17">plan</tspan>
+      </text>
+    </g>
+
+    <line x1="200" y1="200" x2="200" y2="246" stroke="#0D0D0D" stroke-width="1.25"
+          marker-end="url(#dlArrowheadT)"/>
+
+    <!-- NODE 2 -->
+    <g transform="translate(60, 256)" color="#0D0D0D">
+      <text x="0" y="-12" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="1.5"
+            fill="#5B7C8A" font-weight="600">02 · DAY</text>
+      <rect x="0" y="0" width="280" height="218" rx="6" ry="6"
+            fill="#FFFFFF" stroke="#0D0D0D" stroke-width="1.5"/>
+      <line x1="0" y1="14" x2="0" y2="46" stroke="#5B7C8A" stroke-width="2.5"/>
+      <text x="16" y="38" font-size="16" font-weight="600" fill="#0D0D0D">Scoped instances per track</text>
+      <line x1="16" y1="54" x2="264" y2="54" stroke="#EAEAEA" stroke-width="1"/>
+      <text x="16" y="76" font-size="13" fill="#3a3a3a">
+        <tspan x="16" dy="0">build · validation · pilot</tspan>
+        <tspan x="16" dy="18" fill="#6b6b6b">all route through me</tspan>
+      </text>
+
+      <g font-family="JetBrains Mono, monospace" font-size="11" font-weight="500">
+        <g transform="translate(16, 124)">
+          <rect x="0" y="0" width="118" height="26" rx="13" ry="13"
+                fill="none" stroke="#0D0D0D" stroke-width="1"/>
+          <circle cx="12" cy="13" r="2.2" fill="#5B7C8A"/>
+          <text x="22" y="17" fill="#0D0D0D">Slack</text>
+        </g>
+        <g transform="translate(146, 124)">
+          <rect x="0" y="0" width="118" height="26" rx="13" ry="13"
+                fill="none" stroke="#0D0D0D" stroke-width="1"/>
+          <circle cx="12" cy="13" r="2.2" fill="#5B7C8A"/>
+          <text x="22" y="17" fill="#0D0D0D">Asana</text>
+        </g>
+        <g transform="translate(16, 158)">
+          <rect x="0" y="0" width="118" height="26" rx="13" ry="13"
+                fill="none" stroke="#0D0D0D" stroke-width="1"/>
+          <circle cx="12" cy="13" r="2.2" fill="#5B7C8A"/>
+          <text x="22" y="17" fill="#0D0D0D">Granola</text>
+        </g>
+        <g transform="translate(146, 158)">
+          <rect x="0" y="0" width="118" height="26" rx="13" ry="13"
+                fill="none" stroke="#0D0D0D" stroke-width="1"/>
+          <circle cx="12" cy="13" r="2.2" fill="#5B7C8A"/>
+          <text x="22" y="17" fill="#0D0D0D">Drive</text>
+        </g>
+      </g>
+    </g>
+
+    <line x1="200" y1="484" x2="200" y2="530" stroke="#0D0D0D" stroke-width="1.25"
+          marker-end="url(#dlArrowheadT)"/>
+
+    <!-- NODE 3 -->
+    <g transform="translate(80, 540)" color="#0D0D0D">
+      <text x="0" y="-12" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="1.5"
+            fill="#5B7C8A" font-weight="600">03 · CLOSE</text>
+      <rect x="0" y="0" width="240" height="150" rx="6" ry="6"
+            fill="#FFFFFF" stroke="#0D0D0D" stroke-width="1.25"/>
+      <text x="16" y="38" font-family="JetBrains Mono, monospace" font-size="16"
+            font-weight="600" fill="#0D0D0D">/session-end</text>
+      <line x1="16" y1="54" x2="224" y2="54" stroke="#EAEAEA" stroke-width="1"/>
+      <text x="16" y="76" font-size="13" fill="#3a3a3a">
+        <tspan x="16" dy="0">prompts Claude to draft</tspan>
+        <tspan x="16" dy="17">status update; I review</tspan>
+        <tspan x="16" dy="17">and close</tspan>
+      </text>
+    </g>
+
+    <!-- LOOP-BACK — runs down right, under, back up left to Node 1 -->
+    <g color="#5B7C8A">
+      <path d="M 340 615 C 350 615, 350 740, 320 740 L 40 740 C 10 740, 10 115, 40 115 L 80 115"
+            fill="none" stroke="currentColor" stroke-width="1.25"
+            stroke-dasharray="4 4"
+            marker-end="url(#dlArrowheadT)"/>
+      <rect x="128" y="732" width="104" height="16" fill="#FFFFFF" stroke="none"/>
+      <text x="180" y="744" text-anchor="middle"
+            font-family="JetBrains Mono, monospace" font-size="10"
+            letter-spacing="1.5" font-weight="600" fill="#5B7C8A">
+        NEXT MORNING
+      </text>
+    </g>
+
+    <line x1="20" y1="790" x2="340" y2="790" stroke="#EAEAEA" stroke-width="1"/>
+    <text x="20" y="808" font-family="JetBrains Mono, monospace" font-size="9"
+          letter-spacing="1" fill="#9a9a9a">DAILY LOOP · REPEATS</text>
+    <text x="340" y="808" text-anchor="end" font-family="JetBrains Mono, monospace"
+          font-size="9" letter-spacing="1" fill="#9a9a9a">FIG. 01</text>
+  </svg>
+</figure>
+
+<style>
+  .daily-loop-diagram {
+    margin: 2rem 0;
+    padding: 2rem 1.5rem;
+    border: 1px solid #D6D6D6;
+    border-radius: 4px;
+    background: #FFFFFF;
+  }
+  .daily-loop-diagram svg {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .daily-loop-diagram .diagram-wide { display: block; }
+  .daily-loop-diagram .diagram-tall { display: none; }
+  @media (max-width: 640px) {
+    .daily-loop-diagram { padding: 1rem 0.5rem; }
+    .daily-loop-diagram .diagram-wide { display: none; }
+    .daily-loop-diagram .diagram-tall { display: block; }
+  }
+</style>

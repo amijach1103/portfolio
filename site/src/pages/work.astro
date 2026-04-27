@@ -1,93 +1,256 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+
+const tocItems = [
+  { id: "entrepreneurship-platform", label: "AI-Powered Entrepreneurship Platform" },
+  { id: "this-portfolio", label: "This portfolio" },
+  { id: "ai-edtech-journal", label: "AI + EdTech Journal" },
+];
 ---
 
-<BaseLayout sideBarActiveItemID="work" title="Work | Agueda Schwartz">
-  <div class="mb-16 mt-5">
-    <div class="text-3xl font-bold mb-1">AI-Powered Entrepreneurship Platform</div>
-    <div class="text-sm opacity-60 mb-4">WGU Labs | Aug 2025 to Present | Product Lead</div>
+<BaseLayout sideBarActiveItemID="work" title="Projects | Agueda Schwartz" maxWidthClass="lg:max-w-[1200px]">
+  <div class="mt-5 lg:flex lg:gap-12">
+    <aside class="hidden lg:block lg:w-52 lg:flex-shrink-0">
+      <nav class="sticky top-8 text-sm">
+        <div class="text-xs uppercase tracking-wider opacity-60 mb-3 font-semibold">Projects</div>
+        <ul class="space-y-1 border-l border-base-300">
+          {tocItems.map((item) => (
+            <li>
+              <a
+                href={`#${item.id}`}
+                class="toc-link block py-1.5 pl-4 -ml-px border-l-2 border-transparent opacity-60 hover:opacity-100 hover:border-base-content transition-all leading-snug font-medium"
+              >
+                {item.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </aside>
 
-    <div class="prose max-w-none">
-      <p>
-        A 0-to-1 product exploring whether AI-enhanced delivery can bring a proven entrepreneurship methodology to people underserved by traditional accelerators and VCs.
-      </p>
-      <p>
-        I own this end-to-end: strategy, research, prototyping, and day-to-day execution, with support from a user researcher and Claude Code as my primary working tool.
-      </p>
+    <div class="flex-1 min-w-0">
+      <h1 class="sr-only">Projects</h1>
+      <div class="text-xs uppercase tracking-wider opacity-60 mb-3 lg:mb-8 lg:pb-4 lg:border-b lg:border-base-300">~4 min read · 1 project and 2 personal tracks</div>
 
-      <h3>What I'm Doing</h3>
-      <p>
-        The project started stalled and ambiguous: no clear direction, no owner, multiple stakeholders waiting. I took it from there through a full product lifecycle.
-      </p>
-      <ul>
-        <li>Led strategic research combining primary data, landscape analysis, and partner methodology analysis (three sources that pointed in different directions)</li>
-        <li>Synthesized conflicting data into a phased strategy that got executive buy-in</li>
-        <li>Designed an AI behavior framework that defined not just what the AI should do, but what it explicitly should not</li>
-        <li>Built and iterated prototypes, testing with real users to surface insights design reviews would have missed</li>
-        <li>Applied my own innovation framework to the project mid-stream and found I'd over-invested in research and under-invested in user contact. Course-corrected within weeks.</li>
-        <li>Ran a market validation sprint: persona-based landing pages, paid acquisition, data capture, and a go/pivot/kill framework</li>
-        <li>Designed the business model and go-to-market strategy, including a dual B2C + B2B approach with viability experiments and kill criteria</li>
-        <li>Made the pivot call based on evidence, not momentum. Now building from live cohort data.</li>
-      </ul>
+      <details class="lg:hidden mb-8 pb-4 border-b border-base-300 group">
+        <summary class="practice-summary cursor-pointer flex items-center justify-between text-xs uppercase tracking-wider opacity-60 font-semibold py-2">
+          <span>On this page</span>
+          <span class="text-base opacity-60 transition-transform group-open:rotate-180" aria-hidden="true">▾</span>
+        </summary>
+        <ul class="mt-3 space-y-1 border-l border-base-300">
+          {tocItems.map((item) => (
+            <li>
+              <a
+                href={`#${item.id}`}
+                class="toc-link block py-1.5 pl-4 -ml-px border-l-2 border-transparent opacity-60 hover:opacity-100 hover:border-base-content transition-all leading-snug font-medium text-sm"
+              >
+                {item.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </details>
 
-      <h3>Skills Demonstrated</h3>
-      <ul>
-        <li><strong>0-to-1 product development:</strong> from no direction and no owner to a live product with real users</li>
-        <li><strong>AI product design:</strong> defining AI behavior, boundaries, and interaction models</li>
-        <li><strong>User research and discovery:</strong> interviews, persona development, usability testing, and synthesizing findings into product decisions</li>
-        <li><strong>Decision-making under ambiguity:</strong> making a pivot call based on evidence when momentum pointed the other way</li>
-        <li><strong>Business design:</strong> business model development, go-to-market strategy, and viability testing</li>
-        <li><strong>Market validation:</strong> designing and executing a test that produces a real go/pivot/kill decision</li>
-        <li><strong>Stakeholder alignment:</strong> achieving buy-in across conflicting priorities without formal authority</li>
-        <li><strong>Solo execution:</strong> owning strategy through delivery as the only full-time PM</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="divider"></div>
-
-  <div class="mb-16">
-    <div class="text-3xl font-bold mb-1">Innovation Framework for Product Development</div>
-    <div class="text-sm opacity-60 mb-4">WGU Labs | Feb–Apr 2026 | Self-directed</div>
-
-    <div class="prose max-w-none">
-      <p>
-        I was six months into a 0-to-1 product and realized I didn't have an operating model for how the work should move. I had good research, a working prototype, and a clear hypothesis structure, but no framework for when to stop analyzing and start testing, or how to make a kill decision if the evidence pointed that way.
-      </p>
-      <p>
-        So I built one. A four-phase innovation loop (Sense, Shape, Test, Scale) with 4-8 week time-boxes, explicit stage gates, and go/pivot/kill criteria at each gate. Research gets deployed throughout the loop instead of front-loaded before anything else can happen.
-      </p>
-      <p>
-        Then I applied it to my own project. The assessment was honest and not flattering: I'd done thorough Sense and Shape work but had zero conversations with the target population. I was measuring output, not learning. The framework told me to get in front of users immediately, and I did. Within weeks the project went from zero user contact to a market test, an evidence-based pivot, and a build plan informed by real behavior.
-      </p>
-
-      <h3>What I Did</h3>
-      <ul>
-        <li>Designed the innovation framework for my own use (not assigned)</li>
-        <li>Applied it to my active project and documented the honest gaps</li>
-        <li>Used the self-assessment to drive a course correction that produced real results</li>
-        <li>Framework includes phase definitions, time-boxes, stage-gate criteria, role clarity, and weekly operating rhythm</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="divider"></div>
-
-  <div class="mb-10">
-    <div class="text-2xl w-full font-bold mb-6">Also working on</div>
-
-    <div class="mb-8">
-      <div class="text-xl font-bold mb-1">AI Adoption Strategy</div>
-      <div class="text-sm opacity-60 mb-2">WGU Labs | 2025 to Present | Collaborating with Ops</div>
-      <div class="prose max-w-none">
+      <div class="prose max-w-none mb-12">
         <p>
-          Partnering with the operations team on how the organization adopts AI. My role is strategy and modeling. I run Claude Code daily across real product work, then translate what I learn into training, playbooks, and demos that help others adopt with confidence. I facilitated the team's first AI upskilling workshop and demonstrated the full PM architecture to leadership, which opened broader conversations about adoption across the org.
+          I am running one project and two personal tracks right now, all on the same system I describe on the <a href="/practice" target="_blank" rel="noopener">Practice page</a>: status files, scoped instances, the daily ritual. The shape of each is different, but the underlying system is the same.
         </p>
+      </div>
+
+      <!-- Section 1: AI-Powered Entrepreneurship Platform -->
+      <section class="mb-16">
+        <h2 id="entrepreneurship-platform" class="!mt-0 text-2xl font-bold mb-1">AI-Powered Entrepreneurship Platform</h2>
+        <div class="text-sm opacity-60 mb-6">WGU Labs · October 2025 to Present · Product Lead</div>
+
+        <div class="prose max-w-none">
+          <p>
+            A 0-to-1 product exploring whether AI-enhanced delivery can scale a proven entrepreneurship methodology to people underserved by traditional accelerators and venture capital. I lead this as the sole product manager, with fractional support from a UX researcher, and I run every layer of the work, from foundational research and synthesis through prototype iteration, market validation, a 12-week learning pilot, and external partner conversations. The project itself has shifted from a single bet to a portfolio of related bets, evaluated against each other in a Desirability, Feasibility, and Viability framework that the org has introduced.
+          </p>
+        </div>
+
+        <div class="font-mono text-xs uppercase tracking-[0.15em] opacity-60 mt-10 mb-4 font-semibold">Foundation moves</div>
+
+        <div class="prose max-w-none">
+          <p><strong>An innovation framework I designed and apply honestly enough that it tells me when I'm wrong.</strong> I built a four-phase loop (Sense, Shape, Test, Scale) drawn from Design Thinking, Lean Startup, and Continuous Discovery. The first time I applied it to this project, the assessment was not flattering: thorough research, zero conversations with users, output measured but no learning. Within a few sprints the project went from zero user contact to a market test, a pivot, and a learning pilot.</p>
+
+          <p><strong>Foundational synthesis at scale.</strong> Using Claude Code, I synthesized 9,876 archived documents from a partner methodology into validated principles. Those principles became the pedagogical backbone of the prototype and the criteria the AI behavior spec is judged against.</p>
+
+          <p><strong>An AI behavior specification for the prototype.</strong> The spec defines five guiding principles, seven interaction patterns, and five hard boundaries on what the AI is not allowed to do in the user's space. It is grounded in peer-feedback documents and founder interviews, so the AI is shaped by real-world data and user feedback from the start. The prototype is built against this spec.</p>
+        </div>
+
+        <div class="font-mono text-xs uppercase tracking-[0.15em] opacity-60 mt-10 mb-4 font-semibold">Validation and iteration</div>
+
+        <div class="prose max-w-none">
+          <p><strong>A market validation experiment stood up in nine days.</strong> Landing page from scratch in Claude Code, PostHog and HubSpot instrumentation, deployed through GitHub, with a smoke test at the top of the sign-up flow. No engineering or marketing help for execution. The data it produced fed the pivot decision below.</p>
+
+          <p><strong>An evidence-based pivot from AI-first to community-first.</strong> A community-led message variant on the landing page drew fewer clicks than the AI-coaching variant but converted at nearly twice the rate. User interviews surfaced the same theme in entrepreneurs' own words: AI was experienced as a feedback-giver, not a collaborator. The data was ambiguous; the pre-committed criteria I had written down twelve days before the smoke test ads went live kept me honest. The call was PIVOT. The full worked example lives on the <a href="/practice#how-the-work" target="_blank" rel="noopener">Practice page</a>.</p>
+
+          <p><strong>A 12-week learning pilot with seven committed early adopters.</strong> As I wrapped the market validation in March 2026, the opportunity to run a learning pilot with early adopters emerged and I took it. The pilot is mid-stream as I write this, running on a Slack and Google Drive stack with a weekly build cycle that ships small automations and learns what works. In one sprint, the automations I shipped lifted weekly peer comments by 206% and pulled attendance from four-of-seven to full participation. The experience is helping me shape the product, understand where AI delivers value in the work, and experience the methodology first-hand.</p>
+
+          <p><strong>A new prototype that integrates what the pilot is teaching me.</strong> Built in Claude Design as a three-view walkthrough across the Solo Founder, the Cohort, and the Partners views. Each view is grounded in what the early adopters have surfaced about where AI fits in the work and where it should stay out. The walkthrough is what I use to align stakeholders on the next iteration.</p>
+        </div>
+
+        <div class="font-mono text-xs uppercase tracking-[0.15em] opacity-60 mt-10 mb-4 font-semibold">Operating moves</div>
+
+        <div class="prose max-w-none">
+          <p><strong>Materials produced on short notice for partners and funders.</strong> Pitches, decks, one-pagers, and posters drafted in hours or days, depending on the ask. The system holds enough context that I can draft to a specific audience without re-explaining the project from scratch, which is what makes short-notice asks workable.</p>
+
+          <p><strong>Operational overhead off my plate.</strong> Leadership briefs, sprint planning, Asana updates, daily check-ins, status updates. The system drafts first passes from status files and meeting transcripts; I review, adjust, and ship. What used to take half a day takes thirty minutes, and the freed time goes back into product taste decisions and partner conversations.</p>
+        </div>
+
+        <div class="prose max-w-none">
+          <p>
+            Working solo with AI as the operating model was the mandate from the start. The engineer who helped set up Claude Code on my laptop was transitional support; when his work was needed on another project, leadership was comfortable making the move because they could see what I was building on the system on my own.
+          </p>
+
+          <p class="text-sm opacity-70 !mt-8">
+            More on the operating model behind this work lives on the <a href="/practice" target="_blank" rel="noopener">Practice page</a>.
+          </p>
+        </div>
+      </section>
+
+      <div class="divider my-16"></div>
+
+      <div class="font-mono text-xs uppercase tracking-[0.15em] opacity-60 mb-6 font-semibold">Personal tracks</div>
+
+      <!-- Section 2: This portfolio -->
+      <section class="mb-16">
+        <h2 id="this-portfolio" class="text-xl font-bold mb-1">This portfolio</h2>
+        <div class="text-sm opacity-60 mb-6">Personal · Maintained 2024 to Present</div>
+
+        <div class="prose max-w-none">
+          <p>
+            I treat my portfolio as a project I run on the same operating model I use for product work. The point is the discipline of maintaining a public surface that reflects how I actually think, on a cadence I can sustain.
+          </p>
+
+          <p><strong>An evolving site</strong> built with Astro, TailwindCSS, and DaisyUI, deployed through GitHub Actions to a custom domain, with PostHog analytics for visibility into how readers find the work.</p>
+
+          <p><strong>Custom components</strong> built for specific editorial purposes: a pull-quote treatment for thesis statements, a callout pattern for worked examples, a sticky table of contents with scroll-spy for long-form pages.</p>
+
+          <p><strong>A bi-weekly Notes cadence</strong> that captures what I am learning at work in sanitized form. The Notes are tagged across four categories: methods, experiments, failures, signals. Eight entries are live so far; the full archive lives at <a href="/notes/" target="_blank" rel="noopener">Notes</a>.</p>
+
+          <p><strong>A regular update process</strong> that mirrors my work practice. Every other Friday I draft a Notes entry from my work that period, sanitize it, and ship it. The cadence holds because I run it as part of my work, not as an aspiration.</p>
+        </div>
+      </section>
+
+      <!-- Section 3: AI + EdTech Journal -->
+      <section class="mb-16">
+        <h2 id="ai-edtech-journal" class="text-xl font-bold mb-1">AI + EdTech Journal</h2>
+        <div class="text-sm opacity-60 mb-6">Personal · Started 2026</div>
+
+        <div class="prose max-w-none">
+          <p>
+            A personal intelligence journal for tracking AI and EdTech developments. The discipline is integrating what I read back into the work I am doing, so reading is not a separate activity from building.
+          </p>
+
+          <p><strong>A capture system that does not break flow.</strong> A Chrome extension I built triggers a <code>/capture</code> skill in Claude Code. Whatever I am reading gets captured with metadata, tagged by project, and added to a searchable journal.</p>
+
+          <p><strong>A tag taxonomy that ties findings back to specific work.</strong> When I am making a decision on the entrepreneurship project, I can pull captures tagged with that project. When I am preparing a workshop, I pull training-related captures. The tagging is the glue between reading and doing.</p>
+
+          <p><strong>A practice of integration over accumulation.</strong> I write up what each capture changes about how I think. The writing is what makes the work stick, and the public version of that writing lives in the <a href="/notes/" target="_blank" rel="noopener">Notes</a>.</p>
+        </div>
+      </section>
+
+      <div class="mt-8 mb-4 opacity-75 text-sm italic">
+        Active work. Details kept high-level to protect proprietary information. Full artifacts available upon request.
       </div>
     </div>
   </div>
-
-  <div class="mt-8 mb-4 opacity-75 text-sm italic">
-    Active work. Details kept high-level to protect proprietary information. Full artifacts available upon request.
-  </div>
 </BaseLayout>
+
+<style is:global>
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+  h2[id], h3[id] {
+    scroll-margin-top: 2rem;
+  }
+
+  .practice-summary {
+    list-style: none;
+  }
+  .practice-summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .toc-link.is-active {
+    opacity: 1;
+    border-left-color: hsl(var(--bc));
+  }
+
+  .toc-link:focus-visible,
+  a:focus-visible {
+    outline: 2px solid hsl(var(--bc));
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  .not-prose p {
+    color: rgb(55 65 81);
+  }
+</style>
+
+<script>
+  function setupScrollSpy() {
+    const tocLinks = document.querySelectorAll<HTMLAnchorElement>('.toc-link');
+    if (tocLinks.length === 0) return;
+
+    const sections = Array.from(tocLinks)
+      .map((link) => {
+        const href = link.getAttribute('href') || '';
+        const id = href.startsWith('#') ? href.slice(1) : '';
+        return { link, section: document.getElementById(id) };
+      })
+      .filter((item): item is { link: HTMLAnchorElement; section: HTMLElement } => item.section !== null);
+
+    if (sections.length === 0) return;
+
+    const visibleSections = new Set<HTMLElement>();
+
+    const updateActive = () => {
+      if (visibleSections.size === 0) return;
+      let topSection: HTMLElement | null = null;
+      let topY = Infinity;
+      visibleSections.forEach((section) => {
+        const rect = section.getBoundingClientRect();
+        if (rect.top < topY) {
+          topY = rect.top;
+          topSection = section;
+        }
+      });
+      sections.forEach((item) => {
+        item.link.classList.toggle('is-active', item.section === topSection);
+      });
+    };
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            visibleSections.add(entry.target as HTMLElement);
+          } else {
+            visibleSections.delete(entry.target as HTMLElement);
+          }
+        });
+        updateActive();
+      },
+      {
+        rootMargin: '-10% 0px -60% 0px',
+        threshold: 0,
+      }
+    );
+
+    sections.forEach((item) => observer.observe(item.section));
+
+    sections.forEach((item) => {
+      item.link.addEventListener('click', () => {
+        sections.forEach((s) => s.link.classList.toggle('is-active', s === item));
+      });
+    });
+  }
+
+  document.addEventListener('astro:page-load', setupScrollSpy);
+</script>

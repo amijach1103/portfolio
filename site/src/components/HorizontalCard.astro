@@ -1,7 +1,6 @@
 ---
 const { title, img, desc, url, badge, tags, pubDate, target = "_blank" } = Astro.props;
 import { Image } from "astro:assets";
-const tag_url = url.split("/").slice(0, -1).join("/") + "/tag";
 
 const tagColors: Record<string, string> = {
   methods: "bg-blue-50 text-blue-700 border-blue-200",
@@ -11,45 +10,43 @@ const tagColors: Record<string, string> = {
 };
 ---
 
-<div
-  class="rounded-lg bg-base-100 hover:shadow-xl transition ease-in-out hover:scale-[102%]"
->
-  <a href={url} target={target}>
-    <div class="hero-content flex-col md:flex-row">
-      {
-        img && (
-          <Image
-            src={img}
-            width={750}
-            height={422}
-            format="webp"
-            alt={title}
-            class="max-w-full md:max-w-[13rem] rounded-lg"
-          />
-        )
-      }
-      <div class="grow w-full">
-        <h1 class="text-xl font-bold">
-          {title}
-          {badge && <div class="badge badge-secondary mx-2">{badge}</div>}
-        </h1>
-        <p class="py-1 text-1xl">{desc}</p>
-        <div class="card-actions justify-end items-center">
-          {pubDate && (
-            <div class="text-xs opacity-50 mr-auto">
+<a href={url} target={target} class="block p-6 md:p-7 bg-base-200 rounded-lg hover:bg-base-300 transition-colors group">
+  <div class="flex flex-col md:flex-row md:items-start gap-4 md:gap-6">
+    {
+      img && (
+        <Image
+          src={img}
+          width={750}
+          height={422}
+          format="webp"
+          alt={title}
+          class="max-w-full md:max-w-[13rem] rounded-lg"
+        />
+      )
+    }
+    <div class="grow w-full">
+      <h2 class="text-xl font-bold leading-snug mb-2">
+        {title}
+        {badge && <span class="badge badge-secondary ml-2 align-middle">{badge}</span>}
+      </h2>
+      <p class="text-sm leading-relaxed mb-4 opacity-80">{desc}</p>
+      <div class="flex flex-wrap items-center gap-2">
+        {
+          pubDate && (
+            <div class="text-xs opacity-60 mr-auto">
               {new Date(pubDate).toLocaleDateString("en-US", { year: "numeric", month: "long" })}
             </div>
-          )}
-          {
-            tags &&
-              tags.map((tag) => (
-                <a href={`${tag_url}/${tag}`} class:list={["badge border", tagColors[tag] || "badge-outline"]}>
-                  {tag}
-                </a>
-              ))
-          }
-        </div>
+          )
+        }
+        {
+          tags &&
+            tags.map((tag) => (
+              <span class:list={["badge border", tagColors[tag] || "badge-outline"]}>
+                {tag}
+              </span>
+            ))
+        }
       </div>
     </div>
-  </a>
-</div>
+  </div>
+</a>

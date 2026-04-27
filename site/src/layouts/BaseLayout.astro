@@ -11,11 +11,12 @@ const {
   description = SITE_DESCRIPTION,
   sideBarActiveItemID,
   ogType,
+  maxWidthClass = "lg:max-w-[900px]",
 } = Astro.props;
 
 const navItems = [
   { id: "home", label: "Home", href: "/" },
-  { id: "work", label: "Work", href: "/work" },
+  { id: "work", label: "Projects", href: "/work" },
   { id: "practice", label: "Practice", href: "/practice" },
   { id: "notes", label: "Notes", href: "/notes/" },
   { id: "journey", label: "Journey", href: "/journey" },
@@ -76,7 +77,7 @@ const navItems = [
 
       <!-- Content -->
       <div class="flex-1 md:flex md:justify-center">
-        <main class="p-6 pt-10 lg:max-w-[900px] max-w-[100vw] w-full">
+        <main class:list={["p-6 pt-10 max-w-[100vw] w-full", maxWidthClass]}>
           <slot />
         </main>
       </div>
