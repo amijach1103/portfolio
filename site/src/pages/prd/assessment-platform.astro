@@ -1,0 +1,127 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Product Brief — Assessment Platform | Agueda Schwartz"
+  description="Retrospective product brief for a K-12 assessment platform that replaced paper- and spreadsheet-based workflows across 20+ school sites. Redacted for external sharing."
+  noIndex={true}
+>
+  <div class="mt-5">
+    <h1 class="text-3xl font-bold leading-tight mb-2">Product Brief — Assessment Platform</h1>
+    <div class="text-xs uppercase tracking-wider opacity-50 mb-8 pb-4 border-b border-base-300">Retrospective brief · Redacted for external sharing</div>
+
+    <div class="prose max-w-none">
+      <p>
+        <strong>Author:</strong> Agueda Schwartz, Product Owner<br />
+        <strong>Organization:</strong> K-12 schools network, Latin America (redacted)<br />
+        <strong>Status:</strong> Launched November 2017<br />
+        <strong>Document type:</strong> Retrospective brief, redacted for external sharing
+      </p>
+
+      <h2>TL;DR</h2>
+      <p>
+        Replace fragmented paper- and spreadsheet-based student assessment workflows across 20+ school sites with a single platform that captures, validates, and reports on standardized assessments without manual transcription. At full rollout: 2,000 active users; 30% reduction in transcription errors across ~30,000 assessment records; 10% reduction in average user task time per cycle.
+      </p>
+
+      <h2>Background</h2>
+      <p>
+        Across the network, standardized assessments were captured through a mix of paper forms and Excel templates at the school site, then re-keyed into a central spreadsheet by operations staff at network HQ. The process produced a measurable rate of transcription errors that propagated into reporting used by district-level academic leadership. Errors required after-the-fact reconciliation and eroded trust in a data layer that downstream curriculum and operations decisions depended on. The opportunity wasn't only to digitize the workflow; it was to move data-quality enforcement from the back end (central reconciliation) to the front end (validated input at the point of capture).
+      </p>
+
+      <h2>Problem statement</h2>
+      <p>
+        School operations staff and academic leadership need to capture standardized assessments at the school site in a way that validates inputs at the point of entry, works on the device classes already in use, produces reports central operations can trust without reconciliation, and reduces total time per cycle so school staff aren't trading administrative load for instructional time.
+      </p>
+
+      <h2>Goals & success metrics</h2>
+      <p>Primary outcomes (measured against baseline at 90 days post full rollout):</p>
+
+      <div class="overflow-x-auto">
+        <table>
+          <thead>
+            <tr>
+              <th>Metric</th>
+              <th>Target</th>
+              <th>Actual</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Transcription error reduction</td>
+              <td>≥ 25%</td>
+              <td><strong>30%</strong> (across ~30,000 records)</td>
+            </tr>
+            <tr>
+              <td>User task time per cycle</td>
+              <td>≥ 5% reduction</td>
+              <td><strong>10%</strong> reduction</td>
+            </tr>
+            <tr>
+              <td>Active site coverage</td>
+              <td>All 20+ sites within 60 days of phased rollout</td>
+              <td><strong>Met</strong></td>
+            </tr>
+            <tr>
+              <td>Active users at full rollout</td>
+              <td>~2,000</td>
+              <td><strong>2,000</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        <strong>Out of scope for V1:</strong> predictive analytics on assessment data; parent- or student-facing surfaces; integration with the LMS used for non-assessment coursework.
+      </p>
+
+      <h2>Users</h2>
+      <ol>
+        <li><strong>School operations staff.</strong> Capture assessments inside an already full daily workflow. Time-pressured, varying digital fluency, mixed device access at the site level.</li>
+        <li><strong>School academic leadership.</strong> Review school-level results and escalate anomalies. Need clean, trustable reports rather than raw data.</li>
+        <li><strong>Central operations and academic leadership.</strong> Consume aggregated network-level reporting. Highest trust requirement on data accuracy because downstream decisions depend on it.</li>
+      </ol>
+      <p>User needs were validated through field interviews at representative school sites before scope was locked.</p>
+
+      <h2>Scope (V1)</h2>
+      <p>
+        Assessment capture form with input validation (range checks, required fields, conditional logic); school-level dashboard for academic leadership; network-level reporting view for central operations; account management with role-based permissions; audit trail on assessment record edits.
+      </p>
+      <p>
+        Deferred to later phases: bulk import from legacy spreadsheets, configurable assessment templates (V1 shipped with one validated template), mobile-first redesign.
+      </p>
+
+      <h2>Key decisions</h2>
+      <p>
+        <strong>Validation at the input layer, not after.</strong> The pre-existing workflow corrected errors at the central reconciliation step. V1 enforced validation at the form layer, which surfaced data-quality issues during capture rather than during reporting. This was the highest-leverage decision in the project; it directly drove the 30% error reduction.
+      </p>
+      <p>
+        <strong>One assessment template at launch, not a template builder.</strong> Configurable templates were the natural V2 ask from school leadership. Locking to one validated template at V1 shipped the launch on time and let us measure error reduction against a stable baseline before introducing new variance. V2 template-builder work was scoped from V1 learnings.
+      </p>
+      <p>
+        <strong>Phased rollout, not network-wide cutover.</strong> A pilot cohort of representative sites went first; remaining sites onboarded in subsequent waves. Reduced the risk of network-wide disruption during a peak assessment cycle, and let the team adjust training materials based on real adoption blockers surfaced in pilot.
+      </p>
+
+      <h2>Outcomes</h2>
+      <ul>
+        <li>2,000 active users onboarded across 20+ school sites</li>
+        <li>30% reduction in transcription errors across ~30,000 assessment records</li>
+        <li>10% reduction in average user task time per cycle</li>
+        <li>V2 work scoped from V1 learnings; configurable templates moved up the roadmap based on direct school-leadership feedback during rollout</li>
+      </ul>
+
+      <h2>Reflection</h2>
+      <p>Two things I would do differently today:</p>
+      <ol>
+        <li><strong>Tighter pre-launch baseline measurement.</strong> I had a baseline error rate, but it was reconstructed from reconciliation logs rather than instrumented in advance. Running an instrumented measurement of the legacy process for one or two cycles before launch would have made the post-launch comparison more defensible to skeptical stakeholders, and would have surfaced error categories the V1 validation rules missed.</li>
+        <li><strong>Earlier investment in the data model for V2 templates.</strong> Locking to one assessment template at V1 was the right call for shipping. But V2 template-builder work took longer than scoped because the V1 data model didn't anticipate the heterogeneity of network-wide assessment policies. I would have spent more time on the data model up front knowing what we know now.</li>
+      </ol>
+
+      <hr />
+
+      <p>
+        <strong>Cross-functional partners:</strong> engineering (frontend + backend, scoping and architecture); UX (form-flow design, dashboard IA, accessibility); operations at network HQ (baseline measurement, validation rules); school administrators across sites (field validation, training review, pilot feedback).
+      </p>
+    </div>
+  </div>
+</BaseLayout>

@@ -11,6 +11,7 @@ const {
   description = SITE_DESCRIPTION,
   sideBarActiveItemID,
   ogType,
+  noIndex = false,
   maxWidthClass = "lg:max-w-[900px]",
 } = Astro.props;
 
@@ -26,7 +27,7 @@ const navItems = [
 <!doctype html>
 <html lang="en" data-theme="lofi">
   <head>
-    <BaseHead title={title} description={description} image={image} , ogType={ogType} />
+    <BaseHead title={title} description={description} image={image} , ogType={ogType} noIndex={noIndex} />
     {TRANSITION_API && <ViewTransitions />}
   </head>
   <body>
