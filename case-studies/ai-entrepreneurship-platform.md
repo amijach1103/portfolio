@@ -163,7 +163,7 @@ The current sprint is structured around an innovation loop: run the test, measur
 
 | Task | Traditional | AI-Assisted | Savings |
 |------|-------------|-------------|---------|
-| Landscape research | 2-3 weeks | 3-4 hours | ~85% |
+| Landscape research | 3-4 hours |
 | Source verification | 1 week | Built into process | ~100% |
 | Competitive matrix | 2-3 days | 2 hours | ~80% |
 | Executive summary | 1-2 days | 3 hours | ~75% |

@@ -78,7 +78,7 @@ Documented and measured seven operational workflows:
 
 | Workflow | Use Case | Measured Outcome |
 |----------|----------|-----------------|
-| Systematic Landscape Analysis | Market research, competitive intel | 85% time reduction |
+| Systematic Landscape Analysis | Market research, competitive intel | 3-4 hours per analysis |
 | Executive Summary Framework | Leadership communication | Decision-ready outputs |
 | Two-Phase Prompting | Research-to-action translation | Eliminates analysis paralysis |
 | Validate Each Fact Always | All research outputs | 100% citation rate |
@@ -105,7 +105,7 @@ Designed and facilitated an AI upskilling workshop for a cross-functional team:
 | Metric | Result |
 |--------|--------|
 | Projects managed concurrently | 3 |
-| Research time reduction | 85% (hours vs. weeks) |
+| Time per landscape analysis | 3-4 hours |
 | Session continuity | Zero-loss handoff via status system |
 | Integrations connected | 5 (task mgmt, messaging, meeting notes, files, cloud storage) |
 | Reusable workflows documented | 7 with measured outcomes |

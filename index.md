@@ -29,7 +29,7 @@ I designed and built a full PM operations system in Claude Code — a cross-proj
 
 ## What I Bring
 
-**Research rigor** — 50+ source analyses with cross-verified citations, not vibes. 85% faster than traditional approaches while maintaining quality.
+**Research rigor** — 50+ source analyses with cross-verified citations, not vibes.
 
 **0-to-1 product thinking** — built evaluation frameworks across 20+ schools, innovation funnel processes, AI coaching frameworks, and operational systems from scratch.
 

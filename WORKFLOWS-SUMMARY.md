@@ -9,7 +9,7 @@
 | Workflow | Use Case | Key Benefit |
 |----------|----------|-------------|
 | **Claude Code as PM** | Daily task management | AI as coworker (recommended start) |
-| Systematic Landscape Analysis | Market research, competitive intel | ~85% time reduction |
+| Systematic Landscape Analysis | Market research, competitive intel | 3-4 hours per analysis |
 | Two-Phase Prompting | Moving from research to action | Eliminates analysis paralysis |
 | Executive Summary Framework | C-level presentations | Decision-ready outputs |
 | Validate Each Fact Always | All research outputs | Presentation-ready with citations |
@@ -127,7 +127,7 @@ Full architecture: `~/Projects/VE-Discovery/ARCHITECTURE.md`
 - Key Questions for Further Exploration
 - Full References (APA format)
 
-**Results:** Reduces research time from 2-3 weeks to 3-4 hours while maintaining academic rigor.
+**Results:** A full landscape analysis in 3-4 hours, with cross-verified citations.
 
 **Used for:** AI entrepreneurship platform project - analyzed 50+ sources to inform strategic recommendation.
 
@@ -290,7 +290,7 @@ Documentation Phase
 
 | Metric | Result |
 |--------|--------|
-| Research time reduction | ~85% (3-4 hours vs 2-3 weeks) |
+| Time per landscape analysis | 3-4 hours |
 | Sources per analysis | 50+ with citations |
 | Project delivery | 2 weeks vs typical 6-8 weeks |
 | Citation rate | 100% in research outputs |

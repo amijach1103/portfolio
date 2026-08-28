@@ -12,8 +12,7 @@
 - You're looking for internal company data (not publicly available)
 
 **Time Investment:** 3-4 hours
-**Traditional Approach:** 2-3 weeks
-**Time Savings:** ~85%
+**Typical run:** 3-4 hours
 
 ---
 

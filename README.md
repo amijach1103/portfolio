@@ -10,7 +10,7 @@ A systematic collection of methodologies, case studies, and learnings from AI-as
 
 I turn ambiguous challenges into actionable products through systematic research, cross-functional coordination, and evidence-based methodology. My background spans K-12, higher education, and corporate learning, with deep expertise in program evaluation and operational excellence.
 
-Currently pioneering AI-assisted workflows that reduce research time by 85% while maintaining rigor — building scalable processes that bridge strategy and execution.
+Currently building AI-assisted research workflows that hold up to scrutiny — building scalable processes that bridge strategy and execution.
 
 ---
 
@@ -53,7 +53,7 @@ Deliverables and artifacts (to be added as projects reach appropriate milestones
 ### Systematic Landscape Analysis
 - Structured research process with source diversity requirements (government, academic, industry, nonprofit)
 - Consistent citation and verification standards (APA format, cross-verified statistics)
-- 85% time reduction vs. traditional approaches (3-4 hours vs. 2-3 weeks)
+- A full landscape analysis in 3-4 hours
 
 ### Two-Phase Prompting
 1. **Theory:** "What does research say about this?"

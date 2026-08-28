@@ -10,7 +10,7 @@ Reusable prompt templates developed over 3+ months of AI-assisted product manage
 
 | Pattern | Use Case | Time Savings |
 |---------|----------|--------------|
-| [Landscape Analysis](./landscape-analysis.md) | Market research, competitive intelligence, go/no-go decisions | ~85% |
+| [Landscape Analysis](./landscape-analysis.md) | Market research, competitive intelligence, go/no-go decisions | 3-4 hours |
 | [Evidence-Based Recommendations](./evidence-based-recommendations.md) | Validating intuitions with research | 3-4 hours |
 
 ### Executive Communication
