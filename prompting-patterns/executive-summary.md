@@ -12,7 +12,6 @@
 - The topic requires detailed technical explanation
 
 **Time Investment:** 30 minutes - 1 hour
-**Traditional Approach:** 4-6 hours of deck iteration
 **Time Savings:** ~75%
 
 ---
