@@ -75,7 +75,7 @@ Education builds trust and user base; operations create retention and revenue. T
 - Go/no-go decision framework
 - Complete research documentation with 50+ cited sources
 
-**Result:** Executive buy-in achieved. 2-week delivery vs. typical 6-8 week timeline — 67% faster.
+**Result:** Executive buy-in achieved, delivered in two weeks.
 
 ---
 
