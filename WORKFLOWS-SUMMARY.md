@@ -292,7 +292,7 @@ Documentation Phase
 |--------|--------|
 | Time per landscape analysis | 3-4 hours |
 | Sources per analysis | 50+ with citations |
-| Project delivery | 2 weeks vs typical 6-8 weeks |
+| Project delivery | Strategic recommendation delivered in two weeks |
 | Citation rate | 100% in research outputs |
 | Executive buy-in | Achieved on strategic recommendations |
 

@@ -7,7 +7,7 @@ title: Home
 
 **Product Manager | AI + Education | NYC**
 
-I build products at the intersection of AI and learning. Over 14 years across K-12, higher education, and corporate L&D, I've developed a pattern: take an ambiguous challenge, apply structured research, and turn it into something that works — a product, a framework, a system.
+I build products at the intersection of AI and learning. Over 16 years across K-12, higher education, and corporate L&D, I've developed a pattern: take an ambiguous challenge, apply structured research, and turn it into something that works — a product, a framework, a system.
 
 Right now I'm deep into AI-assisted product management. I use Claude Code as my daily operating system — with integrations to task management, messaging, meeting notes, and cloud storage. I've documented the methodology, measured the outcomes, and taught others to use it. The case studies below show how.
 
@@ -16,7 +16,7 @@ Right now I'm deep into AI-assisted product management. I use Claude Code as my 
 ## Case Studies
 
 ### [AI-Powered Entrepreneurship Platform](case-studies/ai-entrepreneurship-platform)
-A 0-to-1 product taking shape at an EdTech innovation lab. I led strategic research (50+ sources, 200+ survey responses), designed an AI coaching framework, iterated through 6 prototype versions in a day, and moved the project from stalled to active market validation — all in under 5 months.
+A 0-to-1 discovery project at an EdTech innovation lab, which I inherited stalled and led with fractional support from a UX researcher. I led the strategic research (50+ sources, 200+ survey responses), designed an AI coaching framework, and iterated through 6 prototype versions in a day. I also wrote the assessment that recorded what the work had not done: zero conversations with the target population, and why. Leadership wrapped the project in June 2026.
 
 **Skills demonstrated:** Strategic research, conflicting data synthesis, AI behavior design, rapid prototyping, stakeholder alignment without authority
 

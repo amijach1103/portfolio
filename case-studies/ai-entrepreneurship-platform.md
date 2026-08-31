@@ -197,7 +197,7 @@ The current sprint is structured around an innovation loop: run the test, measur
 
 ## The Arc
 
-This project went from "stalled and ambiguous" to "active market validation" in under 5 months. The path:
+This project went from "stalled and ambiguous" to market validation in under 5 months. Leadership wrapped it in June 2026. The path:
 
 **Ambiguity → Research → Insight → Framework → Prototype → Test → Iterate → Validate**
 
@@ -207,4 +207,4 @@ That's the skill I bring: turning ambiguity into forward motion, systematically,
 
 ---
 
-*This case study describes an active project. Some details have been generalized to protect proprietary information. Artifacts available upon request in an interview context.*
+*This case study describes a project that closed in June 2026. Some details have been generalized to protect proprietary information. Artifacts available upon request in an interview context.*

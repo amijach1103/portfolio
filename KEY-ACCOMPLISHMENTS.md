@@ -22,7 +22,7 @@
 
 **Theme:** Turning ambiguity into actionable recommendations
 
-- Delivered strategic recommendation in 2 weeks vs typical 6-8 weeks
+- Delivered a strategic recommendation in two weeks
 - Synthesized 50+ sources with full citations
 - Reconciled conflicting data (survey vs landscape) into phased hybrid strategy
 - Achieved executive buy-in without formal authority
