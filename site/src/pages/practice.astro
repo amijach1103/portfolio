@@ -1,17 +1,16 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PullQuote from "../components/PullQuote.astro";
-import Callout from "../components/Callout.astro";
 
 const tocItems = [
   { id: "pain-points", label: "The pain points" },
-  { id: "how-the-work", label: "How the work gets done" },
+  { id: "where-the-line-sits", label: "Where the line sits" },
   { id: "still-figuring", label: "What I am still figuring out" },
   { id: "closing-reflection", label: "What stays with me" },
 ];
 ---
 
-<BaseLayout sideBarActiveItemID="practice" title="Practice | Agueda Schwartz" description="Working with Claude Code as a Product Manager. Six months in. The operating model I built and what it's teaching me about working with AI." maxWidthClass="lg:max-w-[1200px]">
+<BaseLayout sideBarActiveItemID="practice" title="Practice | Agueda Schwartz" description="Working with Claude Code as a Product Manager. The system I built to run a 0-to-1 AI project plus three adjacent tracks, and where I draw the line between what it owns and what I do." maxWidthClass="lg:max-w-[1200px]">
   <div class="mt-5 lg:flex lg:gap-12">
     <aside class="hidden lg:block lg:w-52 lg:flex-shrink-0">
       <nav class="sticky top-8 text-sm">
@@ -36,7 +35,7 @@ const tocItems = [
 
     <div class="flex-1 min-w-0">
       <h1 class="text-3xl font-bold leading-tight mb-2">Working with Claude Code as a Product Manager</h1>
-      <div class="text-xs uppercase tracking-wider opacity-50 mb-3 lg:mb-8 lg:pb-4 lg:border-b lg:border-base-300">~9 min read</div>
+      <div class="text-xs uppercase tracking-wider opacity-50 mb-3 lg:mb-8 lg:pb-4 lg:border-b lg:border-base-300">~5 min read</div>
 
       <details class="lg:hidden mb-8 pb-4 border-b border-base-300 group">
         <summary class="practice-summary cursor-pointer flex items-center justify-between text-xs uppercase tracking-wider opacity-60 font-semibold py-2">
@@ -62,11 +61,11 @@ const tocItems = [
 
       <div class="prose max-w-none">
         <p>
-          In October 2025 I took over an entrepreneurship project that had been drifting for two months, with a mandate to use AI to drive it forward. The team that had been on it was reassigned, and I was given fractional support from a UX researcher and an engineer. Six months later, the system I have built allows me to run every layer of the main project, plus three adjacent tracks: an organizational training I co-authored, the portfolio behind this site, and a personal intelligence journal for AI and EdTech that keeps me informed. It's also worth noting that, recently, the main project itself has shifted from one bet to a portfolio of related bets and I will be testing whether the same system works.
+          In October 2025 I took over an entrepreneurship project that had drifted for two months. The team that had been on it was reassigned, and I was told to carry it with AI instead, with fractional support from a UX researcher and an engineer. Six months later I was running that project plus three adjacent tracks: an organizational training I co-authored, the portfolio behind this site, and a journal that keeps me current on AI and EdTech.
         </p>
 
         <p>
-          This page is an attempt to explain that system and what working with AI on a daily basis is teaching me.
+          This page is the system I built to do that, and what it is teaching me. The projects themselves are on the <a href="/projects">Work page</a>.
         </p>
       </div>
 
@@ -76,24 +75,20 @@ const tocItems = [
 
       <div class="prose max-w-none">
         <p>
-          A lot of what has changed is in the timescales. One year ago, a 10,000 document analysis would have taken months to make sense of; in 2026, with the help of Claude Code, the synthesis came together in a week, once I had structured the extraction properly. A market validation experiment went live in nine days. The strategy was designed in partnership with a marketing colleague, my first time operating paid acquisition and landing pages end-to-end, and I shipped the execution. Similarly, I am able to stand up prototypes at real fidelity with no designer support, and I can keep iterating on them as the product gets refined. The framing I keep hearing from people working at the frontier is that the question is no longer "can we build it" but "is this worth building," and this matches my experience in the last six months.
-        </p>
-
-        <p>
-          Leading this project is an opportunity to stretch myself by constantly reading where the leverage moves and adjusting fast. For me that part of the job is fun, and the system on this page is what I have built to give myself room to do it.
+          What changed most is the timescales. A 10,000-document analysis that would have taken months came together in a week, once I had structured the extraction properly. A market validation experiment went live in nine days, and I shipped the execution on paid acquisition and landing pages for the first time. I can stand up prototypes at real fidelity with no designer. The framing I keep hearing from people working at the frontier matches what I found: the question is no longer whether we can build it, but whether it is worth building.
         </p>
 
         <h2 id="pain-points">The pain points</h2>
 
         <p>
-          As the product manager on this project with fractional support and multiple AI models at my disposal, I quickly realized that I needed to prioritize my time and spend my brain power solving the most valuable problems. Claude Code emerged as a powerful tool that could help me organize the work and draft artifacts at a speed I am not capable of. With the help of an engineer I installed Claude Code in Terminal and built a folder structure that could hold all the context in the project. Then I started asking Claude Code for project management advice and ideas on how to tackle the tasks ahead efficiently. The brainstorming power was encouraging and unblocked me; I was hooked.
+          With fractional support and several models available to me, I had to spend my own attention on the problems that needed it. Claude Code could organize the work and draft at a speed I do not have. Getting there meant solving four problems, in this order.
         </p>
       </div>
 
       <div class="not-prose my-10">
         <div class="font-mono text-xs uppercase tracking-[0.15em] opacity-50 mb-2 font-semibold">01 · Scattered context</div>
         <p class="text-base leading-relaxed mb-3">
-          The first pain point I hit was scattered context: how to give Claude Code the ability to consume all the relevant information without me having to copy and paste meeting notes, chat conversations, Google Drive documents, and so on. Looking for solutions I learned about MCP connectors, and I was surprised to find that asking Claude Code to install them was very easy. So I started thinking about the systems I was using at the organization level and made a list of which ones would drive the most value to my practice: <strong>Slack</strong> for what is moving across the org, <strong>Asana</strong> for task state, <strong>Granola</strong> for meeting transcripts, and <strong>Drive</strong> as a one-way output to share with the org. The rules I work by now (no automated deletes, manual approval on anything that touches shared systems, and dropping connectors that fight back) came from a lot of iteration and a specific bad day with a Drive sync script.
+          The first was scattered context: giving Claude Code what it needed without copying and pasting meeting notes, Slack threads, and Drive documents by hand. MCP connectors solved it. I picked the four systems that would carry the most value: <strong>Slack</strong> for what is moving across the org, <strong>Asana</strong> for task state, <strong>Granola</strong> for meeting transcripts, and <strong>Drive</strong> as a one-way path for sharing out. The rules I work by now, no automated deletes and manual approval on anything that touches a shared system, came out of iteration and one bad day with a Drive sync script.
         </p>
         <div class="text-sm opacity-60">
           More: <a href="/blog/speed-works-until-it-works-against-you" class="underline hover:no-underline">Speed works until it works against you →</a>
@@ -103,7 +98,7 @@ const tocItems = [
       <div class="not-prose my-10">
         <div class="font-mono text-xs uppercase tracking-[0.15em] opacity-50 mb-2 font-semibold">02 · Memory between sessions</div>
         <p class="text-base leading-relaxed mb-3">
-          After having the context I needed available to Claude Code, I bumped into the issue of memory between sessions. Every day I worked in the terminal making decisions, drafting documents, and managing tasks. The following day I spent up to 30 minutes re-orienting the model on where things stood, and throughout the day I had to course correct constantly. So I built a daily cadence: at the end of every session I run a <code class="font-mono text-sm">/session-end</code> skill that has Claude draft where we are, what got decided, what is open, and what is next. I review, adjust, and close. A <code class="font-mono text-sm">CLAUDE.md</code> config points the next morning's session at those files, so the new session picks up where the last one left off. What makes this work is keeping the ritual every day, not the specific way Claude writes things up.
+          Every morning I spent up to 30 minutes re-orienting the model on where things stood. So I built a daily ritual: at the end of a session a <code class="font-mono text-sm">/session-end</code> skill drafts where we are, what got decided, what is open, and what is next. I review it, adjust it, and close. A <code class="font-mono text-sm">CLAUDE.md</code> points the next morning's session at those files. What makes this work is keeping the ritual every day, not the way Claude writes things up.
         </p>
         <div class="text-sm opacity-60">
           More: <a href="/blog/the-memory-file-i-built-for-claude-code" class="underline hover:no-underline">The memory file I built for Claude Code →</a>
@@ -113,50 +108,23 @@ const tocItems = [
       <div class="not-prose my-10">
         <div class="font-mono text-xs uppercase tracking-[0.15em] opacity-50 mb-2 font-semibold">03 · Parallel tracks</div>
         <p class="text-base leading-relaxed mb-3">
-          The next pain point came when the project expanded into three parallel tracks (build, market validation, and a 12-week learning pilot), and one Claude Code session could no longer hold all of them at depth. I was correcting and redirecting Claude constantly, and the bigger problem underneath was that each track needed a different kind of help: market validation needed a Claude that could think like a domain expert in that area, build needed a Claude that could advise me on code rather than just write it, and the main instance, or orchestrator, needed enough distance to see across all three. So I split the work into one scoped instance per track, each with its own files and context, and kept a main orchestrator instance with read access to the status files across all three. I route between them manually, which makes me the bottleneck and the quality filter at the same time, and that tradeoff is the part I am still working through.
+          When the project split into three tracks, build, market validation, and a 12-week pilot, one session could no longer hold all of them at depth. Each needed a different kind of help: market validation needed domain expertise, build needed something that could advise me on code rather than just write it, and the main instance needed enough distance to see across all three. I split the work into one scoped instance per track and kept an orchestrator with read access to their status files. I route between them by hand, which makes me the bottleneck and the quality filter at the same time.
         </p>
         <div class="text-sm opacity-60">
           More: <a href="/blog/when-one-claude-code-session-wasnt-enough" class="underline hover:no-underline">When one Claude Code session wasn't enough →</a>
         </div>
       </div>
 
-      <div class="prose max-w-none">
-        <p>
-          Alongside these patterns, I also defined a four-phase innovation loop for my own use and applied it to this project.
-        </p>
-      </div>
-
       <div class="not-prose my-10">
-        <div class="flex flex-wrap items-center justify-center gap-2 md:gap-3">
-          <div class="flex items-center gap-2 px-3 py-1.5 bg-base-200 rounded">
-            <span class="font-mono text-xs opacity-50 font-semibold">01</span>
-            <span class="text-sm font-medium">Sense</span>
-          </div>
-          <span class="opacity-40">→</span>
-          <div class="flex items-center gap-2 px-3 py-1.5 bg-base-200 rounded">
-            <span class="font-mono text-xs opacity-50 font-semibold">02</span>
-            <span class="text-sm font-medium">Shape</span>
-          </div>
-          <span class="opacity-40">→</span>
-          <div class="flex items-center gap-2 px-3 py-1.5 bg-base-200 rounded">
-            <span class="font-mono text-xs opacity-50 font-semibold">03</span>
-            <span class="text-sm font-medium">Test</span>
-          </div>
-          <span class="opacity-40">→</span>
-          <div class="flex items-center gap-2 px-3 py-1.5 bg-base-200 rounded">
-            <span class="font-mono text-xs opacity-50 font-semibold">04</span>
-            <span class="text-sm font-medium">Scale</span>
-          </div>
-        </div>
+        <div class="font-mono text-xs uppercase tracking-[0.15em] opacity-50 mb-2 font-semibold">04 · Agents that outlive their usefulness</div>
+        <p class="text-base leading-relaxed mb-3">
+          Scoped instances accumulate. Each one I build now has a defined scope, its own context, and written criteria for when it activates and when it retires. The retirement half is the part I care about: when the project pivots I shut down the agents built for the old shape instead of leaving them running. It is the same call as killing a feature that is not earning its place, and it is easier to make honestly when the criteria were written down first.
+        </p>
       </div>
 
       <div class="prose max-w-none">
         <p>
-          The framework surfaced that I had over-invested in analysis early on and pushed me into validation faster than I would have moved otherwise.
-        </p>
-
-        <p>
-          This is the foundation of the system I built to collaborate with AI, and what stays consistent across my practice regardless of the project I am working on. Below is the simple architecture of files. I have to acknowledge that other practitioners have arrived at similar patterns, which I take as a sign that the shape fits the work.
+          The shape underneath all of this is simple. Other practitioners have arrived at something similar, which I take as a sign that it fits the work.
         </p>
 
         <pre class="!bg-base-200 !text-base-content !border !border-base-300"><code class="!bg-transparent !text-base-content">~/Projects/[project-name]/
@@ -168,10 +136,10 @@ const tocItems = [
 │   └── session-log.md
 └── [project-specific work]</code></pre>
 
-        <h2 id="how-the-work">How the work gets done</h2>
+        <h2 id="where-the-line-sits">Where the line sits</h2>
 
         <p>
-          After six months of experimentation, one of the hardest parts of working with AI, after figuring out what is worth building, is figuring out how to split the work between the system and me. If I read every line that gets drafted, the time cost goes up and the speed leverage disappears; but accepting whatever comes back without checking it risks losing the quality. I needed to decide where I would trust Claude Code to make decisions and drive, and where I had to maintain control. Today, the split looks like this: the system I built with Claude Code owns the operational layer, where speed and scale matter, and I own the product taste layer, where judgment matters. The two of them interact every day, and I have found that, just like collaborating with humans, there is craft in knowing how to interact with the model to produce the best outcomes efficiently.
+          The hardest part of working this way, after deciding what is worth building, is splitting the work between the system and me. Read every line it drafts and the speed advantage disappears; accept whatever comes back and the quality does. Where I have landed is that the system owns the operational layer, where speed and scale matter, and I own the judgment layer. I am not writing production software. I am building the leverage around the work and deciding what good looks like.
         </p>
       </div>
 
@@ -182,49 +150,33 @@ const tocItems = [
             <h3 class="text-lg font-bold mb-4 mt-0">What the system owns</h3>
             <div class="space-y-4 text-sm leading-relaxed">
               <p><strong>Holding context across sessions</strong> through status files, so every session picks up where the last one left off.</p>
-              <p><strong>Scoped instances per track</strong> plus a main orchestrator, spun up and retired as the work shifts.</p>
-              <p><strong>Synthesizing at scale</strong> on large document sets, transcripts, and archives.</p>
-              <p><strong>Building functional artifacts</strong> (landing pages, dashboards, deploys, instrumentation) without engineering or design support.</p>
-              <p><strong>Drafting first passes</strong> for stakeholder communication once I have framed the question.</p>
-              <p><strong>Reaching into the tools the org uses</strong> (Slack, Asana, Granola, Drive).</p>
-              <p><strong>Running operational overhead</strong>: Asana updates, daily check-ins, sprint planning, leadership briefs.</p>
-              <p><strong>Pressure-testing my framing</strong> before stakeholders see it, through red-team agents.</p>
-              <p><strong>Self-auditing the operating model</strong> to catch drift between what I committed to and what I actually shipped.</p>
+              <p><strong>Scoped instances per track</strong>, spun up and retired as the work shifts.</p>
+              <p><strong>Synthesizing at scale</strong> across large document sets, transcripts, and archives.</p>
+              <p><strong>Building working artifacts</strong> (landing pages, dashboards, deploys, instrumentation) with no engineering or design support.</p>
+              <p><strong>Reaching into the tools the org runs on</strong> (Slack, Asana, Granola, Drive) and carrying the overhead: task updates, check-ins, leadership briefs.</p>
+              <p><strong>Pressure-testing my framing</strong> before anyone else sees it.</p>
             </div>
           </div>
 
           <div class="md:pl-8 md:border-l md:border-base-content/10">
-            <div class="text-xs uppercase tracking-wide opacity-60 mb-1 font-semibold">The product taste layer</div>
+            <div class="text-xs uppercase tracking-wide opacity-60 mb-1 font-semibold">The judgment layer</div>
             <h3 class="text-lg font-bold mb-4">What I own</h3>
             <div class="space-y-4 text-sm leading-relaxed">
-              <p><strong>Knowing what's worth working on, before we work on it.</strong> The system can build many things quickly; the choice of what to build is what I bring.</p>
-              <p><strong>Reading users for what they need, not just what they say.</strong> The peer-convergence pattern in the pilot, now load-bearing in the cohort design, came from watching what was happening, not what people said when asked.</p>
-              <p><strong>Pre-committing decision criteria and reading evidence honestly later.</strong> I write GO, PIVOT, and KILL thresholds before data comes in. The criteria keep me honest when the read is ambiguous.</p>
-              <p><strong>Holding a quality bar on what we ship and what we don't.</strong> What looks finished often isn't yet, and that gap is mine to read.</p>
-              <p><strong>Translating evidence into decisions stakeholders can authorize and trust.</strong> The conversations that get to yes with leadership and partners are mine.</p>
-              <p><strong>Picking which bets to keep alive in the portfolio.</strong> Working in the Desirability, Feasibility, and Viability framework, the keep-or-kill call is its own altitude of judgment.</p>
+              <p><strong>Knowing what is worth working on.</strong> The system can build many things quickly. Choosing which one is what I bring.</p>
+              <p><strong>Reading users for what they need, not what they say.</strong> The peer-convergence pattern now load-bearing in the cohort design came from watching behavior, not from an answer to a question.</p>
+              <p><strong>Writing the decision criteria before the evidence arrives.</strong> I set go, pivot and kill thresholds up front. They keep me honest when the read is ambiguous.</p>
+              <p><strong>Holding the quality bar.</strong> What looks finished usually is not, and that gap is mine to read.</p>
+              <p><strong>Turning evidence into a decision someone can authorize.</strong> The conversations that get to yes with leadership and partners are mine.</p>
             </div>
           </div>
         </div>
       </div>
 
-      <Callout title="A worked example: the pivot from AI-first to community-first">
-        <p>
-          The clearest example of how this split shows up is the pivot we made two sprints ago, from an AI-first prototype to a community-first one. Six weeks into building, the prototype was an AI coaching surface. Claude was holding the operational layer at full speed during that period: drafting landing page variants for a smoke test, setting up PostHog and a Google Sheets backend, and holding context across the parallel user research track that I was running on the side.
-        </p>
-        <p>
-          The smoke test results and the user interviews ended up pointing in the same direction. A community-led message variant drew fewer clicks than the AI-coaching variant on the landing page, but it converted at nearly twice the rate. The user interviews with strangers surfaced the same theme in entrepreneurs' own words. One of the participants put it like this: <em>"It's hard to find people that are in similar situations as you are that you can throw ideas off of."</em>
-        </p>
-        <p>
-          I had written down pre-committed thresholds twelve days before the smoke test ads went live: GO, PIVOT, or KILL. The data came back ambiguous. The volume was low and we only ran on one channel after another platform blocked us, but the quality signal was strong. I could have read it as KILL on the numbers or as GO on the quality. My call was PIVOT, to take advantage of an emerging opportunity to work with a group of entrepreneurs in a learning pilot.
-        </p>
-        <p>
-          The system was what surfaced the convergence between the smoke test and the user research. The call was mine, and so was the work of translating the recommendation into a form that leadership could authorize and act on. The system also did not know about the opportunity that shaped the pivot direction; that information lived in conversations I was having with leadership and partners off-keyboard. The same shape shows up most days at smaller stakes, with the system running the operational layer at full speed and me making the calls that need a person to make.
-        </p>
-      </Callout>
-
-
       <div class="prose max-w-none">
+        <p>
+          The clearest case was the pivot two sprints in. The system surfaced that a nine-day market test and a set of user interviews were pointing the same direction. The call was mine, and so was the part the system could not see: the opportunity that shaped the pivot existed only in conversations happening off-keyboard. That project is written up on the <a href="/projects">Work page</a>.
+        </p>
+
         <h2 id="still-figuring">What I am still figuring out</h2>
       </div>
 
@@ -234,11 +186,7 @@ const tocItems = [
 
       <div class="prose max-w-none">
         <p class="!mt-0">
-          What I have not yet built into the operating model is a way to think about cost. My job requires me to experiment with AI constantly, and I have access to any tool I think is worth trying. My success as a Product Manager is also not measured on tokens, subscriptions, or operational costs. That is a real privilege, and it is also why I have not had to figure out the cost yet.
-        </p>
-
-        <p>
-          I know the variables I need to think about: API spend, tool subscriptions, and maintenance time on one side, and outcomes produced and time saved on the other. The honest gap is connecting them. I have not started instrumenting cost-per-decision or cost-per-validated-insight yet, and until I do, I cannot tell you whether this system is actually efficient or just well-resourced.
+          I have not built a way to think about cost. My job requires constant experimentation, I have access to any tool worth trying, and I am not measured on tokens or subscriptions. That is a real privilege, and it is why the gap is still open. I know the variables: API spend, subscriptions and maintenance time on one side, outcomes produced and time saved on the other. Until I instrument cost per decision, I cannot tell you whether this system is efficient or just well-resourced.
         </p>
       </div>
 
@@ -248,31 +196,26 @@ const tocItems = [
 
       <div class="prose max-w-none">
         <p class="!mt-0">
-          The same gap shows up at the level of portfolio decisions. The system tracks the work inside each bet, but I do not yet have a way to evaluate bets against each other in the Desirability, Feasibility, and Viability framework that the org has introduced. As more ideas emerge from the experiments running on this system, that is the next layer of judgment the operating model needs to hold.
+          The same gap shows up one level up. The system tracks the work inside each bet, but I do not yet have a way to weigh bets against each other on desirability, feasibility and viability. As more ideas come out of the experiments running on this system, that is the next layer of judgment the operating model needs to hold.
         </p>
 
         <h2 id="closing-reflection">What stays with me</h2>
 
         <p>
-          After six months of running on this system, I can say the outcomes are real. Ten thousand documents synthesized in a week, once I had structured the extraction. A market experiment stood up in nine days with no engineering execution support. A 12-week pilot run with no operational overhead. This project plus three adjacent tracks, as the only PM, with no overtime. Watching the project itself take portfolio shape inside of all this, and being able to adapt to that shift and stay confident about it as a lead. None of this was possible one or two years ago, not because I was slower, but because the tools did not allow it.
+          The outcomes are real. Ten thousand documents synthesized in a week. A market experiment stood up in nine days with no engineering execution support. A 12-week pilot run with no operational overhead. Four tracks as the only PM, with no overtime. None of that was possible two years ago, not because I was slower, but because the tools did not allow it.
         </p>
 
         <p>
-          What this points to, and what other practitioners I read are saying out loud, is that the bottleneck in product work is no longer capacity. It is judgment about where to allocate the capacity we now have. Catherine Wu, who heads up product development for Claude Code, described the shift in a recent conversation with Lenny Rachitsky as the move from multi-quarter roadmap alignment to "the fastest way to get something out the door." Shreyas Doshi and Ravi Mehta both frame taste as the discriminating function in product work: knowing what is worth validating, reading evidence honestly even when it is uncomfortable, and being able to explain a choice in a way that holds up under pressure. AI does not replace any of that. It just makes more of it possible in the same week.
+          What it points to is that the bottleneck in product work is no longer capacity. It is judgment about where to spend the capacity we now have: knowing what is worth validating, reading evidence honestly when it is uncomfortable, and explaining a choice so it holds up under pressure. AI does not do any of that. It makes more of it possible in the same week.
         </p>
 
         <p>
-          The good news is that what stays on my side is the work that needs me in the room: the call about what is worth doing, the conversation that makes a partner say yes, the moment a participant tells you something that changes the bet. The system is giving me room to make those calls thoughtfully.
-        </p>
-
-        <p>
-          Finally, I believe there is no one-fits-all template. The cost of building or customizing your own tools has dropped far enough that operators shipping their own solutions are getting ahead. What I built is one operating pattern for this regime, fitted to my project, my constraints, my gaps, and the tools I can access. I do have to recognize that today, access to experiment with these tools is uneven in many ways, but if you have the privilege to do so, I encourage you to get your hands dirty and try what works for your context. The more use cases we can learn from, the better choices we can all make.
+          Most AI efforts stall on adoption rather than on the technology, and the part of this that travels is the method: design the system, decide up front what good looks like, check whether people actually use it, and retire what does not earn its place. There is no template. What I built fits my project, my constraints and my gaps. If you have the access to experiment, the useful thing is to build for your own context and then say what you learned.
         </p>
       </div>
     </div>
   </div>
 </BaseLayout>
-
 <style is:global>
   @media (prefers-reduced-motion: no-preference) {
     html {

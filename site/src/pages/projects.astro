@@ -3,12 +3,15 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 const tocItems = [
   { id: "entrepreneurship-portfolio", label: "AI Entrepreneurship Portfolio" },
+  { id: "market-shaping", label: "Market-Shaping Discovery" },
+  { id: "evaluations", label: "What to Keep and What to Cut" },
+  { id: "assessment-platform", label: "Assessment Platform" },
   { id: "this-portfolio", label: "This portfolio" },
   { id: "ai-edtech-journal", label: "AI + EdTech Journal" },
 ];
 ---
 
-<BaseLayout sideBarActiveItemID="projects" title="Projects | Agueda Schwartz" description="What I'm working on now. One project and two personal tracks, all run on the same operating model." maxWidthClass="lg:max-w-[1200px]">
+<BaseLayout sideBarActiveItemID="projects" title="Projects | Agueda Schwartz" description="Four projects: a 0-to-1 AI product, market-shaping discovery, platform and vendor evaluations, and an assessment platform. Plus two personal tracks." maxWidthClass="lg:max-w-[1200px]">
   <div class="mt-5 lg:flex lg:gap-12">
     <aside class="hidden lg:block lg:w-52 lg:flex-shrink-0">
       <nav class="sticky top-8 text-sm">
@@ -30,7 +33,7 @@ const tocItems = [
 
     <div class="flex-1 min-w-0">
       <h1 class="sr-only">Projects</h1>
-      <div class="text-xs uppercase tracking-wider opacity-60 mb-3 lg:mb-8 lg:pb-4 lg:border-b lg:border-base-300">~4 min read · 1 project and 2 personal tracks</div>
+      <div class="text-xs uppercase tracking-wider opacity-60 mb-3 lg:mb-8 lg:pb-4 lg:border-b lg:border-base-300">~5 min read · 4 projects and 2 personal tracks</div>
 
       <details class="lg:hidden mb-8 pb-4 border-b border-base-300 group">
         <summary class="practice-summary cursor-pointer flex items-center justify-between text-xs uppercase tracking-wider opacity-60 font-semibold py-2">
@@ -53,65 +56,65 @@ const tocItems = [
 
       <div class="prose max-w-none mb-12">
         <p>
-          The work below runs on the same system I describe on the <a href="/practice" target="_blank" rel="noopener">Practice page</a>: status files, scoped instances, the daily ritual. The shape of each is different, but the underlying system is the same.
+          Four projects across a decade, from a 20-campus school network in Peru to a 0-to-1 AI product. The through-line is the same in all of them: find out whether the thing actually works, then turn that into a decision a team can act on. How I run the work day to day is on the <a href="/practice" target="_blank" rel="noopener">Practice page</a>.
         </p>
       </div>
 
       <!-- Section 1: AI Entrepreneurship Portfolio -->
       <section class="mb-16">
         <h2 id="entrepreneurship-portfolio" class="!mt-0 text-2xl font-bold mb-1">AI Entrepreneurship Portfolio</h2>
-        <div class="text-sm opacity-60 mb-6">WGU Labs · Product Manager</div>
+        <div class="text-sm opacity-60 mb-6">WGU Labs · Product Manager · 2025 to 2026</div>
 
         <div class="prose max-w-none">
-          <p>
-            A 0-to-1 AI Entrepreneurship Portfolio exploring whether AI-enhanced delivery could scale an entrepreneurship methodology developed by a partner organization. I led it with fractional support from a UX researcher and an engineer, and ran every layer of the work, from foundational research and synthesis through prototype iteration, market validation, a 12-week learning pilot, and external partner conversations. The project shifted from a single bet to a portfolio of related bets, which I explored through jobs-to-be-done, surfacing the segments most worth testing and the product shapes that fit them.
-          </p>
-        </div>
+          <p>A 0-to-1 AI product for early-stage founders. A five-person team had stalled on it for two months; when they were reassigned I was told to carry it with AI instead, with fractional support from a UX researcher and an engineer. Leadership wrapped it in June 2026.</p>
 
-        <div class="font-mono text-xs uppercase tracking-[0.15em] opacity-60 mt-10 mb-4 font-semibold">Foundation moves</div>
+          <p><strong>Research that changed what got built.</strong> Six months of desk research had gone in and nobody had spoken to a user. I ran the interviews. Founders described the AI as a feedback-giver, not the collaborator the product had assumed. I checked that against behavior with a nine-day market test, and the community-led message converted at nearly twice the rate of the AI-led one. The product changed direction.</p>
 
-        <div class="prose max-w-none">
-          <p><strong>A segment-and-product-shape map for the portfolio.</strong> Surfaces which user segments are most worth testing, which product shapes fit each, and the gate criteria that decide what advances. Used in stakeholder meetings to align on what to test next.</p>
+          <p><strong>A standard the product could be judged against.</strong> I wrote the behavior specification: five guiding principles, seven interaction patterns and five hard boundaries on what the AI should not do inside a user's work, each grounded in interviews and peer-feedback documents instead of in anyone's preference.</p>
 
-          <p><strong>An innovation framework I designed and apply honestly enough that it tells me when I'm wrong.</strong> I built a four-phase loop (Sense, Shape, Test, Scale) drawn from IDEO, lean startup, and dual-track agile. The first time I applied it to this project, the assessment was not flattering: thorough research, zero conversations with users, output measured but no learning. Within a few sprints the project went from zero user contact to a market test, a pivot, and a learning pilot.</p>
-
-          <p><strong>Foundational synthesis at scale.</strong> Using Claude Code, I synthesized 9,876 archived documents from a partner methodology into validated principles. Those principles became the pedagogical backbone of the prototype and the criteria the AI behavior spec is judged against.</p>
-
-          <p><strong>An AI behavior specification for the prototype.</strong> The spec defines five guiding principles, seven interaction patterns, and five hard boundaries on what the AI should not do in the user's space. It is grounded in peer-feedback documents and founder interviews, so the spec is shaped by real-world data and user feedback. It was the design artifact that would have shaped the next build cycle.</p>
-        </div>
-
-        <div class="font-mono text-xs uppercase tracking-[0.15em] opacity-60 mt-10 mb-4 font-semibold">Validation and iteration</div>
-
-        <div class="prose max-w-none">
-          <p><strong>A market validation experiment stood up in nine days.</strong> First time operating paid acquisition and landing pages end-to-end. The strategy was designed in partnership with a marketing colleague who had done the upstream competitive research and persona work; I built and shipped the execution. Landing page from scratch in Claude Code, PostHog for behavior, a Google Sheets backend for email capture, deployed through GitHub, with a smoke test at the top of the sign-up flow. The data it produced fed the pivot decision below.</p>
-
-          <p><strong>An evidence-based pivot from AI-first to community-first.</strong> A community-led message variant on the landing page drew fewer clicks than the AI-coaching variant but converted at nearly twice the rate. User interviews surfaced the same theme in entrepreneurs' own words: AI was experienced as a feedback-giver, not a collaborator. The data was ambiguous; the pre-committed criteria I had written down twelve days before the smoke test ads went live kept me honest. The call was PIVOT. The full worked example lives on the <a href="/practice#how-the-work" target="_blank" rel="noopener">Practice page</a>.</p>
-
-          <p><strong>A 12-week learning pilot with seven committed early adopters.</strong> As I wrapped the market validation in March 2026, the opportunity to run a learning pilot with early adopters emerged and I took it. The pilot ran on a Slack and Google Drive stack with a weekly build cycle that shipped small automations and learned what worked. The five Slack automations I designed surfaced who had submitted, which work products had no peer comments yet, and what was pending. Weekly peer comments rose from 16 to a peak of around 49, and attendance ranged across the pilot, peaking at seven of seven. The pilot shaped the product thinking, showed me where AI delivered value in the work, and put me through the methodology first-hand.</p>
-
-          <p><strong>A new prototype built from what the pilot taught me.</strong> Built in Claude Design as a three-view walkthrough across the Solo Founder, the Cohort, and the Partners views. Each view is grounded in what the early adopters surfaced about where AI fits in the work and where it should stay out. I used the walkthrough to align stakeholders before leadership wrapped the project in June 2026.</p>
-        </div>
-
-        <div class="font-mono text-xs uppercase tracking-[0.15em] opacity-60 mt-10 mb-4 font-semibold">Operating moves</div>
-
-        <div class="prose max-w-none">
-          <p><strong>Materials produced on short notice for partners and funders.</strong> Pitches, decks, one-pagers, and posters drafted in hours or days, depending on the ask. The system holds enough context that I can draft to a specific audience without re-explaining the project from scratch, which is what makes short-notice asks workable.</p>
-
-          <p><strong>Structured red-teaming on my own evidence packages.</strong> Before leadership reviews any synthesis or recommendation, I run an adversarial pass treating my claims as failure modes to test rather than facts to defend, catching overstatements before they reach stakeholders.</p>
-
-          <p><strong>Operational overhead off my plate.</strong> Leadership briefs, sprint planning, Asana updates, daily check-ins, status updates. The system drafts first passes from status files and meeting transcripts; I review, adjust, and ship. What used to take half a day takes thirty minutes, and the freed time goes back into product taste decisions and partner conversations.</p>
-        </div>
-
-        <div class="prose max-w-none">
-          <p>
-            Running the project with AI as the operating model was the mandate from the start. I had fractional support from a UX researcher and an engineer. When the engineer's work was needed on another project, leadership was comfortable making the move because they could see what I was building on the system.
-          </p>
-
-          <p class="text-sm opacity-70 !mt-8">
-            More on the operating model behind this work lives on the <a href="/practice" target="_blank" rel="noopener">Practice page</a>.
-          </p>
+          <p><strong>Criteria written before the evidence.</strong> The market-test result was ambiguous and could have gone either way. I had written the go, pivot and kill criteria twelve days before the test went live, so the call came out as a decision instead of an argument.</p>
         </div>
       </section>
+
+      <section class="mb-16">
+        <h2 id="market-shaping" class="text-xl font-bold mb-1">Market-Shaping Discovery</h2>
+        <div class="text-sm opacity-60 mb-6">WGU Labs · Product Manager · 2026</div>
+
+        <div class="prose max-w-none">
+          <p>A method our sponsor designed for finding where a product could win before anyone builds it. I run the first stage.</p>
+
+          <p><strong>Agents fan out, I make the calls they cannot.</strong> Scoped agents run evidence and competitive scans in parallel. What they cannot do is decide what the domain is, which opportunity is worth taking, or whether a candidate is strong enough to move. I set the frame and make those reads.</p>
+
+          <p><strong>Testing the product and publishing what it could not do.</strong> Our scoring feature had never been tested against anything but its own documentation. I ran the same assessment twice, once with a strong submission and once with a deliberately weak one, then added an off-domain case and one with a planted omission. One scorer ranked the weak submission higher. I wrote it up with the limit of my own test stated in the same document: single runs are not a reliability study.</p>
+
+          <p><strong>The product definition.</strong> Now at its fourth revision with the engineer and the sponsor, defining what is being built, what the first stage produces, and which of two user types carries the harder part of the work.</p>
+
+          <p><strong>Worked examples, including one built to fail.</strong> The method needed something concrete to be demonstrated from. One example is a deliberate re-run with the product removed, to check whether a result held on its own or only because we already knew the answer we wanted.</p>
+        </div>
+      </section>
+
+      <section class="mb-16">
+        <h2 id="evaluations" class="text-xl font-bold mb-1">What to Keep and What to Cut</h2>
+        <div class="text-sm opacity-60 mb-6">Innova Schools 2016 to 2017 · WGU Labs 2024 · the same work, eight years apart</div>
+
+        <div class="prose max-w-none">
+          <p><strong>Four learning platforms, no agreed way to judge them.</strong> They ran across a 20-campus network with real budget behind them. I designed the evaluations, tracking adoption, completion and frequency of use alongside learning outcomes, because usage is not comprehension. My recommendations were the evidence leadership used to decide what to scale and what to shut off.</p>
+
+          <p><strong>Eighteen AI vendors, no definition of good.</strong> Our team had to choose vendors for a new institution. As one of three on the infrastructure team I wrote the needs assessment that turned the goals into a requirements set, then scored eighteen vendors against an eight-dimension rubric and delivered a shortlist the research teams could act on.</p>
+        </div>
+      </section>
+
+      <section class="mb-16">
+        <h2 id="assessment-platform" class="text-xl font-bold mb-1">Assessment Platform</h2>
+        <div class="text-sm opacity-60 mb-6">Innova Schools · Product Owner · 2017 to 2018</div>
+
+        <div class="prose max-w-none">
+          <p>Leadership asked for reporting dashboards. Talking to users showed the ask was not the need: the problem was upstream, in how data got entered under deadline. I cut the dashboard and shipped a data-entry tool that saved automatically and worked offline. Input errors fell 30% across 30,000 transactions and task time fell 10%.</p>
+
+          <p><a href="/prd/assessment-platform/">Read the full product brief →</a></p>
+        </div>
+      </section>
+
 
       <div class="divider my-16"></div>
 

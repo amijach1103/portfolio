@@ -8,7 +8,8 @@ export default defineConfig({
   site: 'https://aguedaschwartz.com',
   base: '/',
   redirects: {
-    '/work': '/projects'
+    '/work': '/projects',
+    '/operating-system': '/practice'
   },
   integrations: [mdx(), tailwind()]
 });
