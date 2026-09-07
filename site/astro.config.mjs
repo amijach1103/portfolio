@@ -9,7 +9,8 @@ export default defineConfig({
   base: '/',
   redirects: {
     '/work': '/projects',
-    '/operating-system': '/practice'
+    '/operating-system': '/practice',
+    '/case-studies': '/projects'
   },
   integrations: [mdx(), tailwind()]
 });
