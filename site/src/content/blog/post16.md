@@ -13,7 +13,7 @@ For a while I assumed I was writing them badly, so I rewrote them. Shorter. More
 
 An instruction is a request. The model reads it along with everything else in the context, weighs it against the thing I have just asked for, and complies most of the time. Most of the time is fine for a preference. It is not fine for a rule that exists because being wrong is expensive.
 
-So I stopped treating them as instructions. The rule about unsourced claims is now something that fires before such a claim can be written down at all. The rule about checking a claim against its source is now a separate step that reads the source and comes back with a verdict, not a rewrite, because a rewrite hides the disagreement and a verdict makes me look at it.
+So I stopped treating them as instructions. The rule about unsourced claims is now something that fires before such a claim can be written down at all. The rule about checking a claim against its source is now a separate step that reads the source and comes back with a verdict, not a rewrite. A verdict makes me look at it.
 
 I still keep the file. Plenty of things cannot be enforced mechanically, and a sentence in a file is better than nothing.
 

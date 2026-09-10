@@ -11,9 +11,9 @@ Then three tracks hit at once. My stakeholder shifted to market validation, then
 
 So I stood up what I think of as the first step toward an agentic workflow: scoped Claude Code instances, each with its own context, its own files, and a single area of responsibility. They're not autonomous. Everything routes through me. Right now I have three:
 
-- **Build** -- standing up the product
-- **Validation** -- paid ads, funnel analysis, and signal reads
-- **Cohort** -- operating the learning pilot: session logistics, participant tracking, Slack workflows, and templates
+- **Build:** standing up the product
+- **Validation:** paid ads, funnel analysis, and signal reads
+- **Cohort:** operating the learning pilot, with session logistics, participant tracking, Slack workflows and templates
 
 What I didn't plan for is how much I'm learning along the way. Not from people in those roles, but from working alongside scoped instances that handle the heavy lifting while I stay focused on decisions. It's the same dynamic as learning from teammates who force you to think through angles you wouldn't have considered on your own.
 
