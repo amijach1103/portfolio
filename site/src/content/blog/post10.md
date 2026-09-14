@@ -5,7 +5,7 @@ pubDate: "Mar 12 2026"
 tags: ["methods"]
 ---
 
-On a Monday, a senior stakeholder looked at six months of discovery work and said: "Do a market test." Not "start planning a market test." Do one.
+On a Monday, a senior stakeholder looked at six months of discovery work and asked for a market test. Not a plan for one. The test itself.
 
 Nine days later we had two landing page variants live, each targeting a different persona. Full data capture. Copy informed by three user interviews. A clear decision framework with criteria for go, pivot, or kill. And a two-week window to get our answer.
 

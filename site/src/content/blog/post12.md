@@ -7,7 +7,7 @@ tags: ["experiments"]
 
 I spent the first stretch of my current project in one Claude Code session doing discovery work: landscape analysis, sprint planning, stakeholder prep, decision logs. Not writing code, just structuring how I think and work. I needed that time to learn how to collaborate with it without letting it replace my judgment.
 
-Then three tracks hit at once. My stakeholder shifted to market validation, then said "we need to build something real, not just prototypes," and a learning pilot came together faster than anyone expected. I knew my limitations well enough to recognize when I'm holding too much at the same depth. They offered to bring in an engineer and my instinct was "let me try this first." They were open to the experiment, and that kind of support matters when you're figuring out a completely new approach.
+Then three tracks hit at once. My stakeholder shifted to market validation, then asked for something real rather than more prototypes, and a learning pilot came together faster than anyone expected. I knew my limitations well enough to recognize when I'm holding too much at the same depth. They offered to bring in an engineer and my instinct was "let me try this first." They were open to the experiment, and that kind of support matters when you're figuring out a completely new approach.
 
 So I stood up what I think of as the first step toward an agentic workflow: scoped Claude Code instances, each with its own context, its own files, and a single area of responsibility. They're not autonomous. Everything routes through me. Right now I have three:
 
