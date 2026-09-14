@@ -7,7 +7,7 @@ tags: ["failures"]
 
 I was connecting Claude Code to cloud storage as part of building my PM operations system. I set up `rclone sync` to mirror local files to Google Drive. The word "sync" sounded safe.
 
-It wasn't. `rclone sync` makes the destination match the source exactly, including deletions. It wiped 22,719 files that existed only in Drive. One word difference between `sync` and `copy`, and I didn't read the docs carefully enough to catch it.
+It wasn't. `rclone sync` makes the destination match the source exactly, including deletions. It wiped 22,719 files that existed only in Drive. I recovered all of them, retired the script, and a couple of days later connected the Drive integration I use today. One word difference between `sync` and `copy`, and I didn't read the docs carefully enough to catch it.
 
 The automation worked perfectly. It just did exactly what I told it to do, which was the wrong thing. I was so excited about the possibilities that I was optimizing for speed without thinking about what happens when the speed works against you.
 
