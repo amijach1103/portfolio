@@ -1,5 +1,5 @@
 ---
-title: "Three articles that changed how I work"
+title: "Reading that changed how I work"
 description: "How connecting articles to active project decisions turned passive news consumption into something I actually use."
 pubDate: "Dec 01 2025"
 tags: ["signals"]
