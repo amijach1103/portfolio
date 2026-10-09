@@ -5,7 +5,7 @@ pubDate: "Apr 10 2026"
 tags: ["methods"]
 ---
 
-Six months into my current project, I could feel something was off. I had a methodology analysis, a working prototype, an AI behavior framework, a research plan with 25 participants identified, and a lot of momentum. But I kept noticing that the momentum was in analysis, not in learning. I hadn't talked to a single person from the target population.
+Six months into my current project, I could feel something was off. I had a methodology analysis, a working prototype, an AI behavior framework, a research plan, and a lot of momentum. But I kept noticing that the momentum was in analysis, not in learning. I hadn't talked to a single person from the target population.
 
 I knew what the problem was, I just didn't have a structure to act on it. So I built one.
 

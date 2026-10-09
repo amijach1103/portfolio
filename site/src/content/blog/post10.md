@@ -7,7 +7,7 @@ tags: ["methods"]
 
 On a Monday, a senior stakeholder looked at six months of discovery work and asked for a market test. Not a plan for one. The test itself.
 
-Nine days later we had two landing page variants live, each targeting a different persona. Full data capture. Copy informed by three user interviews. A clear decision framework with criteria for go, pivot, or kill. And a two-week window to get our answer.
+Nine days later we had two landing page variants live, each targeting a different persona. Full data capture. Copy informed by user interviews. A clear decision framework with criteria for go, pivot, or kill. And a two-week window to get our answer.
 
 I partnered with a marketing colleague who had already done competitive research and persona development. They designed the validation strategy; I built and shipped the execution end-to-end. Neither of us could have done both in nine days.
 
