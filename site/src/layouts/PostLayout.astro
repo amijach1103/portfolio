@@ -1,0 +1,51 @@
+---
+import { type BlogSchema } from "../content/config";
+import BaseLayout from "./BaseLayout.astro";
+import dayjs from "dayjs";
+import localizedFormat from "dayjs/plugin/localizedFormat";
+
+export interface Props extends BlogSchema {}
+
+const { title, description, pubDate, updatedDate, heroImage, badge, tags = [] } = Astro.props;
+dayjs.extend(localizedFormat);
+const displayDate = dayjs(pubDate).format("ll")
+import { Image } from "astro:assets";
+
+const tagColors: Record<string, string> = {
+  methods: "bg-blue-50 text-blue-700 border-blue-200",
+  experiments: "bg-amber-50 text-amber-700 border-amber-200",
+  failures: "bg-purple-50 text-purple-700 border-purple-200",
+  signals: "bg-emerald-50 text-emerald-700 border-emerald-200",
+};
+---
+
+<BaseLayout title={title} description={description} image={heroImage}, ogType="article">
+  <main class="md:flex md:justify-center">
+    <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
+      {heroImage && <Image width={750} height={422} format="webp" src={heroImage} alt={title} class="w-full mb-6" />}
+      <h1 class="title my-2 text-4xl font-bold">{title}</h1>
+      <div class="flex items-center gap-3 mt-2 not-prose">
+        {pubDate && <time class="text-xs opacity-50">{displayDate}</time>}
+        {badge && <div class="badge badge-secondary">{badge}</div>}
+        {
+          tags &&
+            tags.map((tag) => (
+              <a href={`/blog/tag/${tag}`} class:list={["badge border no-underline", tagColors[tag] || "badge-outline"]}>
+                {tag}
+              </a>
+            ))
+        }
+      </div>
+      {
+        updatedDate && (
+          <div>
+            {" "}
+            Last updated on <time>{updatedDate}</time>{" "}
+          </div>
+        )
+      }
+      <div class="divider my-2"></div>
+      <slot />
+    </article>
+  </main>
+</BaseLayout>

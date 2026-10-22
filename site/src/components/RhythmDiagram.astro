@@ -1,0 +1,63 @@
+---
+interface Step {
+  number: string;
+  label: string;
+  title: string;
+  body: string;
+  tags?: string[];
+  emphasized?: boolean;
+}
+
+interface Props {
+  steps: Step[];
+  loopbackLabel?: string;
+  figureLabel?: string;
+  figureNumber?: string;
+}
+
+const { steps, loopbackLabel, figureLabel, figureNumber } = Astro.props;
+---
+
+<div class="not-prose my-10">
+  <div class="grid md:grid-cols-3 gap-4 md:gap-5">
+    {steps.map((step) => (
+      <div class:list={[
+        "p-5 md:p-6 rounded-lg border",
+        step.emphasized
+          ? "bg-base-200 border-base-content/20"
+          : "bg-base-100 border-base-300"
+      ]}>
+        <div class="font-mono text-xs uppercase tracking-[0.15em] opacity-50 mb-3 font-semibold">
+          {step.number} · {step.label}
+        </div>
+        <div class="font-semibold text-base mb-2">{step.title}</div>
+        <p class="text-sm opacity-80 leading-relaxed">{step.body}</p>
+        {step.tags && (
+          <div class="flex flex-wrap gap-1.5 mt-4">
+            {step.tags.map((tag) => (
+              <span class="font-mono text-xs px-2.5 py-1 bg-base-100 border border-base-300 rounded-full opacity-90">
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
+      </div>
+    ))}
+  </div>
+
+  {loopbackLabel && (
+    <div class="flex justify-center mt-5">
+      <div class="font-mono text-xs uppercase tracking-[0.15em] opacity-50 font-semibold flex items-center gap-2">
+        <span aria-hidden="true">↺</span>
+        <span>{loopbackLabel}</span>
+      </div>
+    </div>
+  )}
+
+  {(figureLabel || figureNumber) && (
+    <div class="flex justify-between items-center mt-6 pt-3 border-t border-base-300 font-mono text-xs uppercase tracking-[0.15em] opacity-40">
+      <span>{figureLabel}</span>
+      <span>{figureNumber}</span>
+    </div>
+  )}
+</div>

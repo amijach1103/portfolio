@@ -1,0 +1,23 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Secrets
+*.env
+credentials/
+
+# Local working files, never published
+.claude/
+_status/
+CLAUDE.md
+raw/
+
+# Temporary files
+*.tmp
+*~
